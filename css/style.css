@@ -838,6 +838,9 @@ body {
 .article-detail .text-orange {
   color: #f90;
 }
+.article-detail embed {
+  margin: 10px 0;
+}
 
 .hd-info a, .hd-info span {
   text-decoration: none;
