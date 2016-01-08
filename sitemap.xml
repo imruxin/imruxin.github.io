@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.imruxin.com/develop/about-git.html</loc>
+    <lastmod>2016-01-08T16:03:32.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/ued/css-mode-and-priority-and-code-style.html</loc>
+    <lastmod>2016-01-08T16:01:14.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/ued/about-seo.html</loc>
+    <lastmod>2016-01-08T15:49:27.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/develop/about-download.html</loc>
+    <lastmod>2016-01-08T15:22:40.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/a-dialectical-thinking.html</loc>
+    <lastmod>2016-01-08T15:04:33.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</loc>
+    <lastmod>2016-01-08T14:55:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.imruxin.com/diary/become-a-wolf.html</loc>
     <lastmod>2016-01-08T10:05:10.000Z</lastmod>
   </url>
@@ -39,11 +69,6 @@
   <url>
     <loc>http://blog.imruxin.com/diary/record-thought-before-start-at-2015.html</loc>
     <lastmod>2016-01-08T08:00:15.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</loc>
-    <lastmod>2016-01-08T07:17:38.000Z</lastmod>
   </url>
   
   <url>

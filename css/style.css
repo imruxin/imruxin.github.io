@@ -1296,6 +1296,5 @@ pre .javascript .function {
 @media screen and (max-width: 320px) {
   .pagination a, .pagination span {
     padding: 4px 6px;
-    margin: 3px 0;
   }
 }

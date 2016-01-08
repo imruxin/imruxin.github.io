@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.imruxin.com/"/>
-  <updated>2016-01-08T07:17:38.000Z</updated>
+  <updated>2016-01-08T14:55:00.000Z</updated>
   <id>http://blog.imruxin.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[岁月再见，28我来了]]></title>
+    <title><![CDATA[岁月再见，二八我来了]]></title>
     <link href="http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html"/>
     <id>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</id>
     <published>2016-01-07T14:56:08.000Z</published>
-    <updated>2016-01-08T07:17:38.000Z</updated>
+    <updated>2016-01-08T14:55:00.000Z</updated>
     <content type="html"><![CDATA[<p>当告别人生的一些节点的时候，反正我是会习惯性的去翻翻过去。其实现在这状态，最想做的事情是在一个积极的环境下和一群有事业心的人奋斗和折腾。我现在不喜欢安逸的生活，因为现在的安逸就代表着未来的不安逸，至少这阶段肯定不能安逸。而且随着生活的继续，某些现实的压力也慢慢的上来了，我更没理由去选择安逸了。</p>
 <p><img src="http://cdn-img.imruxin.com/blog/2016/01/IMG_0047.jpg" alt="" title="厦门环岛路"></p>
 <p class="img-desc">厦门环岛路</p>
@@ -158,6 +158,241 @@
       <category term="总结" scheme="http://blog.imruxin.com/tags/%E6%80%BB%E7%BB%93/"/>
     
       <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[说说网页中的SEO]]></title>
+    <link href="http://blog.imruxin.com/ued/about-seo.html"/>
+    <id>http://blog.imruxin.com/ued/about-seo.html</id>
+    <published>2014-11-09T03:03:10.000Z</published>
+    <updated>2016-01-08T15:49:27.000Z</updated>
+    <content type="html"><![CDATA[<p>作为一个前端开发者，一些关于SEO（Search Engine Optimization）搜索引擎优化的基础知识还是要懂的。个人第一次接触这个所谓的SEO是在2011年10月的时候，因为那时候自己在做个人博客网站（大概两个月后就到了rankpage 2，不过现在谷歌已经停止这种模式了）。在那一段时间里，的确也翻阅了不少论坛和看了一些资料，不过之后就没在继续深入了。</p>
+<p>有些SEO的东西总是相通而且是基础性的东西，就像一门语言的常规基础知识一样，是通用的。那么在SEO这块，我觉得应该要知道的至少有这么些吧。</p>
+<p>首先，用好我们的HTML头部的那几个主要信息，指的是下面三个：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">title</span>&gt;</span>这里是title<span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta</span> <span class="attribute">name</span>=<span class="value">"keywords"</span> <span class="attribute">content</span>=<span class="value">"网站关键字，可以多个"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">meta</span> <span class="attribute">name</span>=<span class="value">"description"</span> <span class="attribute">content</span>=<span class="value">"网站内容简要描述"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>这些信息是会出现在百度快照里的，对搜索引擎收录我们的网页是很重要也是非常关键的。</p>
+<p>其次，我们应该要清楚，搜索引擎（国内主要就是百度了）是无法读取到flash和图片里的信息的。所以从SEO角度来说是不建议全站用flash（当然现在flash正在走下坡路正被H5所替代，但是毕竟不可能那么快就死去，而且也还是有一些场合很适合用的）的。同时不要为追求效果而忽略文字，尽可能的在页面中多出现些包含关键信息的文字，而不是把那些文字整合在图片上。</p>
+<p>而对于图片文字这方面的话，通常就是：</p>
+<ul>
+<li>1、对于img标签不要省略alt属性（在图片未加载成功时浏览器替代显示的文字）。</li>
+<li>2、正常预留文字，但是对文字进行隐藏。Bootstrap里对文字隐藏的css是:</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.text-hide</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">font</span>:<span class="value"> <span class="number">0</span>/<span class="number">0</span> a</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">color</span>:<span class="value"> transparent</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">text-shadow</span>:<span class="value"> none</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">background-color</span>:<span class="value"> transparent</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">border</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>最后，做好SEO最根本的还是网站自身的布局和内容质量。而网站自身的布局和内容质量通常情况下是体现在网站的结构是否合理和是否有太多与其他网站近似甚至重复的内容。</p>
+<ul>
+<li>1、网站的结构是否合理则具体体现在URL上的层级次数是否过深，URL是动态的还是静态的，还有后缀比如：html、php、aspx等。以及网站自身的内链，内部链接结构关系。</li>
+<li>2、内容质量则主要指是否是原创，如果只是复制其他网站的内容的话，那么SEO显然是不会好到哪里去的。因为肯定是那些最早出现这个内容的网站或者说是一些大型主流的或者具有高权重的网站排在前面。但是对于同一个内容，我们还是可以进行修改进行伪原创的。</li>
+</ul>
+<p>感觉SEO的水其实还是不浅的，除去那些花钱的竞价排名外，要做的东西以及可做的东西还是不少的。毕竟搜索引擎是靠机器的蜘蛛爬虫来搜索信息，然后收入到搜索引擎里的。如果要做好SEO优化，那么就要根据那些来访蜘蛛的特点、频率以及算法原理来优化自己的网站了。</p>
+<ul>
+<li>1、搜索引擎的算法不是一成不变的，所以有时候也得根据搜索引擎而改变一些规则。所以可能会在某一些段时间，会有一些网站的权重、pagerank或者收录数量可能会变化很大。这个算法规则什么的，就只能与时俱进了。</li>
+<li>2、蜘蛛来访是具有周期性的，如果网站的服务器不好或者说会经常出现网站无法访问等情况则被收入的应该不会很多。</li>
+<li>3、自己主动的找到各大搜索引擎的数据提交入口，提交我们的sitemap.xml数据，主动的向搜索引擎添加我们网站的页面信息。</li>
+<li>4、增加网站的外链，增加网站被曝光的频率。如果一个网站的URL在多个不同的地方都曝光的话，那么会大大的增加被收入的可能性。而对于外链的这种操作方式常见的就是到各大网站、论坛、博客、空间等发帖跟帖评论同时带上自己的网站的信息。当然也可以写软文，以另一种相对友好的方式留下自己的网站信息或者URL。</li>
+<li>5、购买服务器的时候，检查下和自己在同一个IP下的网站是否有被搜索引擎处罚或者是已经被搜索引擎黑掉了的。</li>
+<li>6、还有比如博客网站什么的，还可以主动的发送RPC信息，告诉那些更新服务商我的博客有新内容了，欢迎收录等等。</li>
+</ul>
+<p>如果一切都做好了的话，那么剩下要做的就是好好添加我们的网站内容了。最后的最后一切就交给时间吧，搜索引擎收录也是需要时间需要周期的。</p>
+<p>还有，针对搜索引擎优化是需要的，但是也不要太过头了。否则物极必反，到时候被搜索引擎检查出来你在作弊的话，是会把你的整站给黑掉的。</p>
+<p>最后，这里说的其实都只是一些泛的东西，具体细节还是值得细细玩味的。不过我也已经很久没研究了，所以一些细节性的东西就留给想深入以及与时俱进的人玩吧，目前对于我自己来说暂且够用了。比如，搜索引擎究竟是根据什么具体参数来判断你的网站是什么质量的？爬虫的周期是多少？SEO的攻防的方方面面等等。</p>
+<p>附：</p>
+<ul>
+<li><a href="http://tool.chinaz.com/" target="_blank" rel="external">站长查询工具</a></li>
+<li><a href="https://www.google.com/webmasters/tools/home" target="_blank" rel="external">谷歌站长平台</a></li>
+<li><a href="http://zhanzhang.baidu.com/" target="_blank" rel="external">百度站长平台</a></li>
+<li><a href="http://open.sogou.com/" target="_blank" rel="external">搜狗开发平台</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>作为一个前端开发者，一些关于SEO（Search Engine Optimization）搜索引擎优化的基础知识还是要懂的。个人第一次接触这个所谓的SEO是在2011年10月的时候，因为那时候自己在做个人博客网站（大概两个月后就到了rankpage 2，不过现在谷歌已经停止]]>
+    </summary>
+    
+      <category term="seo" scheme="http://blog.imruxin.com/tags/seo/"/>
+    
+      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[说说版本控制工具git]]></title>
+    <link href="http://blog.imruxin.com/develop/about-git.html"/>
+    <id>http://blog.imruxin.com/develop/about-git.html</id>
+    <published>2014-05-10T02:03:10.000Z</published>
+    <updated>2016-01-08T16:03:32.000Z</updated>
+    <content type="html"><![CDATA[<p>当前使用最多的版本控制工具毫无疑问的就是git了。个人是在14年的2月份开始使用这个git版本控制软件的。不过其实在实际的使用过程当中，常用的就那么几个命令吧，而且个人最后就直接走<strong>source tree</strong>客户端了。</p>
+<p>对于git而言，使用频率最多的就是:</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git comment -m <span class="string">'change info'</span></span><br><span class="line">git <span class="keyword">push</span></span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<p>了吧。剩下的可能就是，有时候碰到文件冲突需要人为修改或者回滚版本了。</p>
+<p>那么下面简单来一个流程吧：</p>
+<p>首先第一步，自然就是安装git环境（以及客户端软件）了。下面一些传送门，个人使用的是sourceTree。</p>
+<ol>
+<li>1、<a href="http://git-scm.com/" target="_blank" rel="external">git官方网站传送门</a></li>
+<li>2、<a href="http://git-scm.com/downloads/guis" target="_blank" rel="external">官网提供的一些GUI客户端</a></li>
+<li>3、<a href="http://download.tortoisegit.org/" target="_blank" rel="external">git小乌龟客户端</a></li>
+</ol>
+<p>第二步则很自然就是配置了，基本的配置其实就是设置一些用户名、邮箱、密匙这些了。</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user<span class="class">.name</span> <span class="string">"username"</span></span><br><span class="line">git config --global user<span class="class">.email</span> <span class="string">"email@email.com"</span></span><br></pre></td></tr></table></figure>
+<p>不折腾了，直接看微博这张微博图片了。</p>
+<p><img src="http://ww1.sinaimg.cn/large/7254de97jw1ee02vk0q0tj20c80jmju0.jpg" alt="" title="git密匙生成"></p>
+<p>第三步则就是初始化了。</p>
+<ul>
+<li>进入一个文件夹新建一个空白的库：<code>git init</code></li>
+<li>clone一个新库：<code>git clone url</code></li>
+</ul>
+<p>其中，为了防止每次都要输入帐号密码，可以这样克隆一个新库，看图：</p>
+<p><img src="http://ww2.sinaimg.cn/large/7254de97gw1ejb6mj9784j20ry0ghjth.jpg" alt=""></p>
+<p><strong>如果只是本地工作的话，也可以把帐号密码直接填充在URL里，这样还更简单高效。</strong>命令格式是：</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">clone</span> <span class="title">http</span>://username:password@giturl</span><br><span class="line">// username是你的用户名，password是你的密码</span><br></pre></td></tr></table></figure>
+<p>接下去则就是正常又不断重复的工作流了，具体就看附中的git流程思维导图吧。 网络上教程其实真的挺多的，随便百度或者谷歌一下就很多。</p>
+<p>附：</p>
+<ul>
+<li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git教程之一</a></li>
+<li>git流程思维导图:<a href="https://github.com/imruxin/f2e-lib/blob/master/git-guide/git-guide.png" target="_blank" rel="external">https://github.com/imruxin/f2e-lib/blob/master/git-guide/git-guide.png</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>当前使用最多的版本控制工具毫无疑问的就是git了。个人是在14年的2月份开始使用这个git版本控制软件的。不过其实在实际的使用过程当中，常用的就那么几个命令吧，而且个人最后就直接走<strong>source tree</strong>客户端了。</p>
+<p>对于git而]]>
+    </summary>
+    
+      <category term="git" scheme="http://blog.imruxin.com/tags/git/"/>
+    
+      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[css渲染机制、优先级以及效率准则的那些事]]></title>
+    <link href="http://blog.imruxin.com/ued/css-mode-and-priority-and-code-style.html"/>
+    <id>http://blog.imruxin.com/ued/css-mode-and-priority-and-code-style.html</id>
+    <published>2014-04-22T06:12:25.000Z</published>
+    <updated>2016-01-08T16:01:14.000Z</updated>
+    <content type="html"><![CDATA[<p>前端人员几乎每天都要跟页面打交道，所以正常情况下你迟早还是要了解那些HTML和CSS等的一些渲染机制。一来是为了装逼你的专业技能，二来的确是可以提升各种效率，最终的结果就是你可以收获更多的银子。</p>
+<p>最终决定浏览器表现出来的页面效果的差异是由浏览器渲染引擎 Rendering Engine（也叫做排版引擎），也就是我们通常所说的“浏览器内核”，负责解析网页语法（如HTML、CSS、JavaScript）并渲染、展示的结果。相同的代码在不同的浏览器呈现出来的效果不一样，那么就很有可能是不同的浏览器内核导致的。</p>
+<p>加载页面时浏览器的具体工作流程是：</p>
+<p>1、解析HTML以重建DOM树（Parsing HTML to construct the DOM tree ）：渲染引擎开始解析HTML文档，转换树中的标签到DOM节点，它被称为“内容树”。</p>
+<p>2、构建渲染树（Render tree construction）：解析CSS（包括外部CSS文件和样式元素），根据CSS选择器计算出节点的样式，创建另一个树 —- 渲染树。</p>
+<p>3、布局渲染树（Layout of the render tree）: 从根节点递归调用，计算每一个元素的大小、位置等，给每个节点所应该出现在屏幕上的精确坐标。</p>
+<p>4、绘制渲染树（Painting the render tree） : 遍历渲染树，每个节点将使用UI后端层来绘制。</p>
+<p>主要的流程就是：构建一个DOM树模型，页面要显示的各元素都会创建到这个DOM树当中，每当一个新元素加入到这个DOM树当中，浏览器便会通过css引擎查遍css样式表，找到符合该元素的样式规则应用到这个元素上。</p>
+<p>注意了：css引擎查找样式表，对每条规则都按从右到左的顺序去匹配(其实你也可以理解为按最后一条规则为准)。</p>
+<p>四种选择器：ID、class、tag和通用符（*）的渲染速度差不多就是从快到慢的。</p>
+<p>然后在这个渲染原理的指导下，我们就可以更规范更高效的写出我们的代码了。</p>
+<p>比如：在CSS书写过程中，总结出如下性能提升的方案：</p>
+<ul>
+<li>1、避免使用通配规则。</li>
+</ul>
+<p>如 *{} 计算次数惊人！只对需要用到的元素进行选择 </p>
+<p>PS：后来又看到了一篇对<em>性能测试的文章反驳</em>对性能的影响，使得理论和实际表现似乎有差异。文章出子丸子，<a href="http://i.wanz.im/2012/01/03/performance_testing_about_css_universal_selector/" target="_blank" rel="external">点击链接查看</a></p>
+<ul>
+<li>2、尽量少的去对标签进行选择，而是用class。</li>
+</ul>
+<p>如：#nav li{},可以为li加上nav_item的类名，如下选择.nav_item{}</p>
+<ul>
+<li>3、不要去用标签限定ID或者类选择符。 </li>
+</ul>
+<p>如：ul#nav,应该简化为#nav</p>
+<ul>
+<li>4、尽量少的去使用后代选择器，降低选择器的权重值 </li>
+</ul>
+<p>后代选择器的开销是最高的，尽量将选择器的深度降到最低，最高不要超过三层，更多的使用类来关联每一个标签元素</p>
+<ul>
+<li>5、考虑继承 </li>
+</ul>
+<p>了解哪些属性是可以通过继承而来的，然后避免对这些属性重复指定规则<br>但说到底，CSS性能这东西对于小的项目来讲可能真的是微乎其微的东西，提升可能也不是很明显，但对于大型的项目肯定是有帮助的。而且一个好的CSS书写习惯和方式能够帮助我们更加严谨的要求自己。</p>
+<p>关于优先级这个问题</p>
+<p>一般情况下，优先级如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">（外部样式）External style sheet &lt;（内部样式）Internal style sheet &lt;（内联样式）Inline style</span><br></pre></td></tr></table></figure>
+<p>选择器的优先权，确切的说应该是权重值，如：</p>
+<p>1、内联样式表的权值最高 1000</p>
+<p>2、ID选择器的权值为 100</p>
+<p>3、Class类选择器的权值为 10</p>
+<p>4、HTML标签选择器的权值为 1</p>
+<p>利用选择器的权值进行计算比较，示例如下：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">style</span> <span class="attribute">type</span>=<span class="value">"text/css"</span>&gt;</span><span class="css"></span><br><span class="line"> <span class="id">#red_id</span> <span class="tag">p</span> <span class="rules">&#123;</span><br><span class="line"> <span class="comment">/* 权值 = 100+1=101 */</span></span><br><span class="line"> <span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#f00</span></span></span>; <span class="comment">/* 红色 */</span></span><br><span class="line"> &#125;</span></span><br><span class="line"> <span class="id">#red_id</span> <span class="class">.red</span> <span class="tag">em</span> <span class="rules">&#123;</span><br><span class="line"> <span class="comment">/* 权值 = 100+10+1=111 */</span></span><br><span class="line"> <span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#00F</span></span></span>; <span class="comment">/* 蓝色 */</span></span><br><span class="line"> &#125;</span></span><br><span class="line"> <span class="id">#red_id</span> <span class="tag">p</span> <span class="tag">span</span> <span class="tag">em</span> <span class="rules">&#123;</span><br><span class="line"> <span class="comment">/* 权值 = 100+1+1+1=103 */</span></span><br><span class="line"> <span class="rule"><span class="attribute">color</span>:<span class="value"><span class="hexcolor">#FF0</span></span></span>;<span class="comment">/*黄色*/</span></span><br><span class="line"> &#125;</span></span><br><span class="line"> </span><span class="tag">&lt;/<span class="title">style</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"red_id"</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"red"</span>&gt;</span>red<span class="tag">&lt;<span class="title">span</span>&gt;</span><span class="tag">&lt;<span class="title">em</span>&gt;</span>em red<span class="tag">&lt;/<span class="title">em</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br><span class="line">结果： 标签内的数据显示为蓝色。</span><br></pre></td></tr></table></figure>
+<p>CSS 优先级法则：</p>
+<p>1、选择器都有一个权值，权值越大越优先</p>
+<p>2、当权值相等时，后出现的样式表设置要优于先出现的样式表设置</p>
+<p>3、创作者的规则高于浏览者：即网页编写者设置的CSS样式的优先权高于浏览器所设置的样式</p>
+<p>4、继承的CSS样式不如后来指定的CSS样式</p>
+<p>5、在同一组属性设置中标有“!important”规则的优先级最大。</p>
+<p>关于效率准则的那些事</p>
+<p><strong>我觉得这个东西，你要辩证的看。还有因为这个更多的是理念性的东西，所以我就不直接写了。</strong>直接上某个大神的几篇文章地址，仅供参考！</p>
+<p>精简高效的CSS命名准则/方法：<a href="http://www.zhangxinxu.com/wordpress/?p=1098" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1098</a></p>
+<p>去除冗余 – 精简您的CSS样式代码：<a href="http://www.zhangxinxu.com/wordpress/?p=629" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=629</a></p>
+<p>CSS页面重构之“门派”之分：<a href="http://www.zhangxinxu.com/wordpress/?p=1022" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1022</a></p>
+<p>CSS reset的重新审视 – 避免样式重置：<a href="http://www.zhangxinxu.com/wordpress/?p=758" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=758</a></p>
+<p>CSS样式分离之再分离：<a href="http://www.zhangxinxu.com/wordpress/?p=916" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=916</a></p>
+<p>最后附一份谷歌代码风格规范，大部分赞同，但是有些许部分在实际情况中还不是很适合。</p>
+<p>E文版本的，但是应该不影响你们看代码风格的：<a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml" target="_blank" rel="external">http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml</a></p>
+<p><a href="https://developers.google.com/speed/docs/best-practices/rendering?hl=EN" target="_blank" rel="external">https://developers.google.com/speed/docs/best-practices/rendering?hl=EN</a></p>
+<p>网易NEC更好的css解决方案，我也喜欢：<a href="http://nec.netease.com/" target="_blank" rel="external">http://nec.netease.com/</a></p>
+<p>PS:<br>其实现代浏览器对css的优化都做的很好了，以前关注的一些优化现在都再慢慢的被忽略掉了。因为给我的感觉是，css优化性能这块差异性是越来越小了，甚至很多人都直接不再css优化了。不过还是那句话，常规的该优化的还是得优化的，语意化很重要，然后css层级嵌套不要太深即可吧。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前端人员几乎每天都要跟页面打交道，所以正常情况下你迟早还是要了解那些HTML和CSS等的一些渲染机制。一来是为了装逼你的专业技能，二来的确是可以提升各种效率，最终的结果就是你可以收获更多的银子。</p>
+<p>最终决定浏览器表现出来的页面效果的差异是由浏览器渲染引擎 Ren]]>
+    </summary>
+    
+      <category term="css3" scheme="http://blog.imruxin.com/tags/css3/"/>
+    
+      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[一种思维的辩证，你怎么看]]></title>
+    <link href="http://blog.imruxin.com/diary/a-dialectical-thinking.html"/>
+    <id>http://blog.imruxin.com/diary/a-dialectical-thinking.html</id>
+    <published>2013-04-11T13:00:00.000Z</published>
+    <updated>2016-01-08T15:04:33.000Z</updated>
+    <content type="html"><![CDATA[<p>眼下，时间在不断的流逝，我不知道是该说自己很执著还是很愚蠢！执著是因为想自己尝试一下，虽然我知道我自己是什么水平；愚蠢是因为现在我为此花费了超过自己预期的时间，从而还不能安心的投入到求职和准备中！再一次体验到了，东西看的多了并不是一件好事。</p>
+<p>在现在的教育里，自古就存在着一种“中国式矛盾”。有些看似很正向很积极的东西，也并不见得就是真的是那样的。永远都是，适合自己的才是最好的，符合自己的才是最佳的。</p>
+<p>换个角度看待这个问题，完全是两种不同的答案。只是，任何进程都需要有一个度，若在达到了一个点后还没结束，就应该果断的换个方式来解决。老师与学生之间，学校和社会之间，校园里和校园外都存在着一定的距离。做为大部分的国人，在成长的时候，往往很容易忽略了时间这个最基本的元素。一个人的价值，除了劳动力，专业技能等等这些显现的外，隐性的时间往往都在不知不觉中被忽略了。在某些阶段，赢得了少许时间，就可以创造巨大的价值。</p>
+<p>看看现在自己所处的班级，统计了下，还有约20%的同学这次肯定不能正常毕业。如果加上这学期只剩一门重修的几个依旧没过的话，那真是一个悲剧。对于毕设，很多同学早就买好了（反正说不会从事这个行业，其实我也是，这可以认为是一个借口么？）。虽然我也不知道在接下去几天后如果自己依旧无法搞定，我会不会也加入这个大军。对于他们而言，现在可以尽情出去找工作去，出去暂时性的到处“游荡”。虽然，我也知道绝大部分人的工作其实也都还没着落。</p>
+<p>对于专业，我的兴趣是电脑互联网方向，高中阶段也看了许多相关的书籍。但是补录的时候却一不小心被微电子录取，不过感觉着这也是一个技术含量很高的专业，应该很有前途。同时之所以没报计算机是因为在进大学前，我简单的翻看了下编程，发现那些个代码好多好恐怖（当时看来）。但是进了这个电子专业后，发现这个只会更无语。这个专业本身比较偏，而且设备什么的也有限。平常的教学几乎都是纯理论性的东西，PPT、视频、软件模拟演示，还有那些电脑讲解电子器件，半导体工艺等等这些，故大部分同学都很难喜欢上这个“虚”的东东。也因为是第一届吧，所以在考试的时候，我们的资料有且只有老师给的一些范围（不像其他专业一样，可以有上届的资料。而且在学生会里整理材料的学长学姐或者是他们自己上任的时候，都会帮忙搞些自己专业的期末考试资料出来），然后自己整理应付考试。不过，并不是每个老师都会给你资料的，所以碰到那些个不给材料，老师又严格，课程本身又比较孤燥无味的偏技术性的课程就真的太悲剧了。所以，就注定了我的这个专业将会是系里四个专业里毕业率最低的一个吧！说到这，我似乎要感谢那些老师没有为难我，让我顺利的拿到了该拿的学分。</p>
+<p>好了，吐槽完毕。~</p>
+<p>对于学习，如果是自己感兴趣的行业，那学起来肯定是不知疲倦的。但是，有句话说的很实在，我们要做的事情只有两件：一件是自己不得不做的事情，一件是自己喜欢做的事情。但是要做自己喜欢的事情之前，就必须要把自己不得不做的事情给先搞定了。</p>
+<p>在学习的过程中，我会想着一个问题：如果给你一个新的软件，或者是你进入到了一个新的领域里，你是如何上手的？你怎么样才能快速的搞定它？你自主学习的渠道有哪些？你需要准备的又是哪些？</p>
+<p>工欲善其事必先利其器，只有先把自己的内在的东西给完善后，学起东西来才会高效快速。善用度娘谷歌，还有一定的逻辑顺序，再加功能菜单尝试应该就足已快速上手了。</p>
+<p>继续前进~</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>眼下，时间在不断的流逝，我不知道是该说自己很执著还是很愚蠢！执著是因为想自己尝试一下，虽然我知道我自己是什么水平；愚蠢是因为现在我为此花费了超过自己预期的时间，从而还不能安心的投入到求职和准备中！再一次体验到了，东西看的多了并不是一件好事。</p>
+<p>在现在的教育里，自]]>
+    </summary>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[关于下载，你知多少？]]></title>
+    <link href="http://blog.imruxin.com/develop/about-download.html"/>
+    <id>http://blog.imruxin.com/develop/about-download.html</id>
+    <published>2012-02-02T13:00:00.000Z</published>
+    <updated>2016-01-08T15:22:40.000Z</updated>
+    <content type="html"><![CDATA[<p>关于这篇日志，本来是没有的，但身边总是有些同学朋友会叫我帮忙下载些东西，因为她们自己说不会。想了一下，我就在这里跟大家交流下下载吧。高手可以无视之。</p>
+<p>在之前，我认为电脑是已经很普遍了，应该这些下载什么的都没问题吧。但当我碰到一些同学的时候，我不得不承认，现在还是有些人对电脑这些真的是一窍不通。其他的，不说那么多，现在我们就说说下载吧。这里只说下思路或者逻辑。</p>
+<p>首先，我们要懂的一个基本电脑常识：就是我们通过浏览器所看到的和听到的图片音视频，其实都是要优先缓存在我们电脑上的。简单的可以认为浏览器只不过是调用我们本地电脑上的东西而已。</p>
+<p>不过这些缓存的资料可能会分布在不同的地方和有不同的生命周期。早在前几年的时候，几乎大部分的资料都可以在浏览器的临时文件夹里找出来，但现在随着版权意识的加强等等，有些可以在浏览器的临时文件夹里找出来，有些却不可以了。甚至有些还有了加密，或者用了技术隐藏，播完就删等等。</p>
+<p>关于下载。</p>
+<p>其实不管我们要下载什么，都必须要知道文件的下载地址，换句话说就是文件存在的路径。当然路径可以是明文的（直观的下载地址），也可以是加密转换的（比如迅雷、电驴、磁力链接下载链接等等）。所以，我们要会下载就相当于我们要会找下载地址（文件路径）。</p>
+<p>现在的网站，有些是因为生存原因不得不放些广告，多多少少而已。所以，在眼花缭乱的网页上，我们必须要有耐心的去查找下载（download）的字眼。这些，我也不知道怎么说，反正认真的看，应该是会找到的。</p>
+<p>对于找资料（当然我这篇肯定是面向菜鸟的），我们要多借助搜索引擎，对于生活娱乐及普通技术资料这些我们用百度就ok了（当然，技术强人很多用的都是谷歌，各中的原因，你们会懂的）。<strong>我们需要什么就直接在百度上搜什么，这个关键字搜不到，换个同意思的关键字或者减少关键字或者关键字之间加空格扩大搜索范围。</strong></p>
+<p>正常情况下，我们需要的大部分资料都是可以直接百度找到我们需要的答案的。如果，百度上依旧找没有，那你其实也可以换换搜索引擎的嘛，也许你会有新的发现哦。</p>
+<p>对于下载初，我们也可以通过一些后缀和大小来判断我们下载的是否是我们需要的。比如，我们要下载一部电影，但我们下载的文件信息告诉我们却是几百KB（BT种子正常）或者几兆几十兆的非视频格式后缀。那几乎你就下载到了广告中推广的什么东西了，有些甚至还可能会是病毒。（特别留意exe程序格式的后缀哦，当然有些教程也可能也是exe后缀的可执行程序）<br>生活中，有些东西我们还是需要多多少少会点的。当然，其实一个普通的下载更本没那么复杂。</p>
+<p>获取下载的方法、去处很多，当然，其实生活中下载的比较多的就是视频，音频，图片，常见的资料这些了。我们可以在百度谷歌上搜索，也可以在迅雷狗狗，电驴verycd上搜索，也可以借助第三方的网盘（比如115盘，微盘等），共享资源平台（新浪，豆瓣等等，或者新出的迅雷邻居共享等）下载。视频也可以去优酷土豆等网站下载（需要的话可以直接注册个帐号就可以用客户端永久的下载对应网站的视频了。）当然，我们更可以借助第三方网站或者软件探测下载地址，然后下载。（比如IDOWN软件，p2psearch软件，zhaofile网站等等）</p>
+<p>总之，我们需要一个清晰的逻辑思路就ok了。就是：我们需要什么，我们就找什么，搜索什么。然后，通过我们已知的途径寻找我们需要的东西。找到网页或者平台后，再认真的查找下载的链接。</p>
+<p>就我的经验告诉我，现在大部分网站，你根据搜索而打开的网页，想要的文件名字会非常容易找到，但下载地址却不容易找到了。正常情况下，一般的网站的资源下载链接都会离标题有点距离。很多情况下你看到紧接着标题的下载字眼往往都不是真实的下载地址，那更多的是网站推广的东西和引诱你点击的广告，你还需要继续往下查找。。。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>关于这篇日志，本来是没有的，但身边总是有些同学朋友会叫我帮忙下载些东西，因为她们自己说不会。想了一下，我就在这里跟大家交流下下载吧。高手可以无视之。</p>
+<p>在之前，我认为电脑是已经很普遍了，应该这些下载什么的都没问题吧。但当我碰到一些同学的时候，我不得不承认，现在还]]>
+    </summary>
+    
+      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
     
   </entry>
   
