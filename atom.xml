@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.imruxin.com/"/>
-  <updated>2016-01-08T03:31:24.000Z</updated>
+  <updated>2016-01-08T07:17:38.000Z</updated>
   <id>http://blog.imruxin.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html"/>
     <id>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</id>
     <published>2016-01-07T14:56:08.000Z</published>
-    <updated>2016-01-08T03:31:24.000Z</updated>
+    <updated>2016-01-08T07:17:38.000Z</updated>
     <content type="html"><![CDATA[<p>当告别人生的一些节点的时候，反正我是会习惯性的去翻翻过去。其实现在这状态，最想做的事情是在一个积极的环境下和一群有事业心的人奋斗和折腾。我现在不喜欢安逸的生活，因为现在的安逸就代表着未来的不安逸，至少这阶段肯定不能安逸。而且随着生活的继续，某些现实的压力也慢慢的上来了，我更没理由去选择安逸了。</p>
 <p><img src="http://cdn-img.imruxin.com/blog/2016/01/IMG_0047.jpg" alt="" title="厦门环岛路"></p>
 <p class="img-desc">厦门环岛路</p>
@@ -32,7 +32,7 @@
 <p>其实每一次的重新出发，都会有一个新的规划，不确定这次的规划最终会执行到什么程度，但是会尽量的去完成。通过过去经历的一些人事物，也让我改变了很多对外界人事物的看法。现在接下去的各种事情都会采用分段的形式去进行，也可能会有各种阶段性的小计划小打卡等等。</p>
 <p>现在的自己总体还是挺充实的，甚至大部分的时候一点都不觉得一个人会怎么样，也可能习惯了一个人的生活了吧。一个人生活，一个人吃饭睡觉运动看书看电影码字等等，其实也挺自由和惬意的。有时候如果不是因为被一些社会环境影响和家里婚姻的促催，我还可能会忘了自己现在还是单身狗的身份。</p>
 <p>不过有时候，或许是源自社会也或许是源自家里也有可能是源自自己内心，到了人生的一定时刻，似乎还是更喜欢有一个属于自己的家吧。换句话说就是，开始更频繁的希望有一个依靠有一个属于自己的两个人的小世界，有一个属于自己的归属感，有一个自己喜欢的人或者有一个喜欢自己的人。还有就是更愿意去寻找一个生活的合作伙伴，一起前行和奋斗。毕竟这社会一个人单打独斗的力量还是不如“团队”的力量的。从此之后就会想要着主动去寻找女朋友，开始留心并物色另一半，更愿意去主动尝试和接触更多的异性参加更多各式各样的活动。</p>
-<p><img src="http://7xpksx.com1.z0.glb.clouddn.com/blog/2016/01/IMG_0050.jpg" alt="" title="厦门环岛路"></p>
+<p><img src="http://cdn-img.imruxin.com/blog/2016/01/IMG_0050.jpg" alt="" title="厦门环岛路"></p>
 <p class="img-desc">厦门环岛路</p>
 
 <p>有时候人就是很奇怪的吧。2015已经在不知不觉中度过了，2016自己会去寻找自己想要的，但同时对于一般性的人事物而言我也更喜欢选择安静和自己独自的去做自己的事情去。</p>
@@ -81,10 +81,10 @@
   
   <entry>
     <title><![CDATA[2014年在前端中遇到的那些问题]]></title>
-    <link href="http://blog.imruxin.com/diary/ued/2014-f2e-summary-list.html"/>
-    <id>http://blog.imruxin.com/diary/ued/2014-f2e-summary-list.html</id>
+    <link href="http://blog.imruxin.com/diary/2014-f2e-summary-list.html"/>
+    <id>http://blog.imruxin.com/diary/2014-f2e-summary-list.html</id>
     <published>2015-02-10T02:03:10.000Z</published>
-    <updated>2016-01-08T06:26:43.000Z</updated>
+    <updated>2016-01-08T07:08:18.000Z</updated>
     <content type="html"><![CDATA[<p>2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下半年小做了一段时间设计+切图的工作。</p>
 <p>在2014年大部分的时间里，其实几乎都是处于忙碌或者加班状态的（年初的二月三月以及年末2015春节前最后两三个月相对清闲了）。因为公司是创业型公司（我是从另一家公司（同个老板）转岗到这公司的），所以之前没有任何可用的产品，一切的页面和功能都是从零开始的。</p>
 <p>这里抛开公司管理、文化和工作流程等其他因素，单纯的说说过去一年切图中遇到的问题吧（公司目前就我一个前端，中途有来一个，后来又撤了）。</p>
@@ -123,8 +123,6 @@
       <category term="总结" scheme="http://blog.imruxin.com/tags/%E6%80%BB%E7%BB%93/"/>
     
       <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-      <category term="ued" scheme="http://blog.imruxin.com/categories/diary/ued/"/>
     
   </entry>
   
