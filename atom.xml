@@ -219,7 +219,7 @@
     <link href="http://blog.imruxin.com/develop/about-git.html"/>
     <id>http://blog.imruxin.com/develop/about-git.html</id>
     <published>2014-05-10T02:03:10.000Z</published>
-    <updated>2016-01-08T16:03:32.000Z</updated>
+    <updated>2016-01-08T16:18:19.000Z</updated>
     <content type="html"><![CDATA[<p>当前使用最多的版本控制工具毫无疑问的就是git了。个人是在14年的2月份开始使用这个git版本控制软件的。不过其实在实际的使用过程当中，常用的就那么几个命令吧，而且个人最后就直接走<strong>source tree</strong>客户端了。</p>
 <p>对于git而言，使用频率最多的就是:</p>
 <figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git comment -m <span class="string">'change info'</span></span><br><span class="line">git <span class="keyword">push</span></span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
@@ -234,7 +234,7 @@
 <p>第二步则很自然就是配置了，基本的配置其实就是设置一些用户名、邮箱、密匙这些了。</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user<span class="class">.name</span> <span class="string">"username"</span></span><br><span class="line">git config --global user<span class="class">.email</span> <span class="string">"email@email.com"</span></span><br></pre></td></tr></table></figure>
 <p>不折腾了，直接看微博这张微博图片了。</p>
-<p><img src="http://ww1.sinaimg.cn/large/7254de97jw1ee02vk0q0tj20c80jmju0.jpg" alt="" title="git密匙生成"></p>
+<p><img src="http://cdn-img.imruxin.com/blog/2014/05/git-product-key.jpg" alt="" title="git密匙生成"></p>
 <p>第三步则就是初始化了。</p>
 <ul>
 <li>进入一个文件夹新建一个空白的库：<code>git init</code></li>
@@ -248,7 +248,7 @@
 <p>附：</p>
 <ul>
 <li><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="external">Git教程之一</a></li>
-<li>git流程思维导图:<a href="https://github.com/imruxin/f2e-lib/blob/master/git-guide/git-guide.png" target="_blank" rel="external">https://github.com/imruxin/f2e-lib/blob/master/git-guide/git-guide.png</a></li>
+<li>git流程思维导图:<a href="http://cdn-img.imruxin.com/blog/2014/05/git-guide.png" target="_blank" rel="external">http://cdn-img.imruxin.com/blog/2014/05/git-guide.png</a></li>
 </ul>
 ]]></content>
     <summary type="html">
