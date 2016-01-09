@@ -48,6 +48,77 @@
   </entry>
   
   <entry>
+    <title><![CDATA[在线团队协同平台]]></title>
+    <link href="http://blog.imruxin.com/update/online-teamwork-tools.html"/>
+    <id>http://blog.imruxin.com/update/online-teamwork-tools.html</id>
+    <published>2015-05-11T03:09:35.000Z</published>
+    <updated>2016-01-09T07:41:12.000Z</updated>
+    <content type="html"><![CDATA[<p>最近刚好碰到了这方面的问题，所以就对目前一些常见的<strong>在线团队协同工作平台</strong>进行一下备份。当然了，自己公司早已不在使用第三方在线平台工具了，因为自己搭建了。</p>
+<p>就个人目前所知的，在团队协同这一块，主要是有这么几个平台（我之前只玩过前面两个，都有iOS及Android版本）：</p>
+<ul>
+<li>Tower：<a href="https://tower.im" target="_blank" rel="external">https://tower.im</a></li>
+<li>Worktile：<a href="https://worktile.com" target="_blank" rel="external">https://worktile.com</a></li>
+<li>Trello(谷歌产品)：<a href="https://trello.com" target="_blank" rel="external">https://trello.com</a></li>
+<li>Teambition：<a href="https://www.teambition.com" target="_blank" rel="external">https://www.teambition.com</a></li>
+<li>Oschina（开源中国新出的）：<a href="https://team.oschina.net" target="_blank" rel="external">https://team.oschina.net</a></li>
+</ul>
+<p>其他的其实也还有一些，不过就没去继续深究了。</p>
+<h3 id="u56E2_u961F_u4FE1_u606F_u6D41_u4E3B_u8981_u6709_uFF1A"><a href="#u56E2_u961F_u4FE1_u606F_u6D41_u4E3B_u8981_u6709_uFF1A" class="headerlink" title="团队信息流主要有："></a>团队信息流主要有：</h3><ul>
+<li><a href="https://pubu.im" target="_blank" rel="external">瀑布</a></li>
+<li><a href="https://bearychat.com" target="_blank" rel="external">Bearychat</a></li>
+</ul>
+<p>PS:目前瀑布需要提前申请邀请码。</p>
+<p>附知乎贴：</p>
+<ul>
+<li><a href="http://www.zhihu.com/question/25025836" target="_blank" rel="external">teambition、Tower.im、Worktile、trello哪个好？</a></li>
+<li><a href="http://www.zhihu.com/question/19606291" target="_blank" rel="external">简单的团队协作工具有哪些？</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近刚好碰到了这方面的问题，所以就对目前一些常见的<strong>在线团队协同工作平台</strong>进行一下备份。当然了，自己公司早已不在使用第三方在线平台工具了，因为自己搭建了。</p>
+<p>就个人目前所知的，在团队协同这一块，主要是有这么几个平台（我之前只玩过前面]]>
+    </summary>
+    
+      <category term="teamwork" scheme="http://blog.imruxin.com/tags/teamwork/"/>
+    
+      <category term="update" scheme="http://blog.imruxin.com/categories/update/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[重走UED并自我修复]]></title>
+    <link href="http://blog.imruxin.com/diary/ued-start-again.html"/>
+    <id>http://blog.imruxin.com/diary/ued-start-again.html</id>
+    <published>2015-03-31T03:59:59.000Z</published>
+    <updated>2016-01-09T06:41:08.000Z</updated>
+    <content type="html"><![CDATA[<p>今天是2015年3月的最后一天，发现离第一次接触hexo都已经快一年了。中途也有过把<a href="http://blog.imruxin.com" title="个人博客">个人博客</a>从wordpress搬迁到github上，但是鉴于一些原因和当时本地的hexo渲染速度，所以个人博客最终又回迁到了wordpress上了。</p>
+<p>自认为是一个伪ITer，截至目前对于写代码的驱动力事实上更多的是来源于内心来源于小兴趣。代码本身并不是我要的东西，写代码只是为了更好又更踏实的实现我想要的一些东西以及想做一些感觉有趣或者可以助人的东西。所以如果缺乏了生活本身，缺乏了情感缺乏了感悟，那么代码对于我而言就是一堆毫无用处的字符串。似乎总是对这些带有那么点艺术气息和看得见效果的东西比较感兴趣，所以会放弃微电子而转向UED的大怀抱吧。</p>
+<p>这一两年一直想要实实在在的学习些技术，一直想要梳理一些东西，一直想要做一些事情，但是因为一些七七八八的问题导致一直都未能如愿以偿。有些问题来源自身，也有些来源于外界因素。一直期望着能找到一个可以在行业上带领自己成长的人或团队，但客观的说目前还没有，至少现在绝大部分的时间其实都是一个人在自学。</p>
+<p>当然也许不完全是自己找不到，也可能是因为自己不善于脱离阶段性的伪舒适圈吧。或者有时候相处了一段时间亦或者有了一些付出后，甚至都会有一些些的不舍，这似乎可以算是性情中人的一个弱点了吧。</p>
+<p>一个人在不断的成长不断的与社会触碰的过程中，总少不了一些思想和想法的碰撞。有些人在触碰中认真思考，动态调整然后选择一个适合自己的方式继续，也有些人在触碰中选择主动被磨合被放弃。</p>
+<p>对于大部分的人，在人生的任何阶段你所认知的东西都不一定是正确的当然也并不意味着就是错。作为一个正常的人，社会环境、现象以及年龄、情感还有内心的声音都会促使你做出一些改变使得你更好的适应生活。可惜的是，大部分人的改变很多情况下往往都是被动的，不过这也算是成长的客观规律吧。</p>
+<p>其实人是很容易“生病”的，这也跟你“吸取的营养”有着莫大的关系。有时候我也会觉得我似乎已经病入膏肓了，甚至现阶段随便都可以列举出一些“病症”。诚然不管是什么病症，这些对我而言其实都是无关痛痒的。要知道自己是否真的病了，那就多读书多观察多思考，然后还有一个非常之重要的就是业余时间多去不同的环境接触不同的人。</p>
+<p>任何一个人现在所处的一些状态和想法必然都是曾经的一些环境、行为和特有的经历导致的，但这也只能代表着过去。无数个昨天决定了现在，现在则决定了明天，无数个明天则又撑起了你的未来。</p>
+<p>人们很容易沉浸在自己构建的世界里，很多人也经常把希望寄希望于别人或者那些不确定的因素中。没有谁有义务帮你做些什么，也没谁必须要花些时间来了解你理解你，更没有谁有义务和责任要对你好，你的行为你的任性你的不改变只能由你自己承担着对应的后果。</p>
+<p>时间和年代的确对一个人的人生有着很大的影响，这些我已经很有感触了。所以要做的其实也简单，就是Just do it and hold on。</p>
+<p>不管怎么说，任何一件事情说起来都显得很容易但具体做起来通常会是另一种情形。现在似乎也越来越不喜欢说话，也懒得去关注一些与己无关的信息，特别是在缺乏激情亦或者是心理落差过大的环境里。岁月时间都不等人，内心无法在慢慢的等待着那种慢节奏、那种不痛不痒的小成长、那种感觉不尊重不看重的时间耗费，那种低速甚至不确定的薪资增长。</p>
+<p>关于工作关于奋斗关于行动将逼着自己做出一些选择，我也需要新的激情。有更重要的关注点，也需要更高的挑战、付出和与之对应的回报。在暂且缺乏外界动力的环境里，不确定可以延续多久，但通常不会太久吧，或许也不得不选择一个新的开始。</p>
+<p>重走UED，下一站前端。其实UED的范畴是很宽的，前端只是其中的一个部分，UED范畴里的很多东西我都很喜欢。</p>
+<p>2015前端三步走：第一步先把过去看到的和碰到的东西进行一些小整理，主要是css/自动化工具/重构/jQuery/JS基础相关的东西。第二步就是HTML5/css3动画/Javascript深入。第三步则就是APP、iOS、第三方SDK等移动端方向，同时继续真正意义上开始新版本ES6以及其他新技术新框架的了解及学习。</p>
+<p>跟着自己的兴趣走，想要什么就去实现什么，缺少什么就去学习什么。在一些方面还有太多的不习惯，所以也只能不断的要求自己去练习吧。接下去，会带着单反把厦门岛内那些有那么点特色和富有文艺气息的地方重新走一遍，看世界尝试搭讪尝试着扩大自己的交际圈。运动、工作、学习、交友、思维碰撞，生活简单就好，阳关即可。也期待着和有想法喜欢奋斗热爱学习喜欢生活的人成为朋友。</p>
+<p>PS：如今都已经来到了2016了，我只能说只走到了前端三步走中的第二步。而今挥挥衣袖重新上路了，而且博客我又迁回到了hexo来了～ renewed@201601</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天是2015年3月的最后一天，发现离第一次接触hexo都已经快一年了。中途也有过把<a href="http://blog.imruxin.com" title="个人博客">个人博客</a>从wordpress搬迁到github上，但是鉴于一些原因和当时本地的hexo渲]]>
+    </summary>
+    
+      <category term="ued" scheme="http://blog.imruxin.com/tags/ued/"/>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[福建前端联盟分享会第18期]]></title>
     <link href="http://blog.imruxin.com/ued/xmf2e-18th.html"/>
     <id>http://blog.imruxin.com/ued/xmf2e-18th.html</id>
@@ -215,6 +286,186 @@
   </entry>
   
   <entry>
+    <title><![CDATA[常用的必须多参数才可以看到效果以及可以多参数叠加的css]]></title>
+    <link href="http://blog.imruxin.com/develop/usual-multiple-valued-css.html"/>
+    <id>http://blog.imruxin.com/develop/usual-multiple-valued-css.html</id>
+    <published>2014-10-14T12:03:10.000Z</published>
+    <updated>2016-01-09T06:31:30.000Z</updated>
+    <content type="html"><![CDATA[<p>随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。</p>
+<p>首先来说一说，那些必须要多参数才可以有作用效果的css属性。</p>
+<p><strong>border系列，包括border-top/right/bottom/left</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">borde: 1px solid; // 至少需要两个参数，一个是大小和类型，至于颜色则会有默认的#000</span><br></pre></td></tr></table></figure>
+<p><strong>box-shadow</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">box-shadow: 1px 1px #aaa; // 最少需要3个参数，但通常来说一般是四个的用的比较多吧？</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>none：无阴影<br>第1个长度值用来设置对象的阴影水平偏移值。可以为负值<br>第2个长度值用来设置对象的阴影垂直偏移值。可以为负值<br>如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值<br>如果提供了第4个长度值则用来设置对象的阴影外延值。可以为负值<br>color：设置对象的阴影的颜色。<br>inset：设置对象的阴影类型为内阴影。该值为空时，则对象的阴影类型为外阴影</p>
+</blockquote>
+<p><strong>text-shadow</strong></p>
+<p>这个跟box-shadow也有点像。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">text-shadow: 1px 1px #ddd;// 最少需要3个参数</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>none：无阴影<br>第1个长度值用来设置对象的阴影水平偏移值。可以为负值<br>第2个长度值用来设置对象的阴影垂直偏移值。可以为负值<br>如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值<br>color：设置对象的阴影的颜色。</p>
+</blockquote>
+<p>必须多个参数的暂时就只想起了那么些了，剩下的就是一些<strong>可叠加使用的css3属性</strong>了。通过那些属性值的叠加也可以做出一些非常好看好玩的东西。</p>
+<p>其实常见的就是那些<strong>背景、文字、阴影、动画</strong>了。这个的话，直接看别人的作品似乎会来得更有视觉冲击力也好模仿和练习研究。</p>
+<p>基于单个DIV的绘图：<a href="https://github.com/lynnandtonic/a-single-div" title="A Single Div" target="_blank" rel="external">https://github.com/lynnandtonic/a-single-div</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。</p>
+<p>首先来说一说，那些必须要多参数才可以有作用效果的cs]]>
+    </summary>
+    
+      <category term="css3" scheme="http://blog.imruxin.com/tags/css3/"/>
+    
+      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[有哪些常用的css规则是可以简写的]]></title>
+    <link href="http://blog.imruxin.com/develop/usual-css-short.html"/>
+    <id>http://blog.imruxin.com/develop/usual-css-short.html</id>
+    <published>2014-10-13T12:03:10.000Z</published>
+    <updated>2016-01-09T06:33:38.000Z</updated>
+    <content type="html"><![CDATA[<p>在实际工作中，对于很多的css规则其实是可以简写的。那么就大部分常用的情况而言，有哪些css规则是可以简写的？</p>
+<p><strong>首先进入我们视野的，就是字体相关的css简写了</strong></p>
+<p>比如：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">font: 100%/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", \5FAE\8F6F\96C5\9ED1, SimSun, \5B8B\4F53, Heiti, \9ED1\4F53, sans-serif;</span><br><span class="line"></span><br><span class="line">// 100%表示的是字体大小，默认为16px，你也可以直接改成具体的数值，比如14px等。斜杆后面的1.5是行高，行高可以带有单位也可以不带有单位变成倍数。剩余的就是字体信息了。单词与单词之间有空格的则需要用引号包围，理论上单引号双引号都ok，但个人在实际应用中碰到过不一样的情况。字体的写法除了常规的英文名字还可以是汉字（可能存在兼容性问题）和ASIIC码。</span><br></pre></td></tr></table></figure>
+<p>接下去是布局中的<strong>margin/padding</strong>等这些了。这些值可以从1个到4个不等，4个值的对应顺序是上右下左。1个值则代表所有；2个值则，第一个代表上下，第二个代表左右；3个值则，第一个代表上，第二个代表左右，第三个代表下。</p>
+<p>css可以简写并不一定要代表着一定要简写，比如常见的块元素居中对齐中的margin，很多人就喜欢<code>margin: 0 auto;</code>，事实上或许改成<code>margin-left: auto;margin-right: auto</code>会更好写，可以复制意外重置其他css。</p>
+<p><strong>background的简写也是最常见的</strong></p>
+<p>比如：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">background: url(images.jpg) #fff no-repeat center/cover;</span><br><span class="line"></span><br><span class="line">// 这个background等同于如下：</span><br><span class="line">background-image: url(images.jpg);</span><br><span class="line">background-color: #fff;</span><br><span class="line">background-repeat: no-repeat;</span><br><span class="line">background-position: center center; // 可以继续简写为一个center</span><br><span class="line">background-size: cover;</span><br></pre></td></tr></table></figure>
+<p>关于这个的补充说明，background-size只能跟在background-position后面，“center/cover;”还可以形如“100px 50px/cover”等。</p>
+<p><strong>border-radius的简写</strong></p>
+<p>其实跟margin/padding是差不多的意思，不过border-radius四个参数中又分别可以有两个参数，两个参数以“/”分隔。每个参数允许设置1~4个参数值，第1个参数表示水平半径，第2个参数表示垂直半径，如第2个参数省略，则默认等于第1个参数。如果提供全部四个参数值，将按上左(top-left)、上右(top-right)、下右(bottom-right)、下左(bottom-left)的顺序作用于四个角。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">border-radius:10px/5px; // 2个参数</span><br><span class="line">border-radius:10px 20px 30px 40px/5px 10px 15px 20px; // 4个参数</span><br></pre></td></tr></table></figure>
+<p><strong>CSS3过度transition的简写</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">transition: all .5s ease-in .1s;</span><br><span class="line"></span><br><span class="line">// 等同于如下css</span><br><span class="line">transition-property:all;</span><br><span class="line">transition-duration:.5s;</span><br><span class="line">transition-timing-function:ease-in;</span><br><span class="line">transition-delay:.1s;</span><br></pre></td></tr></table></figure>
+<p><strong>CSS3动画animation的简写</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">animation: animations1 2s ease-out 1s infinite;</span><br><span class="line"></span><br><span class="line">// 等同于如下css</span><br><span class="line">animation-name: animations1;</span><br><span class="line">animation-duration: 2s;</span><br><span class="line">animation-timing-function: ease-out;</span><br><span class="line">animation-delay: 1s;</span><br><span class="line">animation-iteration-count: infinite; // 无限循环</span><br><span class="line"></span><br><span class="line">// 还可以多个动画叠加</span><br><span class="line">animation: animations1 2.5s ease-out,animations2 1s ease-out 2.5s;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在实际工作中，对于很多的css规则其实是可以简写的。那么就大部分常用的情况而言，有哪些css规则是可以简写的？</p>
+<p><strong>首先进入我们视野的，就是字体相关的css简写了</strong></p>
+<p>比如：</p>
+<figure class="hig]]>
+    </summary>
+    
+      <category term="css3" scheme="http://blog.imruxin.com/tags/css3/"/>
+    
+      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[sass学习中常见语法的一些简单备注]]></title>
+    <link href="http://blog.imruxin.com/ued/sass-study-simple-notice.html"/>
+    <id>http://blog.imruxin.com/ued/sass-study-simple-notice.html</id>
+    <published>2014-08-20T06:12:12.000Z</published>
+    <updated>2016-01-09T07:04:04.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>sass中的两种风格</strong></p>
+<p>sass又两种风格，一种是以.sass为后缀的，另一种是以.scss为后缀的。基于向原生语法及形式靠拢的原则，我一直以来用的就是.scss这种风格的。所以对于.sass这种风格的我没写过，工具性的东西选择一个适合自己的即可。</p>
+<p><strong>注释</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/*! 我是凸现注释，即常规的压缩后还会存在的注释 */</span><br><span class="line">/* 我是普通的多行注释，也是标准注释。sass压缩后也许还可以存在，其他压缩工具则可能会让我灰飞烟灭*/</span><br><span class="line">// 我还是注释，不过我是单行注释。一旦压缩，你就见不到我了。</span><br></pre></td></tr></table></figure>
+<p><strong>导入css样式：</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//直接引入css文件</span><br><span class="line">@import url("header.css");</span><br><span class="line"></span><br><span class="line">//引入模版文件，如引入partials文件夹下的_header.scss(模版文件以下划线为前缀)。当然，这其实是一种简写后的写法。</span><br><span class="line">@import "partials/header";</span><br></pre></td></tr></table></figure>
+<p><strong>sass中的变量</strong></p>
+<p>sass的变量前面有个美元符号<strong>$</strong>，至于什么命名规则的话，跟常见语言的命名规则一样，比如：非数字开通，支持- _。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$variable-name:value;</span><br><span class="line">$color: #f50;</span><br><span class="line">.wrap &#123;</span><br><span class="line">	color: $color;</span><br><span class="line">&#125;</span><br><span class="line">// 对应的css文件</span><br><span class="line">.wrap &#123;</span><br><span class="line">  color: #f50;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>sass中的“&amp;”</strong></p>
+<p>&amp;代表的是完整父级，与前后位置有关系</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">// sass 文件</span><br><span class="line">.wrap &#123;</span><br><span class="line">  .tit &#123;</span><br><span class="line">    font-size: 100%;</span><br><span class="line">    &amp;.sub-tit &#123;</span><br><span class="line">      font-size: 80%;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  &amp;.tit &#123;</span><br><span class="line">    color: #333;</span><br><span class="line">    &amp; .sub-tit &#123;</span><br><span class="line">      font-size: 90%;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">// 对应生成的对应的css文件</span><br><span class="line">.wrap .tit &#123;</span><br><span class="line">  font-size: 100%;</span><br><span class="line">&#125;</span><br><span class="line">.wrap .tit.sub-tit &#123;</span><br><span class="line">  font-size: 80%;</span><br><span class="line">&#125;</span><br><span class="line">.wrap.tit &#123;</span><br><span class="line">  color: #333;</span><br><span class="line">&#125;</span><br><span class="line">.wrap.tit .sub-tit &#123;</span><br><span class="line">  font-size: 90%;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>sass中的“:”</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">// sass 文件</span><br><span class="line">.border &#123;</span><br><span class="line">  border: &#123;</span><br><span class="line">    top: 1px #eee solid;</span><br><span class="line">    bottom: 1px #bbb dashed;</span><br><span class="line">    left: 1px #aaa solid;</span><br><span class="line">    radius: 5px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">// 对应的css文件</span><br><span class="line">.border &#123;</span><br><span class="line">  border-top: 1px #eee solid;</span><br><span class="line">  border-bottom: 1px #bbb dashed;</span><br><span class="line">  border-left: 1px #aaa solid;</span><br><span class="line">  border-radius: 5px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>@at-root</strong></p>
+<p>sass的层级结构看起来很清楚，但是有时候嵌套太多了则就不好了，绝大部分的人都建议控制在三级以内。那么当嵌套过深时，则需要跳出嵌套结构了。所以就有了@at-root这个命令。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">div &#123;</span><br><span class="line">  div1 &#123;</span><br><span class="line">    div2 &#123;</span><br><span class="line">      div3 &#123;@</span><br><span class="line">        at-root div4 &#123;</span><br><span class="line">          style: value;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">// 如果没又使用@at-root，则生成的css会是：</span><br><span class="line">div div1 div2 div3 div4 &#123; style: value;&#125;</span><br><span class="line">// 使用@at-root后则是：</span><br><span class="line">div4 &#123; style:value;&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>普通代码扩展及引入</strong></p>
+<ul>
+<li>未涉及变量的纯样式引用使用@extend</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.box &#123;</span><br><span class="line">  css: value1;</span><br><span class="line">  &#125;	</span><br><span class="line">.box-extend &#123;</span><br><span class="line">  @extend .box;</span><br><span class="line">    css: value2;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>有多个引入的话，则用英文字符的逗号隔开：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="at_rule">@<span class="keyword">extend</span> .box1, .box2,...</span>;</span><br></pre></td></tr></table></figure>
+<p>纯扩展用%</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">%box &#123; css-style;&#125;</span><br><span class="line"></span><br><span class="line">.box-extend &#123; @extend %box;&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>带有变量参数的混合宏@minix，则使用@include。混合宏模块文件要在申明变量模块之后使用，否则会报错并提示变量未定义。</li>
+</ul>
+<p>示例：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">@minxin bd($value) &#123;//$color是待写入的自定义参数</span><br><span class="line">  style: 1px solid $value;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">引用：</span><br><span class="line"></span><br><span class="line">div &#123; @include bd(#eee);&#125;</span><br><span class="line"></span><br><span class="line">@mixin border($color) &#123;</span><br><span class="line">  border: 1px solid $color;</span><br><span class="line">&#125;</span><br><span class="line">.border &#123;</span><br><span class="line">	@include border(#eee);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 生成对应的css文件</span><br><span class="line">.border &#123;</span><br><span class="line">  border: 1px solid #eee;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>若带有默认值，则在没有新赋值的情况下输出默认的值</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">@mixin border-delault($color:#aaa) &#123;</span><br><span class="line">  border: 1px solid $color;</span><br><span class="line">&#125;</span><br><span class="line">.border-delault &#123;</span><br><span class="line">	@include border-delault;</span><br><span class="line">&#125;</span><br><span class="line">.border-delault-value &#123;</span><br><span class="line">	@include border-delault(#bbb);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 对应的css</span><br><span class="line">.border-delault &#123;</span><br><span class="line">  border: 1px solid #aaa;</span><br><span class="line">&#125;</span><br><span class="line">.border-delault-value &#123;</span><br><span class="line">  border: 1px solid #bbb;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>赋值中的默认值!default。如果有新参数则默认值失效，否则使用默认值。</strong></p>
+<p><code>$defined-style-type: value !default;</code></p>
+<p><strong>sass中的常见运算</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">$width: 40%;</span><br><span class="line">$width2: 10%;</span><br><span class="line">.width-1 &#123;</span><br><span class="line">  width: $width;</span><br><span class="line">&#125;</span><br><span class="line">.width-1-1 &#123;</span><br><span class="line">  width: $width + $width2;</span><br><span class="line">&#125;</span><br><span class="line">.width2 &#123;</span><br><span class="line">  width: 100% - $width;</span><br><span class="line">&#125;</span><br><span class="line">.width2-1 &#123;</span><br><span class="line">  width: 100% -$width - $width2*2;</span><br><span class="line">&#125;</span><br><span class="line">.width3-1, .width3-2 &#123;</span><br><span class="line">  width: (100% - $width)/2;</span><br><span class="line">&#125;</span><br><span class="line">.width4 &#123;</span><br><span class="line">  width: 100% - $width*2;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 对应的css</span><br><span class="line">.width-1 &#123;</span><br><span class="line">  width: 40%;</span><br><span class="line">&#125;</span><br><span class="line">.width-1-1 &#123;</span><br><span class="line">  width: 50%;</span><br><span class="line">&#125;</span><br><span class="line">.width2 &#123;</span><br><span class="line">  width: 60%;</span><br><span class="line">&#125;</span><br><span class="line">.width2-1 &#123;</span><br><span class="line">  width: 40%;</span><br><span class="line">&#125;</span><br><span class="line">.width3-1, .width3-2 &#123;</span><br><span class="line">  width: 30%;</span><br><span class="line">&#125;</span><br><span class="line">.width4 &#123;</span><br><span class="line">  width: 20%;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>@for循环</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@for $i from 1 through 4 &#123;//其中i是自定义变量，从1到4循环4次。1和4是自定义的开始和结束。</span><br><span class="line">.div-#&#123;$i&#125; &#123;</span><br><span class="line">    style: css-#&#123;$i&#125;.jpg;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@for $i from 1 to 4 &#123;//从1到4循环3次，只包括1、2、3</span><br><span class="line">xxx;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">@for $i from 1 through 4 &#123;</span><br><span class="line">.col-#&#123;$i&#125; &#123;</span><br><span class="line">    background: url(images-#&#123;$i&#125;.jpg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">@for $j from 1 to 4 &#123;</span><br><span class="line">.row-#&#123;$j&#125; &#123;</span><br><span class="line">    background: url(images-#&#123;$j&#125;.jpg);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">// 对应的css</span><br><span class="line">.col-1 &#123;</span><br><span class="line">  background: url(images-1.jpg);</span><br><span class="line">&#125;</span><br><span class="line">.col-2 &#123;</span><br><span class="line">  background: url(images-2.jpg);</span><br><span class="line">&#125;</span><br><span class="line">.col-3 &#123;</span><br><span class="line">  background: url(images-3.jpg);</span><br><span class="line">&#125;</span><br><span class="line">.col-4 &#123;</span><br><span class="line">  background: url(images-4.jpg);</span><br><span class="line">&#125;</span><br><span class="line">.row-1 &#123;</span><br><span class="line">  background: url(images-1.jpg);</span><br><span class="line">&#125;</span><br><span class="line">.row-2 &#123;</span><br><span class="line">  background: url(images-2.jpg);</span><br><span class="line">&#125;</span><br><span class="line">.row-3 &#123;</span><br><span class="line">  background: url(images-3.jpg);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>补充：</p>
+<p>sass的语法不止这些，还有包括颜色处理，if循环等等。只不过，个人在实际工作中，截至目前主要用到的就是上面的那些了。</p>
+<p><strong>自动化工具</strong></p>
+<p>自动化工具目前主要就是grunt和gulp了，这两个我都有接触过。一开始用的是grunt，后来不知不觉就用了gulp了。这里有自己之前配置好了的自动化工具。该工具可以实现sass自动编译成css，以及对css的压缩。同时，可以自动检测内容改动而刷新浏览器（还需要一个livereload的浏览器插件）。</p>
+<ul>
+<li>Grunt地址：<a href="https://github.com/imruxin/grunt/tree/master/sass%2Blivereload" title="sass grunt自动化工具" target="_blank" rel="external">https://github.com/imruxin/grunt/tree/master/sass%2Blivereload</a></li>
+<li>Gulp地址：<a href="https://github.com/imruxin/gulp/tree/master/sass%2Blivereload" title="sass gulp自动化工具" target="_blank" rel="external">https://github.com/imruxin/gulp/tree/master/sass%2Blivereload</a></li>
+</ul>
+<p><strong>一些学习资料：</strong></p>
+<ul>
+<li>sass官网:<a href="http://www.sass-lang.com/" target="_blank" rel="external">http://www.sass-lang.com/</a></li>
+<li>w3cplus中的sass文章:<a href="http://www.w3cplus.com/blog/tags/302.html" target="_blank" rel="external">http://www.w3cplus.com/blog/tags/302.html</a></li>
+<li>sass入门:<a href="http://www.w3cplus.com/sassguide/" target="_blank" rel="external">http://www.w3cplus.com/sassguide/</a></li>
+<li>sass中国:<a href="http://cn-sass.com/" target="_blank" rel="external">http://cn-sass.com/</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>sass中的两种风格</strong></p>
+<p>sass又两种风格，一种是以.sass为后缀的，另一种是以.scss为后缀的。基于向原生语法及形式靠拢的原则，我一直以来用的就是.scss这种风格的。所以对于.sass这种风格的我没写过，工具性的东西选择]]>
+    </summary>
+    
+      <category term="scss" scheme="http://blog.imruxin.com/tags/scss/"/>
+    
+      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[工作与生活、态度与观念，以及上一阶段的工作小结]]></title>
+    <link href="http://blog.imruxin.com/diary/work-and-life-and-the-last-work-brief-summary.html"/>
+    <id>http://blog.imruxin.com/diary/work-and-life-and-the-last-work-brief-summary.html</id>
+    <published>2014-07-23T13:00:00.000Z</published>
+    <updated>2016-01-09T04:12:15.000Z</updated>
+    <content type="html"><![CDATA[<p>个人觉得，通常喜欢旅行并敢于说走就走的人应该都有过深入的思考工作与生活的关系。不断的阅历，不断的经历，不断的收获，不断的感受生活本身，不断的为美好生活而安静的努力和奋斗。</p>
+<p>生活本身才是核心所在，工作只是为了更好的生活，努力工作只是为了让生活来得更便利更自由。当然美好生活不会轻易的出现在你的世界里，在你过上美好生活之前，你还得先付出点什么或者说要先积累点什么。应该很少人会喜欢加班，我是不喜欢主动喝酒的。</p>
+<p>作为一个正常的人自然也讨厌一切阻碍自己生活的人事物。然而，阻碍是必然存在的，所以我的做法是允许阶段性的被xxoo，但如果是常态化的被xxoo，那我就不干了。实在不行，我惹不起还躲不起么。</p>
+<p>态度不一样了，观念和出发点不同了，那么收获的感受也就必然不一样。工作、生活、旅行，这三个东西似乎总是喜欢交织在一起，至少在我的世界里是这样的。曾经听闻过的一些经历，当再次听到有人在讲述时，感觉是不一样的，因为当再次听到的时候很容易让你去深入思考。这就很像读一本书，不断的重复去读同一本书时，这本书给人的感觉或许是不一样的。</p>
+<p>对于工作本身而言，理想与现实总是存在着差距的。当你想去把一些事情做好做完善的时候，你会发现这还真的不简单。当然，造成这个的因素有很多，不过认真的理顺一下后，其实无非也就那么些吧。比如：任务周期太短，文件频繁更改与规划分类不足，任务分配问题，技术经验不足的问题。其中技术经验不足这是一个硬伤，不过对于现在的我而言其实也还好了。</p>
+<p>我觉得除去工作内容本身外，一个非常重要的东西（我个人也倾向于把这个排在第一位）是：对待工作的态度以及个人的思想品质。不同的人对待同一件事情，必然有着不一样的态度。就比如加班而言，通常会出现这么几种情况：一种是，我坚决的拒绝一切的加班；一种是我允许加班，但前提是合理的阶段性的加班；一种是加班不加班无所谓；还有一种就是喜欢加班，感觉加班很充实甚至很有趣。当然，加班的态度跟个人所处的职业成长点以及是否有报酬有着巨大的关系。一个人有了强大的实力作为支撑，当然有资格可以拒绝一切的加班。加班是否有报酬，这对员工是否愿意加班以及工作情绪的影响有着巨大的关系。我不相信有人会心甘情愿的无报酬的长期加班，因为这明显就违反了人的本性。</p>
+<p>对于所谓的事业，自己目前一直是带着一个创业者的角色在打工的，同时以一个创业者的身份要求自己要多方面的学习，特别是情感心理和人力资源这块。父母是建议自己去自主创业的，可是我现在还有很多东西没摸着门路。当然有什么好项目也可以参股创业，只要出资资金是小于100W规模的就可以。</p>
+<p>当自己从大三开始陆续面临求职问题的时候，自己就会开始关注一些跟求职有关的微博以及一些信息。比如简历义工，秋叶，人力资源分享会，HR教你找工作网等等，其中还成为了一名HR教你找工作网的义工（需要经过两轮的线上面试，已经一年多了）。现在想想一些过去的成长，总是辛酸和收获并存着。</p>
+<p>不同的人不同的平台和不一样的环境总会有着不一样的感受。虽然自己的高考比较落魄，但是中学还是ok的。自己比较悲剧的比中学同学迟了两年出来工作，在自己的同班同学中，有一些人早已经年薪10W+了。有不少人是名牌大学毕业，比如清华，前十所高校等等，今年也有几个前十所大学的研究生同学也毕业了，通过这些人的信息以及与部分人的交流，自然而然也会懂得一些职业相关以及不同环境下的东西，而且他们给我的感觉多少还是有点不一样的。再比如自己进了福建前端联盟的这个平台后，通过和一些人的交流了解了其他公司以及厦门地区甚至全国地区前端的一些情况包括薪资等等，更重要的是确确实实扩大了自己工作的圈子了。还有一个更重要的是，认识了一些人后，我基本不在担心所谓的工作问题，至少现在要重新找一个不低于现在工资的工作，太轻松了。不过正常情况下我也不喜欢换来换去，没意思，更喜欢善始善终除非某些差距真的太大了。目前在前端联盟也分享过一次，虽然坦诚的说自己不满意，但好歹毕竟也是第一次。这里再次感谢鬼大送的大漠写的新书《图解css3》。</p>
+<p>人比人气死人，这话说的一点也不错，所以你需要的是如何客观的评估你自己，然后如何努力去奋斗去积累去改变去坚持去承受。工作的心态很重要，工作也的确存在机遇这一个算是运气的东西。</p>
+<p>在阶段性的苦逼日子里，你也得学会承受一些东西，包括一些不太适宜但也算正常的思想以及情绪抱怨等等。特别是有人对你说：你那么拼命干嘛，你工资那么低根本就没必要那样，主管加班加点是有分红的，而你又有什么。别人轻轻松松的不加班的收入和你这么苦逼的加班的收人不都是一样么；趁着BOSS不在的时候，各种抱怨，各种诉说，什么打算离职，要求加薪等等。</p>
+<p>其实工作的态度确实有很多种，就看你怎么看，就看你站在什么角度看，对待事物的看法应该是从多角度出发的。</p>
+<p>某种意义上，这些客观现象也正好给自己提个醒，也更有利于自己去学习去验证。假如自己某一天开了公司或者做了某部门的leader后，你会怎么洞察员工的心理，怎么提高和优化工作流程以及工作效率，怎么更准确的看穿人的内心真实想法等等。同时怎么理性的去对待招聘、离职、忠诚度、加班等这些问题，比如笼统的说：正常情况下要遵行人事物的客观发展规律，发现问题的背后以及选择不逃避不退缩的解决问题，我想这才是ok的。再比如具体的说：加班这个问题。正常情况下没有任何人喜欢无偿的加班，除非公司是自己开的或者自己有股份分红什么的。那么怎么拟补加班的付出这是一个问题，是选择加薪？选择调休？其他的休闲娱乐方式或者福利补充？还是回到本质上来怎么提高工作的效率以及工作周期安排等等？具体情况具体分析，那么哪种或者哪几种又比较好呢？员工自己的态度又是什么？最后又会有什么结果呢？</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>个人觉得，通常喜欢旅行并敢于说走就走的人应该都有过深入的思考工作与生活的关系。不断的阅历，不断的经历，不断的收获，不断的感受生活本身，不断的为美好生活而安静的努力和奋斗。</p>
+<p>生活本身才是核心所在，工作只是为了更好的生活，努力工作只是为了让生活来得更便利更自由。当]]>
+    </summary>
+    
+      <category term="工作" scheme="http://blog.imruxin.com/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+      <category term="生活" scheme="http://blog.imruxin.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[说说版本控制工具git]]></title>
     <link href="http://blog.imruxin.com/develop/about-git.html"/>
     <id>http://blog.imruxin.com/develop/about-git.html</id>
@@ -342,6 +593,222 @@
   </entry>
   
   <entry>
+    <title><![CDATA[爱在何方，路在脚下]]></title>
+    <link href="http://blog.imruxin.com/diary/where-is-love-and-continue-on-the-way.html"/>
+    <id>http://blog.imruxin.com/diary/where-is-love-and-continue-on-the-way.html</id>
+    <published>2014-03-02T13:00:00.000Z</published>
+    <updated>2016-01-09T06:13:17.000Z</updated>
+    <content type="html"><![CDATA[<p>三月份的第一天结束了，其实最近相对的不是很喜欢写文章了。</p>
+<p>我想相对的不喜欢写文章的原因或许有这么几个吧：</p>
+<ul>
+<li><p>1、有时候确实不想写了，感觉没啥动力，究竟写给谁呢？就只是自己么？也开始怀疑写作纪念的意义到底有多大。有些人根本就不在乎一些你想要对方在乎的东西。</p>
+</li>
+<li><p>2、自己更多的想学习，把时间花在学习本身上。客观的说，码字也确实是一件有点费时间的事情。</p>
+</li>
+<li><p>3、有时一个人的时候，确实会不知道想干什么。特别是回到一个人的宿舍后，或者发呆，或者无聊，或者无所事事，学又不能完全静心的学下去。所以周末的时候，我会选择让自己沉浸于图书馆或者徒步在厦门的海边或者大街小巷上或者参加某些活动。</p>
+</li>
+</ul>
+<p>曾经一下班就想着撤，赶紧跑回宿舍吧。其实我也不知道下班后那么早离开公司，我究竟是要去哪里要去干嘛，也许是我太想把工作与生活分开吧。但是现在似乎没有了这种感觉，相反我喜欢多呆在公司，甚至我喜欢被加班。至少现阶段的加班，对我而言好处更多吧，主要是可以相对的专注的学习。工作与生活，注定不是绝对的分开的。</p>
+<p>随着年龄的增大，同龄人之间谈话的关注点确实在慢慢的改变着。或者工作或者家庭，就这个两个方面吧。当然，对于工作这方面，其实共同语言并不多，因为彼此行业不一样，所以自然就落到了家庭这个方面了。</p>
+<p>不想太多的去诉说着什么，懂你的人自然会懂你，喜欢你的人自然会喜欢你。美女人人都想要，但老婆不需要很漂亮，只要彼此有共同语言，内心善良，自己又有点点喜欢就足矣了。</p>
+<p>关于女朋友，我确实也不喜欢异地（而且我更喜欢家乡相对离得近的女生，比如福建的南部区域），特别之前又没任何的交集，仅仅是一个简单的介绍。我要的是一个可以和自己一起生活，一个愿意和自己共同成长的伴侣。我陪着对方，对方陪着我，彼此互助成长。选老婆，我当然也会倾向于一个对方更爱自己的另一半。</p>
+<p>人有时候确实真的很幼稚吧，不要总是认为你是对的你比别人懂得更多或者自甘堕落的认为自己无知自己就是错的。保持一颗平常心很重要，在理性的前提下，感性的对待这个世界。</p>
+<p>对待很多人事物淡了。曾经对着空间的好友信息，可以从头到尾的详细的看一遍。不过现在大部分却可以做到直接忽略了，因为此刻我根本无心也不想去关注这些。我很清楚，成长最终必然只能靠自己的力量，所以自我修行必然也是一辈子的事情。当然，成长也应该要寻找适合自己的“外力”，因为这个社会终究不是一个人的社会，一个人的力量终究是渺小的。</p>
+<p>每到一个新的地方，相对的总是有一段“小人物”的阶段。淡定的迎接未来吧，一步一步的尽力实现自己想要的东西。</p>
+<p>PS：现在对于女朋友老家的地理位置这个问题，我已经改变了看法了。因为地域问题对于我而言，越来越不是问题，感觉世界的距离都在不断的缩短。@2016</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>三月份的第一天结束了，其实最近相对的不是很喜欢写文章了。</p>
+<p>我想相对的不喜欢写文章的原因或许有这么几个吧：</p>
+<ul>
+<li><p>1、有时候确实不想写了，感觉没啥动力，究竟写给谁呢？就只是自己么？也开始怀疑写作纪念的意义到底有多大。有些人根本就不在乎一]]>
+    </summary>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[触碰自己很少关注的地方，然后思考并加以改善]]></title>
+    <link href="http://blog.imruxin.com/diary/touch-my-little-attention-and-then-thinking-and-improve.html"/>
+    <id>http://blog.imruxin.com/diary/touch-my-little-attention-and-then-thinking-and-improve.html</id>
+    <published>2014-01-10T13:00:00.000Z</published>
+    <updated>2016-01-09T06:58:19.000Z</updated>
+    <content type="html"><![CDATA[<p>今天中午吃完饭后，我又坐上了公交来到了轮渡。</p>
+<p>小坐了一会儿后，接着就是六个多小时无目的的慢速的徒步行走。从轮渡码头徒步到中山路步行街到中山公园、动物园到火车站，线路是随机的。</p>
+<p>身体在行走，在相对的确保自己相对安全的前提下，眼睛却一直在看着手机屏幕。</p>
+<p>因为在公交车上的时候，根据某公共帐号的推荐意外的翻阅了一些关于生活关于两性情感方面的文章。然后，就不知不觉看了好几个小时。文章是层层递进，逐步深入的，引导你如何从“虚的想”到“实的做”。说实话，在两性方面，自己完全是个“矮子”。</p>
+<p>一个人不管多么的有思想有洞察力有创造力，但是不懂得如何把那些落到实处，你同样也是一个loser。</p>
+<p>什么时候觉悟都不算晚，但是不能以这个为理由而放纵自己。有句话说的很好，我可以叫醒正在做梦的人，但是无法叫醒在装睡的人。你必须为自己的所作所为买单，特别是当你不在年轻的时候，你的成本会异常的高。</p>
+<p>回到生活中，自己确实也关注了和思考了很多内在的深远的东西，但是似乎走得太急走得太远了。所以，忽略了一些近在眼前的东西，比如曾经很少真正的关注自己本身，很少关注自己的形象和外形以及服饰等等，从而造就了目前一些自己的某些状态。当然，原因不可能是简单的一个两个，但是不管有多少个，那都已经成为了历史。</p>
+<p>现在就该及时的拟补和触碰自己曾经很少真正关注的地方，然后思考并加以改善。之所以还要思考是因为，我不仅仅想知道为什么，我还想知道这为什么的背后，尝试了解那些隐藏的本质问题。只有你抓住了本质的东西，你才可以以不变应万变。</p>
+<p>翻阅自己过去写的博客，我很不想去承认一些东西，但是有些客观事实你不得不承认。</p>
+<p>理顺自己的关注点很重要，选择有利于自己的“有效粮食”很重要。</p>
+<p>我觉得我已经过了那个不断需要成功学需要励志需要唯美文字憧憬的年代了，诚然现在网络上传播的最多的就是这些。我想说的是，传播的那些很美好很向往很励志，但是都太过虚幻，不够接地气，不好执行或者不懂如何有效的执行。更多的是梦，是梦，还是梦。</p>
+<p>调整好了关注点，把时间收回给自己后，把关注的重心回到自己身边。那些太远太美好的理想和抱负在现阶段不适合自己，但我也还不至于丧失到没有。只不过，事物的发展总是需要一个过程，需要一个循序渐进，需要一个轻重缓急，需要一个先来后到。</p>
+<p>现在对我个人而言，我不喜欢关注那些所谓的真理所谓的哲理所谓的忠告，我更喜欢的是引导你如何具体的看待和分析人事物，以及如何有效的执行。</p>
+<p>怎么着手？怎么分析？怎么处理？然后有什么可以借鉴和改善的地方？这些才是我接下去要关注和要学习的重点。</p>
+<p>我觉得要非常的感谢过去碰到的艰难困苦，使得自己在心态和思想上都有了不少真正意义上的成长。现在也相对的走出了那个自卑的我，能更好的和孤独相处，在感性的基础上可以做到相对的理性，内心也在真正意义上的丰富和强大起来。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天中午吃完饭后，我又坐上了公交来到了轮渡。</p>
+<p>小坐了一会儿后，接着就是六个多小时无目的的慢速的徒步行走。从轮渡码头徒步到中山路步行街到中山公园、动物园到火车站，线路是随机的。</p>
+<p>身体在行走，在相对的确保自己相对安全的前提下，眼睛却一直在看着手机屏幕]]>
+    </summary>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[告别2013，致敬过去的二十四年]]></title>
+    <link href="http://blog.imruxin.com/diary/say-goodbye-to-2013-and-face-2014.html"/>
+    <id>http://blog.imruxin.com/diary/say-goodbye-to-2013-and-face-2014.html</id>
+    <published>2013-12-31T13:00:00.000Z</published>
+    <updated>2016-01-09T07:30:58.000Z</updated>
+    <content type="html"><![CDATA[<p>随着时间的推动，岁月在苍老，青春在流逝。</p>
+<p>回顾过去的这些岁月，有道不出的种种。</p>
+<p>人与社会都在不断的变化中，我不知道我将来会变成怎么样，但我希望是良性的。</p>
+<p>每个人都渴望自由，都渴望可以按照自己的选择来前进。但是理性告诉你，这是不可能的，因为自由是相对的。</p>
+<p>经历过了青春的人们，总是喜欢跟青春有关的岁月。因为青春，所以我们年轻；因为青春，所以我们肆无忌惮；因为青春，所以我们好奇又朦胧。青春的成长是一个很神奇的过程，也是一道惨烈的风景线。</p>
+<p>不知道从什么时候开始，习惯了一个人的徒步行走，慢节奏的行走。很喜欢看看沿途路上的一草一木，感受着这个光与影相结合的世界，看看这个社会这个世界正在发生些什么。喜欢到处转转，跑到公园或者人多的地方，看着人来人往并感受着其中生命的气息。喜欢到处散步到处游荡，欣赏每一处自然的社会的或是人文的景观。很喜欢站在人群中央扫视一圈周围环境的感觉，那种感觉很宁静很享受。喜欢去海边的沙滩上自由的慢步、吹着海风、听着海浪、看着行人、看着情侣、看着夕阳，那种感觉很放松很美好。</p>
+<p>不管快乐还是忧伤，都是自己曾经生活的组成部分。一个人，不应该畏惧过去的历史，每个人的成长总是需要经历点什么。同时，也正是因为这点什么，才恰恰说明你有曾经。</p>
+<p>一个人在成长过程中，自我调解是就是一剂灵丹妙药。只是，这确实需要一定的时间和经历来积淀。</p>
+<p>关于生命的成长，更多的应该是我们自己内心的定位和如何看待自己对人生的欲望吧。生命终究是有些缺陷的，但也因此缺陷，我们才会发现美，才会去追求美。我们最不缺的就是励志的例子，因为我们本身就应该是一个例子。</p>
+<p>有人说，孤独是与自己内心的独处，面对真实的自己。所以我们无法撒谎，无法妥协，无法狡辩，赤裸裸的被自己的内心审视着。</p>
+<p>青春的孤独是一个无底的黑洞，一不小心就吞噬了良心，美丽和苍穹，唯一的救赎之道就是阅读和旅行，这二者奠定了一个人生命的广度和深度。读万卷书行万里路，人生才会更有感触，才会更有利于人成长。</p>
+<p>不要觉得孤独时是煎熬，孤独的时候会有领悟，不管每个人都会孤独。享受寂寞是一种境界，品味孤独是一种幸运。人生的路还很长，孤独的确是一种人生修行，请不要逃避并请善待之。用人生的孤独和痛苦去检验生命的弹性，更能让人感受到生命的精彩。青春之所以艰难，是因为孤单，因为你还没有一个归属。</p>
+<p>在色彩缤纷物欲横流的世界里，你必须要为自己有所选择。你应当把时间花在对的事情上，应该把时间花在对的人身上，应该把时间花在有利于你成长的地方。你应该要逐步的寻找到适合你自己的东西，你应该要慢慢的学会分析和甄别，你应该要不断的让自己真正的成长。你应该要学会问自己：你适合做什么，不适合做什么；你喜欢和谁在一起，不喜欢与谁相伴；你的兴趣爱好是什么，忌讳的又是什么；你想走什么样的成长道路，讨厌什么样的成长。</p>
+<p>在中国现有的传统教育模式下，常常会使得孩子变得不够自信，尤其是在对自己个人能力的认知方面，因为中国的教育缺乏太多的鼓励、肯定和引导。取而代之的更多的是否定、批评、责骂和惩罚类的教育方式。所以，你要及时的修正自己，让自己自信起来。</p>
+<p>视野可以改变一个人的思想，心态决定一个人的生命长久。工作不应该等于是人生，更不应该是需要经营一辈子的事。试问健康、财富、自我成长、人际关系和时间自由，什么是您努力的动力？请珍惜你的爱人，善待爱你的人，祝福你爱的人。人的生命中最重要的三种人“你的爱人，爱你的人，你爱的人”会陪伴你一生，温暖你一生，丰富你一生，精彩你一生！</p>
+<p>只有体验过了痛苦，才会知道什么是真正的快乐。而且，体验过的痛苦越深，你所感受到的快乐就越强。人生大道上总是会有磕磕碰碰，痛苦也快乐。有些人在人生道路的前期，可能会不断的为追求财富名利权利而生活，甚至为了某种目的会不择手段。但在经历过一些起伏后，特别是若在自己身上或者身边发生了什么重大事件后，应该都会想要回归到生活的朴实中吧。从嘈杂的世界中，回归一份内心的宁静，回归内心的平淡。</p>
+<p>追求财富名利权利是为了更好的生活，而不是生活是为了追求财富名利权利，工作也一样。</p>
+<p>有种美好在于，我们不经意的相遇，却刚好彼此走进了对方的心里。又到一年年末了，对于很多的同龄人而言，正在感受着“单身回家过年难”的滋味。</p>
+<p>人们的外表往往都充满了迷惑性，真正能让有情人长久走到一起的是内心真正的爱情也是平淡的，柴米油盐酱醋茶，执子之手，与子偕老。好的恋情不是迁就，不是娇惯，而是两个人在一起成长，改变掉自己的坏毛病，让彼此都更加完美。高攀很危险，屈就很辛苦。两个人长久地在一起，终将会从“为了恋爱”变成“为了生活”，从爱情的这头走向了亲情。但是不管多大多老，不管家人朋友怎么催，都不要随便对待婚姻。婚姻不是打牌，重新洗牌要付出巨大代价。</p>
+<p>我很喜欢一段话：一个人应该要先学会爱自己，学会保护“小我”，学会给自己充电，这样你的能量才不会枯竭。无论如何你都要先把自己爱护好了，你才有更多的能量再去成人之美。</p>
+<p>接下来会迎接的是什么？</p>
+<p>一切随缘，坦然迎接吧！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>随着时间的推动，岁月在苍老，青春在流逝。</p>
+<p>回顾过去的这些岁月，有道不出的种种。</p>
+<p>人与社会都在不断的变化中，我不知道我将来会变成怎么样，但我希望是良性的。</p>
+<p>每个人都渴望自由，都渴望可以按照自己的选择来前进。但是理性告诉你，这是不可能的]]>
+    </summary>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如果你感到生活有点辛苦，那是因为你正在走上坡路]]></title>
+    <link href="http://blog.imruxin.com/diary/you-feel-pain-is-because-you-are-uping.html"/>
+    <id>http://blog.imruxin.com/diary/you-feel-pain-is-because-you-are-uping.html</id>
+    <published>2013-09-06T13:00:00.000Z</published>
+    <updated>2016-01-09T03:41:37.000Z</updated>
+    <content type="html"><![CDATA[<p>感觉很就没写文章了，其实不是不写，而是时间不知不觉又过去了。八月份结束了穷游，心里彻底告别了学生时代而毕业了。一个人的时候，特别是又无工作，又在相对陌生的环境的时候，总是会联想到过去的一些美好的日子。</p>
+<p>来到厦门，呆了十天的样子就开始在软件园上班了。我自认为目前只是一个行业新人，需要学习的东西真的很多。成长需要一个过程，而且更重要的是不能惧怕成长过程中的痛。一个人需要大体的知道自己会些什么，有多少墨水，然后自己不断的去积累和磨练自己。</p>
+<p>如果你感到生活有点辛苦，那是因为你正在走上坡路，这句话真的形容的非常好。一个人不应该畏惧困难，不应该害怕挑战，不能逃避压力。</p>
+<p>工作日每天上班都要开始挤公交，也都要大概的算一下时间。对于工作，自己开始有意的分离个人QQ和工作QQ。工作上有很多的第一次，接下去应该还会有更多的第一次。这个阶段，我想最重要的就是学习了。所以，不管在工作上，还是在业余时间上，都应该为自己赢得一些学习的机会。很多东西，如果适当的放下，真的也就不过如此，只是真的很难真正放下吧。生活，很多情况下顺其自然就好了吧！该撤的撤，该来的也会来。</p>
+<p>其实，现在还欠着不少的东西。说好的自己的10W字+的成长自述、漂泊生活的穷游日记，以及公益组织的一些任务等等。生活有时候也没必要太累了，值得么？究竟为了什么？有时候，当你停下来问自己为什么活着，活着的人生意义是什么的时候，是没有多少人能答上来的。</p>
+<p>可能是跟自己过去的生活经历有一些关系吧。过去也算是快死过的人，也算是被深深的折磨过，所以现在看东西都显得比较平淡。也可以说是一种平常心的状态吧。我喜欢客观的看待人事物，看事情喜欢自己分析，喜欢从多角度去审视。一个人也好，一部作品也好，一份事业也好，很难是十全十美的。所以，真心不要太去计较一些琐碎或者鸡毛蒜皮的事情。害人之心不可有，防人之心不可无。</p>
+<p>微博上看到李开复被确诊为淋巴癌，老师自己发了不少微博。再一次验证了某些真理，再一次提醒某些东西是有限的，是具有唯一属性的。不要太在意某些社会潮流，不要太过注重某些畸形的比较，一个人能正常的吃喝拉撒睡，有足够自己生存所需的物质条件就足矣了。</p>
+<p>对于生活，我比较喜欢回归到生活本身。不想去酗酒，不想去做一些违心的事，不想被工作束缚了遨游生活的翅膀。不愿盲目的崇拜和信仰，不能缺乏独立思考的能力，不能丧失学习的欲望，不能做个呆板的人。</p>
+<p>好好学习，需要通过一段岁月的积累，将来自己会的技能可以帮助到一些人。我觉得个人很渺小，人应该要有追求，要务实求真。然后，如果可以的话应该传播一些微公益正能量，助人即助己。中国很贫穷，但中国又很富有。</p>
+<p>天道酬勤、地道酬善、人道酬诚、业道酬精、学道酬苦、艺道酬心、商道酬信。一个人应该勇敢的走出去，应该果断的向前进，应该全方位的努力学习。如果，此时你感到辛苦，那告诉自己：容易走的都是下坡路。</p>
+<p>明天要早起在一个公交站点集合，然后公司全体同事一起爬山、聚餐，再然后博饼。</p>
+<p>故，此刻该说声：晚安！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>感觉很就没写文章了，其实不是不写，而是时间不知不觉又过去了。八月份结束了穷游，心里彻底告别了学生时代而毕业了。一个人的时候，特别是又无工作，又在相对陌生的环境的时候，总是会联想到过去的一些美好的日子。</p>
+<p>来到厦门，呆了十天的样子就开始在软件园上班了。我自认为目前]]>
+    </summary>
+    
+      <category term="生活" scheme="http://blog.imruxin.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[生活常态，人生是一场旅行！]]></title>
+    <link href="http://blog.imruxin.com/diary/normal-life-style.html"/>
+    <id>http://blog.imruxin.com/diary/normal-life-style.html</id>
+    <published>2013-07-14T13:00:00.000Z</published>
+    <updated>2016-01-09T07:05:26.000Z</updated>
+    <content type="html"><![CDATA[<p>人生是一场旅行！是的，人生是一场旅行！</p>
+<p>至少，我认为的人生应该是一场旅行，是一场风雨兼程的旅程。有苦有乐，有辛酸有甜美，有充实有荒废，有无助也有希望。体验过了痛苦，才会知道什么是真正的快乐。而且，体验过的痛苦越深，你所感受到的快乐就越强。人生大道上总是会有磕磕碰碰，痛苦也快乐！</p>
+<p>我不知道别人的人生追求是什么？想要的生活方式是什么？</p>
+<p>但不管别人的是什么，这些都不会妨碍我对一些生活方式的追求。我不喜欢被束缚，不喜欢那种被框着的感觉。虽然我知道只有在一定的框框下才有所谓的自由。对于职业生涯，我现在需要的是为自己赢得更多的自主学习的时间。最苦逼的一种状态是：公司没事情让你做（或者说时不时又让你去打杂），但你又不能做着自己的事情，从而时间在悄无声息中流失。我现在似乎感触到了为什么那么多人毕业后宁愿先自己花钱去培训，我想大概就是那么回事了吧！</p>
+<p>生活错综复杂，你要认为有多复杂就有复杂，但是你想要有多简单也可以有多简单。</p>
+<p>很多人每天都在重复着昨天，我也不例外的会有这样的日子。只是，当自己无法左右的时候，你就只能先适应生活。当你有了一定的能力的时候，你才有资格谈所谓的改变。</p>
+<p>生活，隐性的语言会越来越多，但单纯真诚的人也不少。只是，你真的需要学会判断和加强修炼，而且要学会善待“好人”。不要因为对方笑着，对方就代表着开心；不要因为对方哭了，对方就是真的伤心。中国多年的传统造就了表面给你个无所谓，但其实有所谓的很！有时候，真的没必要嘲笑那些挑战我们智商的人与事，一笑而过就好。处在当今的天朝，要学会辩证的，独立的看待一些事情。</p>
+<p>生活常态，人生是一场旅行。</p>
+<p>我会为了穷游而放弃工作（没找到适合自己且不喜欢时），我会为了感受而选择行走。我喜欢呆在人多的地方，喜欢呆在热闹的地区，喜欢看着人来人往，喜欢沐浴自然风光，喜欢感受人生百态（不管是酸的还是甜的）。</p>
+<p>做一个理想主义者、感性主义者、理性主义者，但是更应该是一个靠谱的务实主义者。</p>
+<p>一个人的价值在于为社会贡献了多少正向或者说积极的东西！不伤害ta人，感恩，珍爱生命，不能刻意委屈自己，工作及伴侣选择适合自己的即可！有空参与公益，把你的爱留给需要的人，传播微弱的正能量！此刻，我正走在有限的人生路上，体验某个阶段的生活！</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>人生是一场旅行！是的，人生是一场旅行！</p>
+<p>至少，我认为的人生应该是一场旅行，是一场风雨兼程的旅程。有苦有乐，有辛酸有甜美，有充实有荒废，有无助也有希望。体验过了痛苦，才会知道什么是真正的快乐。而且，体验过的痛苦越深，你所感受到的快乐就越强。人生大道上总是会有磕磕]]>
+    </summary>
+    
+      <category term="旅行" scheme="http://blog.imruxin.com/tags/%E6%97%85%E8%A1%8C/"/>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[关于未来就业与成长的一些个人认知和看法]]></title>
+    <link href="http://blog.imruxin.com/diary/the-opinion-of-my-growth-and-occupation.html"/>
+    <id>http://blog.imruxin.com/diary/the-opinion-of-my-growth-and-occupation.html</id>
+    <published>2013-04-24T13:00:00.000Z</published>
+    <updated>2016-01-09T07:39:23.000Z</updated>
+    <content type="html"><![CDATA[<p>因为秋叶大叔在微博上分享了我的一页纸简历展示。在这里为了免去一些不必要的麻烦，所以我把一些问题在这里简单阐明下。同时，也欢迎拍砖。</p>
+<p>对于给以的肯定，我真心感谢你们对我的鼓励。对于批评，我也同样感谢你们对我的鞭策。要让自己获得快速的成长，就要直面自己还需要提高的部分，敢于面对现实中的否定。作为一个客观真实的情况就是：赞扬与批评必然是同时存在的。我喜欢批评与思想碰撞，但是仅限于有理有据的情况下。</p>
+<p><strong>关于未来就业的方向：</strong></p>
+<p>我坦诚，作为一个应届毕业生，我会迷茫。面对就业，我也会变得有点不知所措。但是，即使再怎么迷茫，再怎么不知所措，这些都不能成为借口。</p>
+<p>关于就业方向，我主要是根据自己的兴趣爱好、职业测评以及自己目前的性格而综合得出的一个方向。</p>
+<p>有人说，最好不要把兴趣和职业搞在一起，但是我觉得至少是要自己感兴趣的方向，自己折腾起来才有劲。而这一块，自己以前也折腾过，越折腾越兴奋。</p>
+<p>最后，我希望自己所学所会的，将来也可以在一些公益组织或者平台上发挥作用。</p>
+<p><strong>关于某些的认知：</strong></p>
+<p>在中学的时候，我就比较喜欢看报刊杂志。自然也就少不了一些关于就业方面的报道与思考，然后看到了这些比较突出的问题以及一些建议（针对普通理工类本科生而言）：</p>
+<ul>
+<li>1.从总体样本来看，从事本专业的同学甚至达不到一半，且入职后对从事的行业都需要再学习再培训。大学里的教育和社会企业的需求有断层；</li>
+<li>2.大学里学习的重心应该放在自我学习、自我抗压、自我独立、逻辑分析、道德修养等等这些内在的能力上；</li>
+<li>3.大学里应该好学且也可以泛学，现在的社会需要的是复合型的人才需求；</li>
+<li>4.中国的大学教育制度来源于西方，但是在本土的教育执行过程中却变了味。教育的本质是引导，培养的是再学习与独立思考的能力，而不是单纯的短暂的知识记忆和灌输；</li>
+<li>5.大学期间，应该要多思考多辨析，树立一个远大的理想和目标追求。</li>
+</ul>
+<p>大学里，一个人的成长，从自卑走向自信。在迷茫思考抉择的时候，时间也就很快过去了。我曾还傻乎乎的规划：当我自己在确认到具体某一个行业的时候，我再来精通相关的专业知识。平时只要把大概的情况搞清楚就好，方便自己快速上手就好了。未来具有不确定性，工作也具有机遇性。只是，社会环境已经不再轻易的给你某些机会了，或者是中间缺少了一个必要的桥梁。简言之，如果你要是从事技术性的岗位，你在进入到某个行业之前，你必须要会点东西。非技术性岗位，似乎还好一点，相对的可以“从零开始”。</p>
+<p><strong>关于未来的职业成长：</strong></p>
+<p>因为是跨专业，需要学习的东西不少，所以从学徒开始。</p>
+<p>根据公司职位，优先学习并熟练某种语言或者软件。其次，再按照一定的顺序继续学习相关的同类型语言或者软件。我现阶段喜欢有点挑战性的工作，至少现在是这样的。当然等到年老的时候，我也会转成相对安逸的工作。最终的发展方向就两类：技术总监或者管理。</p>
+<p>不过如果实在不爽，也可能自己创业，父母是提倡自己创业，资金家里可以支持。但就我个人而言，从理性出发，现在还不适合自己去创业，因为自己有太多的未知和不确定了。</p>
+<p>关于未来的就业地点：优先厦门、福州 ；其次深圳、杭州、广州、上海、其他。</p>
+<p><strong>关于人生的某些成长：</strong></p>
+<p>曾经有那么特别苦逼的几年，但是还是给走过来了。</p>
+<p>生活确实是没我们想的那么美好，但也绝对不会我们想的那么差。这个世界是辩证的社会，对与错并存着，快乐与忧伤并存着。没有无缘无故的爱也不会有无缘无故的恨。</p>
+<p>有人调侃说，在中国能活着本身就已经很不错了。的确是，客观的说（就我个人的认知水平而言，下同），对于大部分的普通百姓是这样的。一个人的成长必然要经受一些挫折，而且挫折将是我们人生的常客。要成长就要学会坦然面对生活中的各种不如意，并战胜它。</p>
+<p>当经历过了那些被人嘲笑，被人伤害，被人排斥的感觉后，你就会对这些情节特别的有感触。于是乎，后期我们就会更注意这些情况，不要给ta人带去无心的伤害。同时也更能理解一个人在一些情况下的某些心理反应。</p>
+<p>当你做过兼职，发过传单等等这些后，你就会对街上的那些人员多了一份理解。虽然自己也会有拒绝传单的时候，但正常情况下至少不会那么冷漠，至少表现的是友善的或者是委婉的拒绝。</p>
+<p>又或许是因为经历过了阶段苦难的人生，加上同理心的作用，所以非常喜欢也热意去帮助那些需要被帮助的人与事（这也是自己热衷公益的一个重要原因吧）。我非常喜欢与那些积极向上的人士在一起，也希望能多结交一些独立自主且喜欢奋斗的同仁。</p>
+<p>我们处在一个“和谐”的社会，我们的思想也在某种程度上是被和谐的。但是，不管处在怎么样的和谐社会里，我们都至少要保持一颗独立思考和善于分析的大脑。我总是认为，中国其实不缺钱，缺的是某些思想。越落后的地方越是这样。当对某些事件有疑问的时候，最好的办法就是多看不同地区和不同角色所发出的报道，然后理性思考。如果有能力，可以直接翻看国外的一些报道或者国外的一些技术理念或者生活本身，更可以直接走出国门自己去外面的世界走走看看。</p>
+<p>学无止境，调整好心态，直面最真实的人生。最后，还是这句话：我喜欢批评与思想碰撞，但是仅限于有理有据的情况下。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>因为秋叶大叔在微博上分享了我的一页纸简历展示。在这里为了免去一些不必要的麻烦，所以我把一些问题在这里简单阐明下。同时，也欢迎拍砖。</p>
+<p>对于给以的肯定，我真心感谢你们对我的鼓励。对于批评，我也同样感谢你们对我的鞭策。要让自己获得快速的成长，就要直面自己还需要提高的]]>
+    </summary>
+    
+      <category term="未来" scheme="http://blog.imruxin.com/tags/%E6%9C%AA%E6%9D%A5/"/>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[一种思维的辩证，你怎么看]]></title>
     <link href="http://blog.imruxin.com/diary/a-dialectical-thinking.html"/>
     <id>http://blog.imruxin.com/diary/a-dialectical-thinking.html</id>
@@ -362,259 +829,6 @@
     <![CDATA[<p>眼下，时间在不断的流逝，我不知道是该说自己很执著还是很愚蠢！执著是因为想自己尝试一下，虽然我知道我自己是什么水平；愚蠢是因为现在我为此花费了超过自己预期的时间，从而还不能安心的投入到求职和准备中！再一次体验到了，东西看的多了并不是一件好事。</p>
 <p>在现在的教育里，自]]>
     </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[关于下载，你知多少？]]></title>
-    <link href="http://blog.imruxin.com/develop/about-download.html"/>
-    <id>http://blog.imruxin.com/develop/about-download.html</id>
-    <published>2012-02-02T13:00:00.000Z</published>
-    <updated>2016-01-08T15:22:40.000Z</updated>
-    <content type="html"><![CDATA[<p>关于这篇日志，本来是没有的，但身边总是有些同学朋友会叫我帮忙下载些东西，因为她们自己说不会。想了一下，我就在这里跟大家交流下下载吧。高手可以无视之。</p>
-<p>在之前，我认为电脑是已经很普遍了，应该这些下载什么的都没问题吧。但当我碰到一些同学的时候，我不得不承认，现在还是有些人对电脑这些真的是一窍不通。其他的，不说那么多，现在我们就说说下载吧。这里只说下思路或者逻辑。</p>
-<p>首先，我们要懂的一个基本电脑常识：就是我们通过浏览器所看到的和听到的图片音视频，其实都是要优先缓存在我们电脑上的。简单的可以认为浏览器只不过是调用我们本地电脑上的东西而已。</p>
-<p>不过这些缓存的资料可能会分布在不同的地方和有不同的生命周期。早在前几年的时候，几乎大部分的资料都可以在浏览器的临时文件夹里找出来，但现在随着版权意识的加强等等，有些可以在浏览器的临时文件夹里找出来，有些却不可以了。甚至有些还有了加密，或者用了技术隐藏，播完就删等等。</p>
-<p>关于下载。</p>
-<p>其实不管我们要下载什么，都必须要知道文件的下载地址，换句话说就是文件存在的路径。当然路径可以是明文的（直观的下载地址），也可以是加密转换的（比如迅雷、电驴、磁力链接下载链接等等）。所以，我们要会下载就相当于我们要会找下载地址（文件路径）。</p>
-<p>现在的网站，有些是因为生存原因不得不放些广告，多多少少而已。所以，在眼花缭乱的网页上，我们必须要有耐心的去查找下载（download）的字眼。这些，我也不知道怎么说，反正认真的看，应该是会找到的。</p>
-<p>对于找资料（当然我这篇肯定是面向菜鸟的），我们要多借助搜索引擎，对于生活娱乐及普通技术资料这些我们用百度就ok了（当然，技术强人很多用的都是谷歌，各中的原因，你们会懂的）。<strong>我们需要什么就直接在百度上搜什么，这个关键字搜不到，换个同意思的关键字或者减少关键字或者关键字之间加空格扩大搜索范围。</strong></p>
-<p>正常情况下，我们需要的大部分资料都是可以直接百度找到我们需要的答案的。如果，百度上依旧找没有，那你其实也可以换换搜索引擎的嘛，也许你会有新的发现哦。</p>
-<p>对于下载初，我们也可以通过一些后缀和大小来判断我们下载的是否是我们需要的。比如，我们要下载一部电影，但我们下载的文件信息告诉我们却是几百KB（BT种子正常）或者几兆几十兆的非视频格式后缀。那几乎你就下载到了广告中推广的什么东西了，有些甚至还可能会是病毒。（特别留意exe程序格式的后缀哦，当然有些教程也可能也是exe后缀的可执行程序）<br>生活中，有些东西我们还是需要多多少少会点的。当然，其实一个普通的下载更本没那么复杂。</p>
-<p>获取下载的方法、去处很多，当然，其实生活中下载的比较多的就是视频，音频，图片，常见的资料这些了。我们可以在百度谷歌上搜索，也可以在迅雷狗狗，电驴verycd上搜索，也可以借助第三方的网盘（比如115盘，微盘等），共享资源平台（新浪，豆瓣等等，或者新出的迅雷邻居共享等）下载。视频也可以去优酷土豆等网站下载（需要的话可以直接注册个帐号就可以用客户端永久的下载对应网站的视频了。）当然，我们更可以借助第三方网站或者软件探测下载地址，然后下载。（比如IDOWN软件，p2psearch软件，zhaofile网站等等）</p>
-<p>总之，我们需要一个清晰的逻辑思路就ok了。就是：我们需要什么，我们就找什么，搜索什么。然后，通过我们已知的途径寻找我们需要的东西。找到网页或者平台后，再认真的查找下载的链接。</p>
-<p>就我的经验告诉我，现在大部分网站，你根据搜索而打开的网页，想要的文件名字会非常容易找到，但下载地址却不容易找到了。正常情况下，一般的网站的资源下载链接都会离标题有点距离。很多情况下你看到紧接着标题的下载字眼往往都不是真实的下载地址，那更多的是网站推广的东西和引诱你点击的广告，你还需要继续往下查找。。。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>关于这篇日志，本来是没有的，但身边总是有些同学朋友会叫我帮忙下载些东西，因为她们自己说不会。想了一下，我就在这里跟大家交流下下载吧。高手可以无视之。</p>
-<p>在之前，我认为电脑是已经很普遍了，应该这些下载什么的都没问题吧。但当我碰到一些同学的时候，我不得不承认，现在还]]>
-    </summary>
-    
-      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[十二月初了]]></title>
-    <link href="http://blog.imruxin.com/diary/early-december.html"/>
-    <id>http://blog.imruxin.com/diary/early-december.html</id>
-    <published>2011-12-02T13:00:00.000Z</published>
-    <updated>2016-01-08T09:53:09.000Z</updated>
-    <content type="html"><![CDATA[<p>不知不觉，2011的最后一个月到了。也就意味着这一年将走向尽头。再过一个多月就又要回家过年去了。</p>
-<p>今天的福州显得有点冷，但我还是只穿了一点点衣服。貌似天气预报说，明后天更冷，不过和家里相比起来福州还是比较温暖的。至少，我现在还是两件衣服就够了，在福州过冬还好吧。</p>
-<p>嘿嘿，2011结束了，2012很快就要到了，你们准备好了么。</p>
-<p>现在，慢慢的课余时间又回到网络上了，不久前一不小心玩了下wordpress。对这个主题呀代码呀是爱不释手的，一旦发现了有新的好玩的代码，绝对是又会发现我的时间又不够用了。</p>
-<p>学习需要方法吧，虽然我习惯了一个人学习，喜欢问百度，问谷歌，比较少问人。但不可否认直接问人还是能比较快解决问题的。相比之下，自己百度谷歌花的时间确实会比较多。而且有时候，还不一定可以搞定问题。还好，网络上还是有不少热心的网友。有些人素未谋面，但问一些问题还是很热意的回答的。</p>
-<p>其实，在人生的道路上也差不多吧。能帮的为什么就不帮呢？对我们自己又没什么损失，但除非是真的有时间上的问题，或者自己有事情吧。我始终相信，在不断帮助别人的时候，总有一天这些帮助会以某一种形式回到自己身上的。</p>
-<p>熬游网络，看到有些网站看到有些文章，说实话，网络高手太多了。不管哪行哪业，自己都还需要花点力气。</p>
-<p>在这期间也想起了自己曾经那些算是比较痴迷的日子，我原来是很喜欢玩黑-客的，喜欢找病毒，喜欢做木马免杀等等，只不过免杀这里被卡住了，后来又因为一些人生的波折，这个也就很快跳出我的视野了。</p>
-<p>曾经因为高中的学校离新华书店近的原因，一到周末或者不想读书的时候就又跑去看书了，那一两年把新华书店的有关电脑方面的书都基本翻了一遍。不过其实现在也忘的差不多了，除了一些最基础的，然后技术是不断更新的，所以我还是out了。</p>
-<p>接下来，如果自己不忙的话，我还是很喜欢共享一些自己的兴趣爱好的，包括图片、音视频、电脑网络这些的。其实软件这方面很多都是adobe的软件，包括ps、pr、ae、ai、dw、au这些有接触过，只不过程度不一罢了。也还有视频编辑软件，vegas、edius等。</p>
-<p>在这里，也顺便求高手，求带，求指导，求师傅。还有，求兼职喽，甚至求创业喽。让我们一起同行吧。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>不知不觉，2011的最后一个月到了。也就意味着这一年将走向尽头。再过一个多月就又要回家过年去了。</p>
-<p>今天的福州显得有点冷，但我还是只穿了一点点衣服。貌似天气预报说，明后天更冷，不过和家里相比起来福州还是比较温暖的。至少，我现在还是两件衣服就够了，在福州过冬还好吧]]>
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[突然间，感觉轻松了许多哦！但，突然压力很大…]]></title>
-    <link href="http://blog.imruxin.com/diary/feel-relaxed.html"/>
-    <id>http://blog.imruxin.com/diary/feel-relaxed.html</id>
-    <published>2011-11-25T13:00:00.000Z</published>
-    <updated>2016-01-08T09:57:07.000Z</updated>
-    <content type="html"><![CDATA[<p>今天最后一次ps培训结束了，突然间一种轻松感油然而生，但突然间感觉又少了点什么。轻轻地来，悄悄的离开，不带走一片云彩，不添加任何东西。<br>可以安逸的退二线了，等待正式的离去。或者功利的说成是：我能被利用的价值结束了到期了。</p>
-<p>回首过去，发现一不小心把很大的一部分时间都耗在这了，而本应该学习的一些技术落下了。对于专业，学的很蛋疼，我还是更喜欢IT的世界，喜欢多媒体吧，喜欢艺术吧。</p>
-<p>慢慢的，开会什么的对我个人而言可有可无吧。貌似从进来一直到现在，很多情况都是要开会的时候我才会知道，相比之下信息比一些局外人还闭塞。更有甚着，部员问我我都不知道，而问别人却知道。而现在，对于我个人而言，我是被开会被陪时间，想想还真不如去休息睡觉比较好。或者，这也许就是生活本身吧。</p>
-<p>进行中的时候，你会发现越来越多的东西还不懂。同时一不小心又看到电脑上还有那么多的资料还没啃，唉。。。</p>
-<p>生活是自己的，结果也是自己的。不怪罪任何一个人，有的只是自己的不足和性格上的懦弱。所以，重新定位一个点，找准方向勇敢的向前冲。</p>
-<p>承认任何东西都是有阶级之分的，即使是在学生这个群体。当处在什么阶级的时候就做什么阶级的事情吧。确实，有些付出会让一部分人更便利和轻松，但回到自己身上的时候却往往是。。。</p>
-<p>发现，英语真的很重要。English is really very important .<br>局限小了，圈子小了，目光自然短了，墙外的世界很精彩，加油。。。</p>
-<p>PS：发现是纯水文一篇。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>今天最后一次ps培训结束了，突然间一种轻松感油然而生，但突然间感觉又少了点什么。轻轻地来，悄悄的离开，不带走一片云彩，不添加任何东西。<br>可以安逸的退二线了，等待正式的离去。或者功利的说成是：我能被利用的价值结束了到期了。</p>
-<p>回首过去，发现一不小心把很大的一]]>
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[前进，好好生活，努力生活，快乐生活]]></title>
-    <link href="http://blog.imruxin.com/diary/have-a-good-life-please.html"/>
-    <id>http://blog.imruxin.com/diary/have-a-good-life-please.html</id>
-    <published>2011-11-22T13:00:00.000Z</published>
-    <updated>2016-01-08T09:26:04.000Z</updated>
-    <content type="html"><![CDATA[<p>也许本来一切都是很自然的退居二线的。但今天看了一下那短信，确实有点意外。</p>
-<p><img src="http://cdn-img.imruxin.com/blog/2011/20111122.jpg" alt="" title="前进，好好生活，努力生活，快乐生活"></p>
-<p class="img-desc">人生就像一条河流，只能奔走向前，不能回头。一个人不可能同时踏进不同的河流，也不可能拥有所有的幸福。既已逝去，那就让它随风吧。</p>
-
-<p>其实，怎么说呢？</p>
-<p>也没什么好说的吧，经过了这次，那些接班人应该都会有所进步吧。现在不管怎么样，反正都已经是这样子了，人总是要前进的吧。革命靠自觉，学习靠自己。想我自己的那些都是自学的，有时候真的很羡慕现在的那些部员可以被各种培训，要是我能够被培训一下我就真感到很欣慰了。</p>
-<p>这段时间，自己也确实算是比较忙。自从那副部长面试并有新人产生以后，我就决定开始退居二线了，不管是系里的宣传部还是院里的网络部。我就告诉自己并要求自己该把时间都收回了。其实某种意义上，对我个人而言是确实也找不到什么新的动力和激情了。以前是因为责任在身，现在是该过度到新人身上了。换位思考，要有自知之明，有些东西一看就知道结果的，有时候想到有些情况我就真想毫无理由的撤了。</p>
-<p>还有那坑爹的周末实习，这种实习我是真的不喜欢。</p>
-<p>虽说，我们应该要抱着学习的心态去，以学习为目的。但其实事实并非我们想的那样，或许这就是现实吧。</p>
-<p>我们感觉就像是一个个超低价劳动力，八天一百块。每天早出晚归，除了中午一小时，没有规定的休息时间。如果真要说学习什么的话，那就是学习那的所谓的生产管理和了解产品产生的每一个环节。但到公司后的事实就是让你好好的干分配到的活，不断的重复，督促你不能停。很正常的，这种事情是让人很没劲的，很多同学都在嘴上、空间上谩骂着发泄着。反正，心态很重要吧，怎么过都是一天，我就权当做磨练锻炼吧。只是如果可以的话，我宁愿把这时间花到做兼职上或者学习自己喜欢的东西。</p>
-<p>现在，想想自从大二以来真的几乎没做兼职了，惭愧。尽管我自己一直在提醒我自己，我必须要自己挣钱，自力更生，尽早经济独立。不过话又说回来了，到了这个时候，我似乎不在对那些活动感冒了。就像游玩，做活动，我默默的看着大家玩就好了，大家高兴我就很高兴了。喜欢以一个参观者或者说是局外人的角色参与，而不是参与者本身的角色。</p>
-<p>有些相处，有些人或多或少的确实掺杂到了自己生活的部分，导致这些人在自己的心里留下了些痕迹，所以有时候在一不小心中又可能会回忆起什么吧。</p>
-<p>真的，也许，在这个世界上，一个人看重感情就难免会软弱，追求完美就容易有遗憾。也许，宽容自己这一点软弱，我们就能坚持；接受人生这一点遗憾，我们就能平静。我们有相同的故事，也许只是因为有你们。</p>
-<p>宣传部的孩子们，加油哈。那些部员们，你们辛苦了。那个叫啥的，我就表示歉意的叫你琳姐吧，也加油哈。哈哈～</p>
-<p>这周六晚上的舞会我会去看看你们的，这也是我在任的最后一个活动了。然后，我就应该彻底的退了。继续学习去，继续做我的影视后期去，此刻正在帮忙做一个动态校园网站…</p>
-<p>我应该要成为一只狼，而不是一只羊。</p>
-<p>PS：这应该是一篇只有少数人才能感受到其中隐含的味道的文章吧。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>也许本来一切都是很自然的退居二线的。但今天看了一下那短信，确实有点意外。</p>
-<p><img src="http://cdn-img.imruxin.com/blog/2011/20111122.jpg" alt="" title="前进，好好生活，努力生活，快乐生活"]]>
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[我要成为一匹狼]]></title>
-    <link href="http://blog.imruxin.com/diary/become-a-wolf.html"/>
-    <id>http://blog.imruxin.com/diary/become-a-wolf.html</id>
-    <published>2011-11-20T13:00:00.000Z</published>
-    <updated>2016-01-08T10:05:10.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://cdn-img.imruxin.com/blog/2011/20111120-wolf.jpg" alt="" title="我要成为一匹狼"></p>
-<p>其实，真的，发现不知不觉自己做羊很久了，很多东西都被奴役了。有时候其实自己就是一只沉默的羔羊了。发现现在的自己真的是毫无战斗力可言啊。</p>
-<p>所以，今天开始，我要做一匹狼，一个具有狼性的人。不再想也不在乎过去失去了什么，得到了什么。</p>
-<p>我知道知易行难，我现在要做的就是给自己狼的性情，培养自己狼的性格，像狼学习生存的必杀技，消灭敌人，武装自己。</p>
-<p>不可否认，有些东西看不爽，不服，甚至是有些鄙视。但我还是明白在很多情况下，在当今社会，要承认是非是源自于实力的。在自己无所成就，无所突出的情况下，要先学会忍。坚定的积累着属于自己的战斗经验和武器。</p>
-<p>这个世界是没有绝对的公平的，所以不要抱怨什么不公平，很多时候之所以抱怨只是因为你所处的位置没有占据到有利的位置而已。</p>
-<p>什么是善良，你很善良么？</p>
-<p>善良也是相对的，你想到了别人，并不一定别人也会想到你。说实话，有多少人有好处的时候会想到你，留一个给你，请客分享的时候会叫上你呢？有么？相反的，似乎只有在需要你帮忙的时候，在需要用到你的时候，才会想到你！</p>
-<p>当然，也有些人和有些事情，也是身不由己，也和行业、地域、环境都有很大关系的。所以应该更理性的对待。</p>
-<p>有些东西，有些事情明明知道，却没有努力的去改变，没有去坚持，没有去完善。如果一直都是等待和错过，那人也就差不多等于死了吧。就像有些人看上去活着，但其实TA已经死了。重新从最基础的出发，不管如何成长和发展都离不开最本质的身体和内在积累。也许，太多的不如意和这个也存在着莫大的关系。</p>
-<p>我不是一个强人，不是一个聪明的人，我也不是一个高尚的人。但人必须要有追求的心，必须要是一个敢作敢当敢为敢说敢爱敢恨的人。要成功就必须要像特别能吃苦，特别能战斗看齐。特别能吃苦的前面四个字很容易做到，但是最后一个字才是历练的所在呀。</p>
-<p>有所舍弃方能有所收获，有所坚持方能有所成就。我的时间和空间并不富裕，我要对自己负责。好好利用贯彻改进曾经在危难时刻陪伴着自己度过了艰难时刻所体验的一些东西。在接下来的日子里，在没有什么变化的情况下，我必须保持沉默，在未达到一定量的积累以前，我必须保持沉默。</p>
-<p>端正自己的态度，提高自己的修养，做一个成熟的青年。该有的，我相信，我终会有的。</p>
-<p>PS：<br>现在看回去，这绝对是一篇自我励志和宣泄的鸡汤文。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="http://cdn-img.imruxin.com/blog/2011/20111120-wolf.jpg" alt="" title="我要成为一匹狼"></p>
-<p>其实，真的，发现不知不觉自己做羊很久了，很多东西都被奴役了。有时候其实自己就是一]]>
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[追求中前进，不服输，Fighting]]></title>
-    <link href="http://blog.imruxin.com/diary/come-on-fighting.html"/>
-    <id>http://blog.imruxin.com/diary/come-on-fighting.html</id>
-    <published>2011-11-15T13:00:00.000Z</published>
-    <updated>2016-01-08T10:04:57.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://cdn-img.imruxin.com/blog/2011/fighting.jpg" alt="" title="追求中前进，不服输，Fighting"></p>
-<p>做自己生命的主角，而不是别人生命中的看客。</p>
-<p>只爱爱我的人，青春只为TA挥霍。</p>
-<p>前面的路还很远，你可能会哭，但是一定要走下去，一定不能停。当你频回首，哪里顾得了前面的路；你不专注，又如何把这路走得远。</p>
-<p>在我们周围，能够真正关注你的，就那么廖廖几个。所以我们无须在意别人的评说，只要把自己的事情做好；无须看别人的眼神只需走自己的路；无须有过多的抱怨，那样会使自己活得更累。不必一味讨好别人，不管走在何处，都不要迷失自己。如果你讨厌我 我一点也不介意，我活着不是为了取悦你。</p>
-<p>有些习惯，终究要用一生的时光改变，就像某些不可言明的怀念。往往在夜深人静时，轰然来袭，刺痛到心底最柔软的地方无力挣扎。不是不幸福，只是仍旧贪心眷恋过去的某种感受而不够幸福。不是很悲伤，只是当脑海里出现熟悉脸庞和温柔话语时而失神很久。夜不能寐的时候，最清醒还是最糊涂。</p>
-<p>如果你想像雄鹰一样翱翔天空，那你就要和群鹰一起飞翔，而不要与燕雀为伍；如果你想像野狼一样驰骋大地，那你就要和狼群一起奔跑，而不能与鹿羊同行。</p>
-<p>在现实生活中，你和谁在一起的确很重要，甚至能改变你的成长轨迹，决定你的人生成败。和什么样的人在一起，就会有什么样的人生。</p>
-<p>生命是逆旅传奇，总在用伤痛稀释幸福，用平淡掩埋辉煌，总有苦雨寒箫之幽怨，月落星暗之悲凉。低潮时 寂静再现人生的原貌，凡俗续写现实的残酷，那些偶尔的潮涌，不过是时光闭合中的点缀，终会在生命的消逝中黯然地退去。有多少繁华可以持久，有多少快乐可以永驻？其实我们什么都留不住。</p>
-<p>追求中前进，不服输，Fighting…</p>
-<p>PS：<br>现在看回去，这绝对是一篇鸡汤文。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="http://cdn-img.imruxin.com/blog/2011/fighting.jpg" alt="" title="追求中前进，不服输，Fighting"></p>
-<p>做自己生命的主角，而不是别人生命中的看客。</p>
-<p>只爱爱我的]]>
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[你要加油]]></title>
-    <link href="http://blog.imruxin.com/diary/come-on-please.html"/>
-    <id>http://blog.imruxin.com/diary/come-on-please.html</id>
-    <published>2011-11-11T13:00:00.000Z</published>
-    <updated>2016-01-08T10:03:00.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://cdn-img.imruxin.com/blog/2011/20111111.jpg" alt="" title="你要加油"></p>
-<p class="img-desc">一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的对方，到哪里都是在流浪。</p>
-
-<p>很多东西必须要告一段落了，接下来的时间里，我要做的就是好好读我想要读的书籍。</p>
-<p>该撒手的确实要果断撒手，一段时间后，有些人有了收获，而有些人却变得更一无所有。</p>
-<p>外在的是浮云，内在的将伴随一生。当有人离开你的生活时，随他们去吧这只是给更好的人留足了进入你生活的空间。</p>
-<p>有些人和事是败在了不为，缺乏勇气，不敢正视。生活不可能像你想象得那么好，但也不会像你想象得那么糟。我觉得脆弱和坚强都超乎自己的想象。有时，我可能脆弱得一句话就泪流满面，有时，也发现自己咬着牙走了很长的路。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><img src="http://cdn-img.imruxin.com/blog/2011/20111111.jpg" alt="" title="你要加油"></p>
-<p class="img-desc">一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的对方，]]>
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[记：青云山之旅]]></title>
-    <link href="http://blog.imruxin.com/diary/qingyun-journey.html"/>
-    <id>http://blog.imruxin.com/diary/qingyun-journey.html</id>
-    <published>2011-11-01T13:00:00.000Z</published>
-    <updated>2016-01-08T08:28:54.000Z</updated>
-    <content type="html"><![CDATA[<p>有些东西，一切尽在不言中吧，现在看看貌似有点沉长。但不管怎么说，这也确实是人生的一小段群体记忆吧。全部自己一个人DIY的记忆专业一起永泰青云山之旅～</p>
-<p>素材来源：图片来源于同学和自己借的相机，视频来源于与自己的手机。</p>
-<embed src="http://player.youku.com/player.php/sid/XMjU5MDIxNjg4/v.swf" allowfullscreen="true" quality="high" width="100%" height="460" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">]]></content>
-    <summary type="html">
-    <![CDATA[<p>有些东西，一切尽在不言中吧，现在看看貌似有点沉长。但不管怎么说，这也确实是人生的一小段群体记忆吧。全部自己一个人DIY的记忆专业一起永泰青云山之旅～</p>
-<p>素材来源：图片来源于同学和自己借的相机，视频来源于与自己的手机。</p>
-<embed src="http:/]]>
-    </summary>
-    
-      <category term="游玩" scheme="http://blog.imruxin.com/tags/%E6%B8%B8%E7%8E%A9/"/>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hi，大家好啊！]]></title>
-    <link href="http://blog.imruxin.com/diary/hi-everyone.html"/>
-    <id>http://blog.imruxin.com/diary/hi-everyone.html</id>
-    <published>2011-10-30T13:00:00.000Z</published>
-    <updated>2016-01-08T03:31:06.000Z</updated>
-    <content type="html"><![CDATA[<p>首先，欢迎并感谢你访问博客网站的第一篇文章。</p>
-<p>正常情况下，我觉得你至少是个感性的人。</p>
-<p>或者换句话说，你的情感至少不会是贫瘠的，应该是个爱生活情感丰富的性情中人。</p>
-<p>其次，这篇文章存在的意义更多的是纪念的意思。</p>
-<p>写博客的习惯是始于大学期间，当初写博客的原因有两个，一个是自我疗伤，另一个是简单的记录自己。早期写博客主要是在QQ空间、网易博客、百度博客，后来想要一个属于自己专属的独立空间，于是乎就开始接触独立博客了。</p>
-<p>独立博客最早的时候，是在二零一一年的九月份，用的是TK免费域名（huangruxing.tk）+asp空间。我最早的个人网站，其实就是一个背景图加几行文字的纯静态的html。之后发现了那个相对还不错的三蛋免费空间（www.000webhost.com），也用了一段时间，理性的说还是不错的。但是毕竟服务器是在国外，所以带来了一个不足那就是有时候访问略慢。不过作为一个免费的空间而言，很显然我是给予正面评价的，至少比那些国内的好多了。</p>
-<p>再然后我就去淘宝买了一个便宜的空间（asp+access），再然后就在godday上买了现在的这个域名（imruxin.com），再就玩起了wordpress，中途又换成了typecho（用了大约一年多），再又回到了wordpress，然后wordpress稍微被冷落而转移到了简书，再然后现在又重新回到了基于Hexo生成采用Markdown语法写的静态博客了。</p>
-<p>从2011年九月到现在的2016年，这几年的时间让我对很多的人事物都有了新的想法。早期认识的一批独立博客博主，现在大部分都销声匿迹了，很多的网站域名也早已失效了。我这几年应该算是没有中断过写作的，但是写作频率也确实是高低不一，还有至少博客网站没长时间断过。</p>
-<p>而今，我又要重新扬帆起航了，重新回到写作当中。这几天也在重新整合过去自己码的文字和自己重新DIY自己的网站及主题。和之前相比，我不知道现在的我究竟变得怎样了，但是我确定自己依然是保持初心的。</p>
-<p class="text-orange"><strong>人生若只如初见，何事秋风悲画扇。人生何必如初见，但求相看两不厌。</strong></p>
-
-<p>经过了一些事，经过了一些人，越是到现在，其实我的生活向往只会是越简单越纯粹，运动、阅读、旅行、公益、思考、写作，以及做自己喜欢或者有意义或者有趣的事情。</p>
-<p><img src="http://cdn-img.imruxin.com/blog/2016/01/xmmls.jpg" alt="" title="第二次厦门全程马拉松健康跑完赛"></p>
-<p class="img-desc">第二次厦门全程马拉松健康跑</p>
-
-<p>最后，其实今天也是我的农历生日，之后就将踏入人生的第28个年头了。对于之前的写过的博客，不再打算原样重现，而会选择旧文重写的方式呈现。链接会保持一致，但是也不可能会全部呈现。旧文会陆陆续续的更新中，欢迎之后继续逛逛，并留下你真诚的意见！接下去或许也会和个人微信公众号、简书、豆瓣等同步呈现吧。</p>
-<p>Renewed@20160107</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>首先，欢迎并感谢你访问博客网站的第一篇文章。</p>
-<p>正常情况下，我觉得你至少是个感性的人。</p>
-<p>或者换句话说，你的情感至少不会是贫瘠的，应该是个爱生活情感丰富的性情中人。</p>
-<p>其次，这篇文章存在的意义更多的是纪念的意思。</p>
-<p>写博客的习]]>
-    </summary>
-    
-      <category term="历史" scheme="http://blog.imruxin.com/tags/%E5%8E%86%E5%8F%B2/"/>
     
       <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
     
