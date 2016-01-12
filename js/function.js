@@ -71,7 +71,7 @@
       helloWord.innerHTML = helloWordText[6];
     }
     // 信息显示
-    document.getElementById("showTime").innerHTML = year + "年" + month + "月" + day + "日 " + week + h + ":" + m + ":" + s;
+    document.getElementById("showTime").innerHTML = year + "年" + month + "月" + day + "日 " + week + " " + h + ":" + m + ":" + s;
     t = setTimeout(showTime, 500);
   }
   showTime();
