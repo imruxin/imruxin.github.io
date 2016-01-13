@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="keywords" content="ruxin,imruxin,客家,思考,阅读,记录,旅行,前端,移动互联网,App">
+  <meta name="description" content="I am Ruxin, Make a better life and just do it. | Ruxin·s Personal Website | Meet new and Make a better life | UED、Front-End、PM、UI/UX | 发现生活·遇见自己 ">
+  <meta name="google-site-verification" content="Vu3g6eNpkXegClTTY348d3lQD8_VIf8SBWWdPd1CRXU">
+  
+  <title>浅谈布局的前世今生及发展 | Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己</title>
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.min.css" type="text/css">
+  <!--[if lt IE 9]>
+    <p class="tac"><strong style="color:#ff8000">您的浏览器版本过低（IE8及以下），为了您的安全及获得更好的功能体验，强烈建议升级您的浏览器。建议使用最新版的浏览器，推荐<a href="http://www.google.cn/chrome/" targer="_blank">Chrome浏览器</a></strong></p>
+  <![endif]-->
+</head>
+<body>
+
+
+  <!-- header -->
+<header id="header" class="header">
+  <menu class="w auto">
+    <div class="index-nav">
+      <a href="/" class="logo" title="logo"><img class="vam" src="/images/logo.png"></a>
+      <span class="site-desc">发现生活 <i class="icon-emo-happy"></i> 遇见自己</span>
+    </div>
+    <nav class="nav-right">
+      <ul>
+        <li><a href="/categories/diary" title="Diary">Diary</a></li>
+        <li><a href="/categories/update" title="Observe|Thinking|Recording">Update</a></li>
+        <li><a href="/categories/ued" title="User Experience Design">UED</a></li>
+        <li><a href="/categories/develop" title="Front-End|iOS|App">Develop</a></li>
+        <li><a href="https://github.com/imruxin/front-end-study-collect" title="Resource" targer="_blank">Resource</a></li>
+        <li><a href="/about" title="About">About</a></li>
+      </ul>
+    </nav>
+  </menu>
+</header>
+<header class="m-header">
+  <div class="m-menu">
+    <a class="menu-toggle" href="javascript:void(0);"><i class="icon-menu"></i></a>
+  </div>
+  <ul class="menu-list dn fix">
+    <li><a href="/categories/diary" title="Diary">Diary</a></li>
+    <li><a href="/categories/update" title="Observe|Thinking|Recording">Update</a></li>
+    <li><a href="/categories/ued" title="User Experience Design">UED</a></li>
+    <li><a href="/categories/develop" title="Front-End|iOS|App">Develop</a></li>
+    <li><a href="https://github.com/imruxin/front-end-study-collect" title="Resource" targer="_blank">Resource</a></li>
+    <li><a href="/about" title="About">About</a></li>
+  </ul>
+  <div class="index-nav">
+    <a href="/" class="logo" title="logo"><img class="vam" src="/images/logo.png"></a>
+    <a href="/" class="site-desc" title="发现生活·遇见自己">发现生活 <i class="icon-emo-happy"></i> 遇见自己</a>
+  </div>
+</header>
+<!-- /header -->
+
+    <!-- main content -->
+    <div class="main-wrap">
+      <!-- content -->
+      <main class="post">
+        
+  <article id="layout-history-and-grow" class="article article-detail article-type-post" itemscope itemprop="blogPost">
+    
+      <h2 class="article-tit"><a href="/ued/layout-history-and-grow.html" title="浅谈布局的前世今生及发展"><i class="icon-newspaper"></i>浅谈布局的前世今生及发展</a></h2>
+    
+    <div class="hd-info">
+      <span><i class="icon-clock"></i>2014-06-10</span>
+      <a class="article-category-link" href="/categories/ued/">ued</a>
+      
+        <span id="/ued/layout-history-and-grow.html" class="leancloud_visitors"  data-flag-title="浅谈布局的前世今生及发展"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
+          </span>
+      
+      <a class="comments-show" href="#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cijcgarzo0004f7coacwcuxsx" data-count-type="comments"></span></a>
+      <a class="read-more" id="go-comments" href="#comments">留言互动<i class="icon-angle-double-right"></i></a>
+    </div>
+    <div class="content" itemprop="articleBody">
+      <h2 id="u4E00_u3001_u56DE_u987E_u5E03_u5C40_u7684_u524D_u4E16_u4ECA_u751F"><a href="#u4E00_u3001_u56DE_u987E_u5E03_u5C40_u7684_u524D_u4E16_u4ECA_u751F" class="headerlink" title="一、回顾布局的前世今生"></a>一、回顾布局的前世今生</h2><p><a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html" title="世界上最早的网页" target="_blank" rel="external">http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html</a></p>
+<p>这是所谓的最早的网页的样子：从中我们可以看到，没有任何的css痕迹，完全就是一个纯html。这应该就是早期网页发展的雏形了。</p>
+<p>很早以前有看过资料，可惜的是我现在暂时找不到了。印象中，最早的网页用途是研究机构单纯的展示数据用的。展示数据用的方式选择了表格方式，因此很自然的先入为主从表格布局开始了所谓的布局生涯。在 Web 开发的早期阶段，布置网页的最常见方式就是使用表格。使用表格进行网页布局也很快成为了人们最早期的一种网页设计方法，在当时还比较落后的互联网背景下也曾大受欢迎。</p>
+<p>回顾过去，Table布局的优点是简单易用。然而缺点也很明显，比如：<br>&gt;<br>1、代码很容易臃肿，不管内容多少，你都要table、tr、td才能开始写内容。<br>2、页面内容和修饰没分离，语义不明，代码繁乱不利于修改。table顾名思义是表格、数据的意思，用在全局网站布局似乎也真的不合适。<br>3、 虽然Table在表现上有利有弊，但在越来越多可能性和变化性的web设计实现上已经显的力不从心了。 </p>
+<p>我们现在随便打开一个主流网站，看到的网站代码几乎都会是html（div）+css方式布局的。因为DIV是标准，是大势所趋。使用 CSS的标准布局，并不是简单地用div等元素代替table元素，而是要从根本上改变对页面的理解方式，达到结构和表现相分离。</p>
+<p>在当前的一些布局中，似乎大部分采用的还是固定宽度的布局方式。不过，传统的固定宽度布局方式也正在走向现代的自适应响应式布局方式。在走向现代的自适应响应式布局方式之前，我们可以来看看传统的以及现在依然正在进行时的一些布局方式的实现。</p>
+<blockquote>
+<p>在正式的开始传统布局实现之前，我们重新来梳理一些必要的基本知识：</p>
+<p><strong>Block element 块级元素 （块属性）</strong></p>
+<p>顾名思义就是以块显示的元素，高度宽度都是可以设置的。比如我们常用的div、h、p、ul默认状态下都是属于块级元素。块级元素比较霸道，默认状态下每次都占据一行，后面的内容也必须再新起一行显示。当然非块级元素也可以通过css的display:block;将其更改成块级元素。此外还有个特殊的，float也具有此功能。对应的有一个专业术语叫BFC（Block Formatting Context），可用于布局。</p>
+<p><strong>Inline element 内联元素 （行属性）</strong></p>
+<p>通俗点来说就是文本的显示方式，与块级元素相反，内联元素的高度宽度都是不可以设置的，其高宽度就是自身文字（可通过padding撑开）或者图片的宽度。我们常用到的a、span、em、img、input都属于内联元素。内联元素的显示特点就是像文本一样的显示，不会独自占据一个行。当然块级元素也能变成内联元素，那就是通过css的display:inline或者float来实现。对应的也有一个专业术语叫IFC（Inline Formatting Context），可用于布局。</p>
+</blockquote>
+<ul>
+<li>1、关于布局居中的问题(核心代码是什么，控制的本质是什么？)，居中又分水平居中和垂直居中。</li>
+</ul>
+<p>水平居中：</p>
+<p>正常情况下，人们常用的居中的代码似乎主要有这么几种：</p>
+<p>&gt;<br>1、text-align：center<br>2、margin-left：auto；margin-right：auto；width：xxx；<br>3、center标签 (不推荐，已被淘汰)<br>4、align：center；（非style，不推荐）</p>
+<p>通过这些基础的居中代码，我们来看看自适应的居中布局。似乎单纯的行属性是没法居中的，于是乎就有了常见的内联块布局方式。实现方法是把内联元素变成块元素（display:block）或者嵌套在块属性元素里(比如父级加个div、p什么的)，好像我们大部分都不知不觉的在用这种方式。</p>
+<p>还有常见的负边距布局。比如两列登高布局：关键点是父级要有<code>overflow:hidden</code>;然后两列都设置<code>padding-bottom:9999px;margin-top:-9999px;</code></p>
+<p>垂直居中：</p>
+<p>正常情况下，人们常用的居中代码也似乎主要有这么几种：</p>
+<p>1、line-height:xx;与外部标签盒子的高度设置一致，单行文字默认就是居中的。</p>
+<p>2、margin或padding设置</p>
+<p>大小不固定的图片和多行文字的垂直水平居中，我们直接来看张鑫旭的博客好了：</p>
+<p><a href="http://www.zhangxinxu.com/wordpress/?p=61" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=61</a><br><a href="http://www.zhangxinxu.com/study/200908/img-text-vertical-align.html" target="_blank" rel="external">http://www.zhangxinxu.com/study/200908/img-text-vertical-align.html</a></p>
+<h2 id="u4E8C_u3001_u76EE_u524D_u4E00_u4E9B_u4E3B_u6D41_u7684_u6846_u67B6"><a href="#u4E8C_u3001_u76EE_u524D_u4E00_u4E9B_u4E3B_u6D41_u7684_u6846_u67B6" class="headerlink" title="二、目前一些主流的框架"></a>二、目前一些主流的框架</h2><p>通常情况下，我们为了提高开发效率，所以总是会想有没有什么现成的框架可以直接使用？截至目前，因为进入前端的时间也不长，做的网站规模都比较小，所以我目前还没用过任何框架，但是一些热门框架的名称（比如bootstrap、foundation）却一直会出现在我的视野里。</p>
+<p>我本身不一定会用什么框架，但是框架背后的东西我很有兴趣。我们可以从框架中借鉴到什么有利于我们工作的东西？目录组织？css规范？运用方式？Hack及响应式的处理？</p>
+<p>假设，我要实现一个自适应的布局，你们会怎么做？会用到哪些关键的技术，css属性和js？我们现在一起来做一个自适应布局？</p>
+<p>就我个人而言，最后框架肯定是会有的，从各大主流框架中吸收自己要的然后重新组合成自己的框架。</p>
+<h2 id="u4E09_u3001_u5982_u4F55_u9009_u62E9_u5BF9_u5E94_u5E03_u5C40_u65B9_u5F0F_uFF0C_u5982_u4F55_u53D6_u820D_uFF0C_u73B0_u5728_u53C8_u6709_u4EC0_u4E48_u524D_u6CBF_u7684_u5E03_u5C40_u65B9_u5F0F"><a href="#u4E09_u3001_u5982_u4F55_u9009_u62E9_u5BF9_u5E94_u5E03_u5C40_u65B9_u5F0F_uFF0C_u5982_u4F55_u53D6_u820D_uFF0C_u73B0_u5728_u53C8_u6709_u4EC0_u4E48_u524D_u6CBF_u7684_u5E03_u5C40_u65B9_u5F0F" class="headerlink" title="三、如何选择对应布局方式，如何取舍，现在又有什么前沿的布局方式"></a>三、如何选择对应布局方式，如何取舍，现在又有什么前沿的布局方式</h2><p>现在很明显的随着3G/4G高速网络、wifi等的普及，手机、笔记本和一些移动终端设备的出现对传统的宽度固定布局提出了新的要求。</p>
+<p>所以，从「固定」到「自适应」或「响应式」：一种向移动端友好方向迈进的方式也必然要出现。</p>
+<p>固定宽度布局和自适应响应式布局，我们来一个简要的优缺点对比吧：</p>
+<p>1.优点<br>&gt;</p>
+<ul>
+<li>固定宽度布局更容易实现，在设计方面更容易定制。</li>
+<li>在所有浏览器中宽度一样，所以不会受到图片、表单、视频和其他固定宽度内容的麻烦。</li>
+<li>相对的兼容性好，所有浏览器都支持。</li>
+<li>小分辨率下，网页的主体内容仍然有足够的宽度易于阅读。</li>
+</ul>
+<p>2.缺点<br>&gt;</p>
+<ul>
+<li>对于使用高分辨率的用户，固定宽度布局会留下很大的空白。</li>
+<li>屏幕分辨率过小时会出现滚动条。</li>
+<li>无缝纹理，连续的图案需要适应更大的分辨率才能正常展示。</li>
+<li>固定宽度布局一般在可用性上得分较低，很显然的对移动设备支持不是很友好。</li>
+</ul>
+<p>作为个人我自然会偏向于自适应布局，但是不是绝对的说什么都要自适应布局才行。</p>
+<p>截至目前，Flexibox Box（弹性布局或者也说伸缩性布局）出现的字眼越来越频繁了，这似乎是一个趋势并正在走向主流。</p>
+<p>那么，什么是Flexibox Box？（一开始是box，然后是flexbox，现在最新版本的属性名称是flex。）</p>
+<p>简单的说，这是一个在css3中出现的新的布局属性。旨在提供一个更加有效的方式制定、调整和分布一个容器里的项目布局，即使他们的大小是未知或者是动态的。Flex布局主要思想是让容器有能力让其子项目能够改变其宽度、高度(甚至顺序)，以最佳方式填充可用空间（主要是为了适应所有类型的显示设备和屏幕大小）。</p>
+<p>为什么是Flex？</p>
+<p>我们知道移动端两大主流平台android和ios的浏览器都是webkit内核的，而webkit内核的浏览器对css3支持是最好的，也是走在前列的。</p>
+<p>一个在线生成flex布局框架的网站：<a href="http://flexiejs.com/playground" target="_blank" rel="external">http://flexiejs.com/playground</a></p>
+<p>详情：<a href="http://www.w3.org/TR/css3-flexbox" target="_blank" rel="external">http://www.w3.org/TR/css3-flexbox</a></p>
+<p>最后我们来看一下手机移动端的布局</p>
+<p>做过移动端网页的人应该会很熟悉跟这一行类似的标签：</p>
+<pre><code class="html"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0, user-scalable=no” &gt;</span></span>
+</code></pre>
+<p>其中：viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例为1.0，即网页初始大小占屏幕面积的100%，不允许用户缩放界面。</p>
+<p>当然，作为一种相对新生的事物，通常情况下自然也就只能作用在新生的浏览器上。不过其实还好，除去IE6、7、8，几乎其他的浏览器包括移动端都是支持这个设置的。</p>
+<p>网页的宽度高度可以自动调整后，那么接下来我们要面对的就是内容如何自适应了。要想实现自适应，我们要改变一些什么习惯或者有什么新的特性可以使用呢？</p>
+<p>一个很明显的特点的就是：单位的改变，改用相对的单位。比如：em、rem、%、px。其中图像自适应有一段神奇的代码，img{max-width:100%;height:auto;}</p>
+<p><strong>强烈推荐一个移动端资源的github：<a href="https://github.com/jtyjty99999/mobileTech" target="_blank" rel="external">https://github.com/jtyjty99999/mobileTech</a></strong></p>
+<p>一个东西再先进再强大，最终我们看的还是是否接地气。新技术可以无忧的全兼容的正常使用么？想太多了，那是只存在于理想国度。</p>
+<p>PS：</p>
+<p>这个是个人2014年6月在福建前端联盟交流会上的一些文字内容（厦门小鱼网提供场地）。</p>
+
+    </div>
+    
+    <div class="share ds-share flat" data-thread-key="cijcgarzo0004f7coacwcuxsx" data-title="浅谈布局的前世今生及发展" data-images="" data-content="一、回顾布局的前世今生http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html
+这是所谓的最早的网页的样子：" data-url="http://blog.imruxin.com/ued/layout-history-and-grow.html">
+      <div class="ds-share-inline">
+        <ul  class="ds-share-icons-16">
+          <li data-toggle="ds-share-icons-more"><span class="ds-more">分享到：</span></li>
+          <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+          <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+          <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+          <li> <a class="ds-youdao" href="javascript:void(0);" data-service="youdao">有道云笔记</a> </li>
+          <li> <a class="ds-twitter" href="javascript:void(0);" data-service="twitter">Twitter</a> </li>
+        </ul>
+      </div>
+   </div>
+    <div class="article-copyright">
+      <p><em>声明：</em>除非注明，否则文章均为原创，为了之后发现错误方便他人及时修正，转载请以链接形式标明本文地址。</p>
+      <p>本文链接：<a href="http://blog.imruxin.com/ued/layout-history-and-grow.html" title="浅谈布局的前世今生及发展">http://blog.imruxin.com/ued/layout-history-and-grow.html</a></p>
+    </div>
+    
+      
+<div class="article-nav fix">
+  
+    <a href="/diary/be-dumb-struck.html" id="article-nav-prev">
+      <i class="icon-left-open"></i>呆若木鸡
+    </a>
+  
+  
+    <a href="/ued/high-flow-css-dev.html" id="article-nav-next">
+        
+          浅谈高流量网站css开发的学习
+        
+      <i class="icon-right-open"></i>
+    </a>
+  
+</div>
+
+    
+  </article>
+  
+  <div class="comments-main" id="comments">
+    <div class="ds-thread" data-thread-key="cijcgarzo0004f7coacwcuxsx" data-title="浅谈布局的前世今生及发展" data-url="http://blog.imruxin.com/ued/layout-history-and-grow.html"></div>
+  </div>
+  
+
+      </main>
+      <!-- sidebar -->
+      <aside id="sidebar">
+  <div class="search-box">
+    <input class="input st-default-search-input" type="text" placeholder="输入关键字Enter键搜索">
+    <button class="input-btn" type="submit"><i class="icon-search"></i></button>
+  </div>
+
+  <div class="widget aside-contant">
+    <a href="http://weibo.com/1918164631" title="新浪微博" target="_blank"><i class="icon-weibo"></i></a>
+    <a id="wechat-link" href="javascript:void(0);" title="微信公众号：meetnew"><i class="icon-wechat"></i><img class="wechat-img" src="http://ruxin.u.qiniudn.com/index/meetnew-qrcode.jpg"></a>
+    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=nP-o5eb07uTc6vXssu3tsv-z8Q" title="邮件联系,广告勿扰" target="_blank"><i class="icon-mail"></i></a>
+    <a href="https://github.com/imruxin" title="Github" target="_blank"><i class="icon-github"></i></a>
+    <a href="https://twitter.com/imruxin" title="需翻墙，不定时逛逛" target="_blank"><i class="icon-twitter"></i></a><a href="http://photo.imruxin.com/" title="Photos，让图片说话" target="_blank"><i class="icon-camera"></i></a>
+  </div>
+
+  <div class="widget aside-notice">
+    <p class="notice-text"><span id="helloWord"></span> 现在是：<span id="showTime"></span> <span id="tipsWord"></span> 博客旧文会陆陆续续的补充。</p>
+    <p class="marqueeTextCopy"></p>
+  </div>
+
+  <div class="widget aside-donate fix">
+    <h3 class="widget-tit">打赏鼓励</h3>
+    <div class="donate-chose">
+      <p>支付宝</p>
+      <img src="/images/pay-zfb.jpg" alt="支付宝赠我一杯茶">
+    </div>
+    <div class="donate-chose">
+      <p>微信(wechat)</p>
+      <img src="/images/pay-wechat.jpg" alt="微信赠我一杯咖啡">
+    </div>
+    <p class="pay-desc">二维码扫扫，赠我一杯咖啡。</p>
+  </div>
+
+  <div class="widget aside-hot-article">
+    <h3 class="widget-tit">热评文章</h3>
+    <ul  class="ds-top-threads" data-range="monthly" data-num-items="8"></ul>
+  </div>
+
+  
+    
+  <div class="widget aside-archive">
+    <h3 class="widget-tit">文章归档</h3>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">2015年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015年03月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">2015年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">2014年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">2014年11月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">2014年10月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">2014年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">2014年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">2014年07月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">2014年06月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">2014年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">2014年04月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">2014年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">2014年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">2014年01月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">2013年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">2013年10月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">2013年09月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">2013年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">2013年07月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">2013年05月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">2013年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">2013年03月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">2013年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/01/">2013年01月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">2012年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/08/">2012年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/07/">2012年07月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">2012年06月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">2012年05月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">2012年04月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">2012年03月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">2012年02月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">2011年12月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">2011年11月</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">2011年10月</a><span class="archive-list-count">1</span></li></ul>
+  </div>
+
+
+  
+    
+  <div class="widget aside-tags">
+    <h3 class="widget-tit">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/css3/" style="font-size: 16px;">css3</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/grunt/" style="font-size: 10px;">grunt</a> <a href="/tags/gulp/" style="font-size: 10px;">gulp</a> <a href="/tags/scss/" style="font-size: 10px;">scss</a> <a href="/tags/seo/" style="font-size: 10px;">seo</a> <a href="/tags/teamwork/" style="font-size: 10px;">teamwork</a> <a href="/tags/ued/" style="font-size: 10px;">ued</a> <a href="/tags/人生/" style="font-size: 10px;">人生</a> <a href="/tags/公益/" style="font-size: 12px;">公益</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/历史/" style="font-size: 10px;">历史</a> <a href="/tags/婚姻/" style="font-size: 12px;">婚姻</a> <a href="/tags/孤独/" style="font-size: 10px;">孤独</a> <a href="/tags/安全/" style="font-size: 10px;">安全</a> <a href="/tags/工作/" style="font-size: 12px;">工作</a> <a href="/tags/布局/" style="font-size: 10px;">布局</a> <a href="/tags/总结/" style="font-size: 18px;">总结</a> <a href="/tags/恋爱/" style="font-size: 10px;">恋爱</a> <a href="/tags/旅行/" style="font-size: 12px;">旅行</a> <a href="/tags/未来/" style="font-size: 14px;">未来</a> <a href="/tags/游玩/" style="font-size: 10px;">游玩</a> <a href="/tags/爱情/" style="font-size: 10px;">爱情</a> <a href="/tags/生活/" style="font-size: 12px;">生活</a> <a href="/tags/知乎/" style="font-size: 10px;">知乎</a> <a href="/tags/考研/" style="font-size: 10px;">考研</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a> <a href="/tags/青春/" style="font-size: 12px;">青春</a>
+    </div>
+  </div>
+
+
+  
+
+  <div class="widget aside-visitors">
+    <h3 class="widget-tit">最近访客</h3>
+    <ul class="ds-recent-visitors"></ul>
+  </div>
+
+</aside>
+
+    </div>
+    <!-- end main content -->
+
+<!-- footer -->
+<footer class="footer">
+  <address>
+    <span>&copy; 2011-2016 <a href="http://www.imruxin.com" title="Ruxin·s Personal Website | 随便写写，记录点滴生活 | UED、Front-End、PM、UI/UX" target="_blank">imruxin</a> .
+    <a href="sitemap.xml" title="sitemap" target="_blank">Sitemap</a> . <a href="atom.xml" title="RSS" target="_blank">RSS</a> . Theme by imruxin . <a href="http://www.miitbeian.gov.cn/" title="闽ICP备15011150号" target="_blank">闽ICP备15011150号</a>
+    </span>
+    <span class="dn"><script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9c1bc1461bafa49a47cc967c5a16c1fb' type='text/javascript'%3E%3C/script%3E"));
+    </script></span>
+    <p>Powered by <a href="//hexo.io/" target="_blank" title="Hexo">Hexo</a> & <a href="https://portal.qiniu.com/signup?code=3laa10i20xlci" target="_blank" title="七牛">七牛</a> & <a href="https://github.com/" target="_blank" title="Github">Github</a> & <a href="https://gitcafe.com/" target="_blank" title="Gitcafe">Gitcafe</a></p>
+  </address>
+</footer>
+<!-- 返回顶部 -->
+<div id="backtop">
+  <a href="#" class="backtop"></a>
+</div>
+<div class="mask-full dn"></div>
+
+<!-- jQuery load -->
+<script src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
+<!-- 多说评论开始 -->
+
+<script type="text/javascript">
+var duoshuoQuery = {short_name: "imruxin" };
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+
+<!-- 多说评论结束 -->
+
+<script src="/js/blazy.min.js" type="text/javascript"></script>
+<script src="/js/function.min.js" type="text/javascript"></script>
+
+
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
+  <script>
+    function showViews(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var times = item.get('times');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(times);
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("times");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('times'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("times", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else {
+        showViews(Counter);
+      }
+    });
+  </script>
+
+
+
+
+<!-- swift_search -->
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+  _st('install','KG5xuZWjUwzZJDEL-u3t','2.0.0');
+</script>
+
+
+<!-- Google Analytics -->
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-53923132-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>
