@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.imruxin.com/front-end-study-collect/index.html</loc>
+    <lastmod>2016-01-14T06:12:00.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.imruxin.com/develop/javascript-data-type.html</loc>
     <lastmod>2016-01-14T02:31:46.000Z</lastmod>
   </url>
