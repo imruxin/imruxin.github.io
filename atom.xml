@@ -88,6 +88,103 @@
   </entry>
   
   <entry>
+    <title><![CDATA[javascript中的数据类型]]></title>
+    <link href="http://blog.imruxin.com/develop/javascript-data-type.html"/>
+    <id>http://blog.imruxin.com/develop/javascript-data-type.html</id>
+    <published>2015-04-20T12:03:10.000Z</published>
+    <updated>2016-01-14T02:31:46.000Z</updated>
+    <content type="html"><![CDATA[<p>我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。</p>
+<p>首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么而来的？</p>
+<p>在定义数据类型及分类的时候，我想我们肯定要考虑到所有的数据类型。之所以要考虑到所有的数据类型，大概是出于安全性和严谨性的考虑，而分类则是根据使用频率或者功能来的。当然了数据类型定义好了，也不是你想怎么用就可以任性的怎么用的，还是需要遵照一些规则来的。</p>
+<p>Number（数字）类型是几乎任何语言都要有的一种基本类型，也是使用频率非常高的一种常规数据类型。对于这种类型，我们通常要知道的就是数字的范围以及比较吧？</p>
+<p>String（字符串）类型</p>
+<p>PS：</p>
+<p>未完待续</p>
+<p><strong>参考及延伸资料：</strong></p>
+<ul>
+<li><a href="http://web.jobbole.com/26859/" target="_blank" rel="external">JavaScript: 数据类型</a></li>
+<li><a href="http://web.jobbole.com/24329/" target="_blank" rel="external">了解 JavaScript 中的内置对象</a></li>
+<li><a href="http://www.cnblogs.com/ziyunfei/archive/2012/10/11/2717057.html" target="_blank" rel="external">JavaScript:如何判断值的类型</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着]]>
+    </summary>
+    
+      <category term="javascript" scheme="http://blog.imruxin.com/tags/javascript/"/>
+    
+      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[javascript中的预定义]]></title>
+    <link href="http://blog.imruxin.com/develop/javascript-predefine.html"/>
+    <id>http://blog.imruxin.com/develop/javascript-predefine.html</id>
+    <published>2015-04-16T12:03:10.000Z</published>
+    <updated>2016-01-14T02:30:58.000Z</updated>
+    <content type="html"><![CDATA[<p>按照常理说，设计一门计算机语言的话肯定是要考虑这门语言的用途、场景以及逻辑和安全性等等。而且创建语言本身的目的就是用来给别人用的，所以为了让开发人员更好的使用这门语言，那么每一门语言必然都会有一些预置的和预定义的东西以及对应的规则和使用方法。</p>
+<p><strong>javascript是一门动态语言，那么在javascript的世界里，我们该怎么去更好的学习和理解这门语言的特性呢？欢迎前辈以及大神们指导</strong></p>
+<p>PS:对于这门语言的历史、用途以及其他非语言本身的东西我们就略过了。具体的内容可以直接翻阅百度百科吧：<a href="http://baike.baidu.com/view/16168.htm" target="_blank" rel="external">javascript</a></p>
+<p>让你设计一门语言，你是怎么考虑怎么安排的，你又是根据什么线路来架设这门语言的？</p>
+<p>一门语言最开始设计的时候，我想必然要考虑的就是一个整体架构了，然后根据架构不断的填充对应的内容和完善不足之处，同时还要考虑性能和安全问题。那么javascript的架构是怎么样的呢？如果让你来重新设计，你所考虑的是什么？着陆点又是什么？然后又该如何打通这门语言的连贯性，要预置哪些类型的数据、方法以及模型呢？同时预置的类型方法模型是否合理是否足够是否必须呢？然后又是根据什么得出的呢？又有更好的方式么？</p>
+<p>还有其实我们应该也都很清楚，凡是都是相对的，并不是预置的东西越多越方便，而且东西多了也容易杂乱和不方便记忆学习呀。然后我们现在是带着思考去学习javascript的角色，而不是以创造这门语言的角色去学习。源码的东西我们无法看到，所以就带着思考暂且理顺下这门语言的架构和学习如何更好的去使用这门语言吧。</p>
+<p>似乎我们接触一门语言最新进入我们视野的除了那些历史简介概要外，就是一些最原始的数据定义类型了吧？</p>
+<p>在javascript的世界里，一共定义了5种基本的数据类型和一种复杂的数据类型。5种基本的数据类型分别是常规但又无法省略的String（字符串/指针）、Number（数字）、Boolean（布尔）、Undefined（未定义）、Null（空值），而所谓复杂的数据类型就是Object（对象）了。</p>
+<p>至于为什么是这五种类型以及它们之间有什么关系则留在下一篇来思考了（类似具体内容展开的都会有一篇专门的文章来学习思考，这里暂且就不详细展开了）。在定义好了这些基本的数据类型后，很自然的我们接下去要做的就是如何利用这门语言的语法规则去操作这些数据了。</p>
+<p>那么问题也就来了，为了实现我们想要的一些效果javascript本身又预置了哪些语法规则，同时又有一些什么我们必须要了解的概念和要知道的常规用法呢？</p>
+<p>作为一门计算机领域里的语言，事实上和其他的计算机语言必然会有一些近似或者相通的部分的，而且很多的逻辑也是近似的。比如常规的语法、表达式、运算符几乎都会有近似的影子，甚至是一样的规则。</p>
+<p>在计算机语言的世界里，对于数据的使用，第一步就是所谓的赋值吧。javascript是区分大小写的，ta的赋值有一个关键字<code>var</code>，当然你也许会问不用那个<code>var</code>关键字可以么，那么这其实就牵扯出了javascript中的一个重要的作用域的概念了。</p>
+<p>赋值结束后就是如何应用这些数据了吧。应用数据这块可就真的太广了，比如数据的的传递、转换、再赋值、运算、判断、处理、储存、复用以及清除等等都是需要深入理解和学习的。比如javascript和很多语言一样，会有if-else、switch-case、while、do-while、for、for-in等循环语句，以及还有continue、break、return、setInterval/setTimeout等继续/跳转/终止/定时等的语句。还会有几乎一样规则的运算符法则。</p>
+<p>在javascript的数据应用中，其实包含了不少重要的概念，包括this、原型、继承、对象、作用域、闭包等等这些经常会看到且必须要搞定的概念。在数据应用中除去简单的类型外，也还有数组等这些复杂的类型和数据处理，以及还有正则表达式等等。</p>
+<p>javascript数据本身的操作结束后，那么用什么形式和什么方法与外界通信呢？这个则就涉及到事件了，还有ajax、json等这些与浏览器或者服务器交互的方式方法了。javascript预置的事件还是挺多的，所以后面也需要按照的一定的顺序来梳理一遍吧。</p>
+<p>然后如何保证数据传输的安全和效率以及准确性，这些则又包含了javascript对DOM、BOM等的操作以及javascript本身的安全机制以及对事件处理还有兼容性处理的学习了。具体的则DOM可以细化成选择器（getElementById、getElementByName、querySelector等等）、CSS操作（className、style等等）、属性操作（offsetHeight、offsetWidth等等）等等；BOM可以细化为常用事件（onload、onclick等等）、常用方法（window.open、document.write等）、常用属性（clinetWidth、clinetHeight）等等。</p>
+<p>截至目前，我们所说的其实都只是我们主观在操作的，那么在操作的过程中我们必然也是会遇到一些问题的。所以问题又来了，我们怎么去排查以及怎么借助一些工具去排查错误呢？比如常规的用<code>alert()</code>或者<code>console.log()</code>等方式。</p>
+<p>最后的最后，写着写着就变成了这样了，跟自己的预期算是有点出入吧。原本我是打算把那些预置的东西都进行一个归纳整理的，不过发现内容有点多而且有些也不确定具体到哪个级别才算是合适。</p>
+<p>然后接下去的一篇，则很自然的就是javascript数据类型的思考与学习了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>按照常理说，设计一门计算机语言的话肯定是要考虑这门语言的用途、场景以及逻辑和安全性等等。而且创建语言本身的目的就是用来给别人用的，所以为了让开发人员更好的使用这门语言，那么每一门语言必然都会有一些预置的和预定义的东西以及对应的规则和使用方法。</p>
+<p><strong>]]>
+    </summary>
+    
+      <category term="javascript" scheme="http://blog.imruxin.com/tags/javascript/"/>
+    
+      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[javascript的重新学习]]></title>
+    <link href="http://blog.imruxin.com/diary/javascript-study-again.html"/>
+    <id>http://blog.imruxin.com/diary/javascript-study-again.html</id>
+    <published>2015-04-16T07:03:10.000Z</published>
+    <updated>2016-01-14T02:29:33.000Z</updated>
+    <content type="html"><![CDATA[<p>在2014年其实也算是翻阅了不少jQuery/javascript的资料，不过都不是很深，或者是看后时间一长就又有点模糊了。截至目前，对于很多的学习都是自己一个人在进行着，可能速度上和进度上不懂会不会略慢。不过一个人自学就自学吧，反正中学时代就开始了以自己自学为主的生涯。而且更重要的是，刚好也可以借助自学重新梳理自己的逻辑和学习方法，以及怎么去思考一个问题和解决这个问题。</p>
+<p>现在重新学习一门语言，我会按照一定的套路开始而不是盲目的学习。那么<strong>对于javascript的学习，我不懂你们是怎么学习的，自己好像也大概有了一定的学习线路。不过如果有过来人看到了这篇文章的话，欢迎提供指导意见，个人也期待您的指导。</strong></p>
+<p>假设你会开发一门语言，那么你会怎么去设计这门语言呢？对于javascript而言，javascript语言是怎么被设计出来的？作者又是怎么组织着整个框架同时又要考虑哪些因素以及为什么要考虑这些因素？这些其实都挺值得玩味的。</p>
+<p>对于一门语言的学习，很显然第一步要问的就是为什么要学习这门语言以及这门语言能用来做什么？历史版本这东西，看了也忘，详细的也记不清，所以我现在就暂且不去看了。</p>
+<p>语言是用来给开发者用的，所以了解语言产生的背景以及语言使用的环境可以让人更能注意到这门语言与其他语言之间的异同吧。</p>
+<p>学习也总是要遵行一定的客观规律：从简单到复杂。学习最后应该要知其然更要知其所以然，然后举一反三触类旁通。那么接下去，梳理一下思绪和架构，结合思维导图按照一定的逻辑顺序重新学习一下javascript基础，然后ES6。然后再继续逐步深入一些框架、APP的学习。</p>
+<p><strong>这个学习会是一个系列，至于效果如何和知识本身的对错与否我不得而知。不过个人的学识毕竟有限，而且我本身也并不是一个专业的程序员。我希望通过这阶段对javascript的自学，把自己的思维重新整一遍同时检验一下自己的思考能力、逻辑能力以及自主学习的能力。如若这个系列中存在着什么错误的认知欢迎指出，以及如果你对一些知识点有更好的理解欢迎指导。我希望可以尊重知识本身而不是所谓的面子问题，所以欢迎拍砖。</strong></p>
+<p>PS：本博客存放于github上，使用hexo生成，基于markdown写作。</p>
+<p>附：</p>
+<ul>
+<li>如果说要考虑兼容性问题的话，我也只会考虑到IE8。</li>
+<li>JS-guide：<a href="https://github.com/imruxin/f2e-lib/tree/master/js-guide" target="_blank" rel="external">https://github.com/imruxin/f2e-lib/tree/master/js-guide</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在2014年其实也算是翻阅了不少jQuery/javascript的资料，不过都不是很深，或者是看后时间一长就又有点模糊了。截至目前，对于很多的学习都是自己一个人在进行着，可能速度上和进度上不懂会不会略慢。不过一个人自学就自学吧，反正中学时代就开始了以自己自学为主的生涯。而]]>
+    </summary>
+    
+      <category term="javascript" scheme="http://blog.imruxin.com/tags/javascript/"/>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[我所知道的网络帐号和网银安全相关的那些事]]></title>
     <link href="http://blog.imruxin.com/update/bank-and-accounts-safety.html"/>
     <id>http://blog.imruxin.com/update/bank-and-accounts-safety.html</id>
@@ -754,196 +851,6 @@
     </summary>
     
       <category term="scss" scheme="http://blog.imruxin.com/tags/scss/"/>
-    
-      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[工作与生活、态度与观念，以及上一阶段的工作小结]]></title>
-    <link href="http://blog.imruxin.com/diary/work-and-life-and-the-last-work-brief-summary.html"/>
-    <id>http://blog.imruxin.com/diary/work-and-life-and-the-last-work-brief-summary.html</id>
-    <published>2014-07-23T13:00:00.000Z</published>
-    <updated>2016-01-11T03:59:41.000Z</updated>
-    <content type="html"><![CDATA[<p>个人觉得，通常喜欢旅行并敢于说走就走的人应该都有过深入的思考工作与生活的关系。不断的阅历，不断的经历，不断的收获，不断的感受生活本身，不断的为美好生活而安静的努力和奋斗。</p>
-<p>生活本身才是核心所在，工作只是为了更好的生活，努力工作只是为了让生活来得更便利更自由。当然美好生活不会轻易的出现在你的世界里，在你过上美好生活之前，你还得先付出点什么或者说要先积累点什么。应该很少人会喜欢加班，我是不喜欢主动喝酒的。</p>
-<p>作为一个正常的人自然也讨厌一切阻碍自己生活的人事物。然而，阻碍是必然存在的，所以我的做法是允许阶段性的被xxoo，但如果是常态化的被xxoo，那我就不干了。实在不行，我惹不起还躲不起么。</p>
-<p>态度不一样了，观念和出发点不同了，那么收获的感受也就必然不一样。工作、生活、旅行，这三个东西似乎总是喜欢交织在一起，至少在我的世界里是这样的。曾经听闻过的一些经历，当再次听到有人在讲述时，感觉是不一样的，因为当再次听到的时候很容易让你去深入思考。这就很像读一本书，不断的重复去读同一本书时，这本书给人的感觉或许是不一样的。</p>
-<p>对于工作本身而言，理想与现实总是存在着差距的。当你想去把一些事情做好做完善的时候，你会发现这还真的不简单。当然，造成这个的因素有很多，不过认真的理顺一下后，其实无非也就那么些吧。比如：任务周期太短，文件频繁更改与规划分类不足，任务分配问题，技术经验不足的问题。其中技术经验不足这是一个硬伤，不过对于现在的我而言其实也还好了。</p>
-<p>我觉得除去工作内容本身外，一个非常重要的东西（我个人也倾向于把这个排在第一位）是：对待工作的态度以及个人的思想品质。不同的人对待同一件事情，必然有着不一样的态度。就比如加班而言，通常会出现这么几种情况：一种是，我坚决的拒绝一切的加班；一种是我允许加班，但前提是合理的阶段性的加班；一种是加班不加班无所谓；还有一种就是喜欢加班，感觉加班很充实甚至很有趣。当然，加班的态度跟个人所处的职业成长点以及是否有报酬有着巨大的关系。一个人有了强大的实力作为支撑，当然有资格可以拒绝一切的加班。加班是否有报酬，这对员工是否愿意加班以及工作情绪的影响有着巨大的关系。我不相信有人会心甘情愿的无报酬的长期加班，因为这明显就违反了人的本性。</p>
-<p>对于所谓的事业，自己目前一直是带着一个创业者的角色在打工的，同时以一个创业者的身份要求自己要多方面的学习，特别是情感心理和人力资源这块。父母是建议自己去自主创业的，可是我现在还有很多东西没摸着门路。当然有什么好项目也可以参股创业，只要出资资金是小于100W规模的就可以。</p>
-<p>当自己从大三开始陆续面临求职问题的时候，自己就会开始关注一些跟求职有关的微博以及一些信息。比如简历义工，秋叶，人力资源分享会，HR教你找工作网等等，其中还成为了一名HR教你找工作网的义工（需要经过两轮的线上面试，已经一年多了）。现在想想一些过去的成长，总是辛酸和收获并存着。</p>
-<p>不同的人不同的平台和不一样的环境总会有着不一样的感受。虽然自己的高考比较落魄，但是中学还是ok的。自己比较悲剧的比中学同学迟了两年出来工作，在自己的同班同学中，有一些人早已经年薪10W+了。有不少人是名牌大学毕业，比如清华，前十所高校等等，今年也有几个前十所大学的研究生同学也毕业了，通过这些人的信息以及与部分人的交流，自然而然也会懂得一些职业相关以及不同环境下的东西，而且他们给我的感觉多少还是有点不一样的。再比如自己进了福建前端联盟的这个平台后，通过和一些人的交流了解了其他公司以及厦门地区甚至全国地区前端的一些情况包括薪资等等，更重要的是确确实实扩大了自己工作的圈子了。还有一个更重要的是，认识了一些人后，我基本不在担心所谓的工作问题，至少现在要重新找一个不低于现在工资的工作，太轻松了。不过正常情况下我也不喜欢换来换去，没意思，更喜欢善始善终除非某些差距真的太大了。目前在前端联盟也分享过一次，虽然坦诚的说自己不满意，但好歹毕竟也是第一次。这里再次感谢鬼大送的大漠写的新书《图解css3》。</p>
-<p>人比人气死人，这话说的一点也不错，所以你需要的是如何客观的评估你自己，然后如何努力去奋斗去积累去改变去坚持去承受。工作的心态很重要，工作也的确存在机遇这一个算是运气的东西。</p>
-<p>在阶段性的苦逼日子里，你也得学会承受一些东西，包括一些不太适宜但也算正常的思想以及情绪抱怨等等。特别是有人对你说：你那么拼命干嘛，你工资那么低根本就没必要那样，主管加班加点是有分红的，而你又有什么。别人轻轻松松的不加班的收入和你这么苦逼的加班的收人不都是一样么；趁着BOSS不在的时候，各种抱怨，各种诉说，什么打算离职，要求加薪等等。</p>
-<p>其实工作的态度确实有很多种，就看你怎么看，就看你站在什么角度看，对待事物的看法应该是从多角度出发的。</p>
-<p>某种意义上，这些客观现象也正好给自己提个醒，也更有利于自己去学习去验证。假如自己某一天开了公司或者做了某部门的leader后，你会怎么洞察员工的心理，怎么提高和优化工作流程以及工作效率，怎么更准确的看穿人的内心真实想法等等。同时怎么理性的去对待招聘、离职、忠诚度、加班等这些问题，比如笼统的说：正常情况下要遵行人事物的客观发展规律，发现问题的背后以及选择不逃避不退缩的解决问题，我想这才是ok的。再比如具体的说：加班这个问题。正常情况下没有任何人喜欢无偿的加班，除非公司是自己开的或者自己有股份分红什么的。那么怎么拟补加班的付出这是一个问题，是选择加薪？选择调休？其他的休闲娱乐方式或者福利补充？还是回到本质上来怎么提高工作的效率以及工作周期安排等等？具体情况具体分析，那么哪种或者哪几种又比较好呢？员工自己的态度又是什么？最后又会有什么结果呢？</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>个人觉得，通常喜欢旅行并敢于说走就走的人应该都有过深入的思考工作与生活的关系。不断的阅历，不断的经历，不断的收获，不断的感受生活本身，不断的为美好生活而安静的努力和奋斗。</p>
-<p>生活本身才是核心所在，工作只是为了更好的生活，努力工作只是为了让生活来得更便利更自由。当]]>
-    </summary>
-    
-      <category term="工作" scheme="http://blog.imruxin.com/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-      <category term="总结" scheme="http://blog.imruxin.com/tags/%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="生活" scheme="http://blog.imruxin.com/tags/%E7%94%9F%E6%B4%BB/"/>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[浅谈高流量网站css开发的学习]]></title>
-    <link href="http://blog.imruxin.com/ued/high-flow-css-dev.html"/>
-    <id>http://blog.imruxin.com/ued/high-flow-css-dev.html</id>
-    <published>2014-06-22T06:12:25.000Z</published>
-    <updated>2016-01-13T04:45:44.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="1_u3001_u6D41_u7A0B_u534F_u4F5C_u4E0E_u5FEB_u6377_u5DE5_u5177"><a href="#1_u3001_u6D41_u7A0B_u534F_u4F5C_u4E0E_u5FEB_u6377_u5DE5_u5177" class="headerlink" title="1、流程协作与快捷工具"></a>1、流程协作与快捷工具</h2><p>作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：</p>
-<ul>
-<li>一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；</li>
-<li>另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用。</li>
-</ul>
-<p>作为前端调试，经常更改代码是我们的特性，所以我们自然会想是否有一些自动化的或者一些比较高大上的方法来提高自己的效率。于是乎，koala和grunt/gulp这些自动化工具出现在了我们的视野。</p>
-<p>koala是一款国人开发的可以直接上手的简单易用的图形编译软件，官方网站是：<a href="http://koala-app.com" target="_blank" rel="external">http://koala-app.com</a> 支持Less、Sass、Compass、CoffeeScript。跨平台兼容windows、linux、mac。</p>
-<p>相比于考拉，命令行操作的grunt/gulp则显得比较复杂，当然功能也强大的多。</p>
-<p>做前端开发，如果有一款自己顺手的编辑器，那么敲起代码来就会非常的爽。常见的一些编辑器，比如：Editplus，vim、WebStorm、Aptana、Brackets、Sublime Text etc，不需要去纠结哪一款编辑器好，关键是自己熟悉了习惯了就好了。</p>
-<p>我目前主要用的就是sublime text，主要用ST+emmet（+snippets）。</p>
-<ul>
-<li>emmet的官方网站是这个：<a href="http://docs.emmet.io" target="_blank" rel="external">http://docs.emmet.io</a></li>
-<li>sublime插件网站：<a href="https://sublime.wbond.net" target="_blank" rel="external">https://sublime.wbond.net</a></li>
-</ul>
-<h2 id="2_u3001css_u6027_u80FD_u4E0E_u6548_u7387"><a href="#2_u3001css_u6027_u80FD_u4E0E_u6548_u7387" class="headerlink" title="2、css性能与效率"></a>2、css性能与效率</h2><p>1.所谓的格式指导标准：<br><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml" target="_blank" rel="external">http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml</a><br>（关键在于内部的约定俗成吧。简约，语义话。语言是写给机器读的，但是也写给人看的，因为往往也需要协作。）</p>
-<p>2.权重与特殊性:!important、hack</p>
-<p>css是有权重的。四种选择器：ID、class、 tag和通用符的渲染速度差不多就是从快到慢的。</p>
-<p>一般情况下，优先级如下：</p>
-<figure class="highlight delphi"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">External</span> style sheet（外部样式）&lt; Internal style sheet（内部样式）&lt; <span class="keyword">Inline</span> style（内联样式）</span><br></pre></td></tr></table></figure>
-<p>选择器的优先权，确切的说应该是权重值，如：<br>&gt;</p>
-<ul>
-<li>1、内联样式表的权值最高 1000</li>
-<li>2、ID选择器的权值为 100</li>
-<li>3、Class类选择器的权值为 10</li>
-<li>4、HTML标签选择器的权值为 1</li>
-</ul>
-<p>早期的IE（其实现在可以不管了吧）：一个style标记只有前31次@import指令有效应用，一个css文件只有前31次@import指令有效应用，一个CSS文件的大小不能超过288kb。</p>
-<p><strong>防御式css和脆弱的css</strong></p>
-<p>防止被简单的覆盖：加前缀、合理命名、多重组合、增加权重</p>
-<p>注意了：css引擎查找样式表，对每条规则都按从右到左的顺序去匹配。（从上到下，从右到左）</p>
-<h2 id="3-_u6846_u67B6_u4E0E_u6574_u5408"><a href="#3-_u6846_u67B6_u4E0E_u6574_u5408" class="headerlink" title="3.框架与整合"></a>3.框架与整合</h2><p>个人因为工作时间不长，所以到目前为止其实还没有用过任何框架，很多框架也仅限于了解认识，并未实战。</p>
-<p>重置（reset.css、normalize.css）和检测（<a href="http://caniuse.com" target="_blank" rel="external">http://caniuse.com</a>、modernizr.js）</p>
-<p>对于框架什么的，必然是有选择的选取，而不是盲目的照搬。</p>
-<p>CSS的组织或者说布局方式，比如：OOCSS（面向对象的css）</p>
-<ul>
-<li>精简高效的CSS命名准则/方法：<a href="http://www.zhangxinxu.com/wordpress/?p=1098" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1098</a></li>
-<li>去除冗余 – 精简您的CSS样式代码：<a href="http://www.zhangxinxu.com/wordpress/?p=629" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=629</a></li>
-<li>CSS页面重构之“门派”之分：<a href="http://www.zhangxinxu.com/wordpress/?p=1022" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1022</a></li>
-<li>CSS reset的重新审视 – 避免样式重置：<a href="http://www.zhangxinxu.com/wordpress/?p=758" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=758</a></li>
-<li>CSS样式分离之再分离：<a href="http://www.zhangxinxu.com/wordpress/?p=916" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=916</a></li>
-</ul>
-<h2 id="4-_u6027_u80FD_u53CA_u52A8_u6001css"><a href="#4-_u6027_u80FD_u53CA_u52A8_u6001css" class="headerlink" title="4.性能及动态css"></a>4.性能及动态css</h2><p>不推荐@import方式导入外部样式表</p>
-<p>title之后，header之前关于SEO的考虑。还有对图片不能缺少alt的属性等。</p>
-<p>css图片合并，比如sprit的合理使用，记住是合理而不是必须。</p>
-<p>单位（px、em、%、rem等），理论上固定单位效率比相对单位高，因为像em、%等这样的单位浏览器还要执行计算和换算。</p>
-<p>预编译工具的使用和图片压缩：less、sass，图片压缩（ie6png）。</p>
-<p>PS:</p>
-<p>其实可学习css的网站多了去了，网站链接里也整了有些个人感觉还不错的网站，有兴趣可以翻翻。</p>
-<p>延伸阅读：</p>
-<ul>
-<li><a href="http://justineo.github.io/slideshows/creating-stylesheets/" target="_blank" rel="external">Creating Style Sheets</a></li>
-<li><a href="http://perfectionkills.com/profiling-css-for-fun-and-profit-optimization-notes/" target="_blank" rel="external">Profiling CSS for fun and profit</a></li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="1_u3001_u6D41_u7A0B_u534F_u4F5C_u4E0E_u5FEB_u6377_u5DE5_u5177"><a href="#1_u3001_u6D41_u7A0B_u534F_u4F5C_u4E0E_u5FEB_u6377_u5DE5_u51]]>
-    </summary>
-    
-      <category term="css3" scheme="http://blog.imruxin.com/tags/css3/"/>
-    
-      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[浅谈布局的前世今生及发展]]></title>
-    <link href="http://blog.imruxin.com/ued/layout-history-and-grow.html"/>
-    <id>http://blog.imruxin.com/ued/layout-history-and-grow.html</id>
-    <published>2014-06-10T06:12:25.000Z</published>
-    <updated>2016-01-13T06:22:47.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="u4E00_u3001_u56DE_u987E_u5E03_u5C40_u7684_u524D_u4E16_u4ECA_u751F"><a href="#u4E00_u3001_u56DE_u987E_u5E03_u5C40_u7684_u524D_u4E16_u4ECA_u751F" class="headerlink" title="一、回顾布局的前世今生"></a>一、回顾布局的前世今生</h2><p><a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html" title="世界上最早的网页" target="_blank" rel="external">http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html</a></p>
-<p>这是所谓的最早的网页的样子：从中我们可以看到，没有任何的css痕迹，完全就是一个纯html。这应该就是早期网页发展的雏形了。</p>
-<p>很早以前有看过资料，可惜的是我现在暂时找不到了。印象中，最早的网页用途是研究机构单纯的展示数据用的。展示数据用的方式选择了表格方式，因此很自然的先入为主从表格布局开始了所谓的布局生涯。在 Web 开发的早期阶段，布置网页的最常见方式就是使用表格。使用表格进行网页布局也很快成为了人们最早期的一种网页设计方法，在当时还比较落后的互联网背景下也曾大受欢迎。</p>
-<p>回顾过去，Table布局的优点是简单易用。然而缺点也很明显，比如：<br>&gt;<br>1、代码很容易臃肿，不管内容多少，你都要table、tr、td才能开始写内容。<br>2、页面内容和修饰没分离，语义不明，代码繁乱不利于修改。table顾名思义是表格、数据的意思，用在全局网站布局似乎也真的不合适。<br>3、 虽然Table在表现上有利有弊，但在越来越多可能性和变化性的web设计实现上已经显的力不从心了。 </p>
-<p>我们现在随便打开一个主流网站，看到的网站代码几乎都会是html（div）+css方式布局的。因为DIV是标准，是大势所趋。使用 CSS的标准布局，并不是简单地用div等元素代替table元素，而是要从根本上改变对页面的理解方式，达到结构和表现相分离。</p>
-<p>在当前的一些布局中，似乎大部分采用的还是固定宽度的布局方式。不过，传统的固定宽度布局方式也正在走向现代的自适应响应式布局方式。在走向现代的自适应响应式布局方式之前，我们可以来看看传统的以及现在依然正在进行时的一些布局方式的实现。</p>
-<blockquote>
-<p>在正式的开始传统布局实现之前，我们重新来梳理一些必要的基本知识：</p>
-<p><strong>Block element 块级元素 （块属性）</strong></p>
-<p>顾名思义就是以块显示的元素，高度宽度都是可以设置的。比如我们常用的div、h、p、ul默认状态下都是属于块级元素。块级元素比较霸道，默认状态下每次都占据一行，后面的内容也必须再新起一行显示。当然非块级元素也可以通过css的display:block;将其更改成块级元素。此外还有个特殊的，float也具有此功能。对应的有一个专业术语叫BFC（Block Formatting Context），可用于布局。</p>
-<p><strong>Inline element 内联元素 （行属性）</strong></p>
-<p>通俗点来说就是文本的显示方式，与块级元素相反，内联元素的高度宽度都是不可以设置的，其高宽度就是自身文字（可通过padding撑开）或者图片的宽度。我们常用到的a、span、em、img、input都属于内联元素。内联元素的显示特点就是像文本一样的显示，不会独自占据一个行。当然块级元素也能变成内联元素，那就是通过css的display:inline或者float来实现。对应的也有一个专业术语叫IFC（Inline Formatting Context），可用于布局。</p>
-</blockquote>
-<ul>
-<li>1、关于布局居中的问题(核心代码是什么，控制的本质是什么？)，居中又分水平居中和垂直居中。</li>
-</ul>
-<p>水平居中：</p>
-<p>正常情况下，人们常用的居中的代码似乎主要有这么几种：</p>
-<p>&gt;<br>1、text-align：center<br>2、margin-left：auto；margin-right：auto；width：xxx；<br>3、center标签 (不推荐，已被淘汰)<br>4、align：center；（非style，不推荐）</p>
-<p>通过这些基础的居中代码，我们来看看自适应的居中布局。似乎单纯的行属性是没法居中的，于是乎就有了常见的内联块布局方式。实现方法是把内联元素变成块元素（display:block）或者嵌套在块属性元素里(比如父级加个div、p什么的)，好像我们大部分都不知不觉的在用这种方式。</p>
-<p>还有常见的负边距布局。比如两列登高布局：关键点是父级要有<code>overflow:hidden</code>;然后两列都设置<code>padding-bottom:9999px;margin-top:-9999px;</code></p>
-<p>垂直居中：</p>
-<p>正常情况下，人们常用的居中代码也似乎主要有这么几种：</p>
-<p>1、line-height:xx;与外部标签盒子的高度设置一致，单行文字默认就是居中的。</p>
-<p>2、margin或padding设置</p>
-<p>大小不固定的图片和多行文字的垂直水平居中，我们直接来看张鑫旭的博客好了：</p>
-<p><a href="http://www.zhangxinxu.com/wordpress/?p=61" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=61</a><br><a href="http://www.zhangxinxu.com/study/200908/img-text-vertical-align.html" target="_blank" rel="external">http://www.zhangxinxu.com/study/200908/img-text-vertical-align.html</a></p>
-<h2 id="u4E8C_u3001_u76EE_u524D_u4E00_u4E9B_u4E3B_u6D41_u7684_u6846_u67B6"><a href="#u4E8C_u3001_u76EE_u524D_u4E00_u4E9B_u4E3B_u6D41_u7684_u6846_u67B6" class="headerlink" title="二、目前一些主流的框架"></a>二、目前一些主流的框架</h2><p>通常情况下，我们为了提高开发效率，所以总是会想有没有什么现成的框架可以直接使用？截至目前，因为进入前端的时间也不长，做的网站规模都比较小，所以我目前还没用过任何框架，但是一些热门框架的名称（比如bootstrap、foundation）却一直会出现在我的视野里。</p>
-<p>我本身不一定会用什么框架，但是框架背后的东西我很有兴趣。我们可以从框架中借鉴到什么有利于我们工作的东西？目录组织？css规范？运用方式？Hack及响应式的处理？</p>
-<p>假设，我要实现一个自适应的布局，你们会怎么做？会用到哪些关键的技术，css属性和js？我们现在一起来做一个自适应布局？</p>
-<p>就我个人而言，最后框架肯定是会有的，从各大主流框架中吸收自己要的然后重新组合成自己的框架。</p>
-<h2 id="u4E09_u3001_u5982_u4F55_u9009_u62E9_u5BF9_u5E94_u5E03_u5C40_u65B9_u5F0F_uFF0C_u5982_u4F55_u53D6_u820D_uFF0C_u73B0_u5728_u53C8_u6709_u4EC0_u4E48_u524D_u6CBF_u7684_u5E03_u5C40_u65B9_u5F0F"><a href="#u4E09_u3001_u5982_u4F55_u9009_u62E9_u5BF9_u5E94_u5E03_u5C40_u65B9_u5F0F_uFF0C_u5982_u4F55_u53D6_u820D_uFF0C_u73B0_u5728_u53C8_u6709_u4EC0_u4E48_u524D_u6CBF_u7684_u5E03_u5C40_u65B9_u5F0F" class="headerlink" title="三、如何选择对应布局方式，如何取舍，现在又有什么前沿的布局方式"></a>三、如何选择对应布局方式，如何取舍，现在又有什么前沿的布局方式</h2><p>现在很明显的随着3G/4G高速网络、wifi等的普及，手机、笔记本和一些移动终端设备的出现对传统的宽度固定布局提出了新的要求。</p>
-<p>所以，从「固定」到「自适应」或「响应式」：一种向移动端友好方向迈进的方式也必然要出现。</p>
-<p>固定宽度布局和自适应响应式布局，我们来一个简要的优缺点对比吧：</p>
-<p>1.优点<br>&gt;</p>
-<ul>
-<li>固定宽度布局更容易实现，在设计方面更容易定制。</li>
-<li>在所有浏览器中宽度一样，所以不会受到图片、表单、视频和其他固定宽度内容的麻烦。</li>
-<li>相对的兼容性好，所有浏览器都支持。</li>
-<li>小分辨率下，网页的主体内容仍然有足够的宽度易于阅读。</li>
-</ul>
-<p>2.缺点<br>&gt;</p>
-<ul>
-<li>对于使用高分辨率的用户，固定宽度布局会留下很大的空白。</li>
-<li>屏幕分辨率过小时会出现滚动条。</li>
-<li>无缝纹理，连续的图案需要适应更大的分辨率才能正常展示。</li>
-<li>固定宽度布局一般在可用性上得分较低，很显然的对移动设备支持不是很友好。</li>
-</ul>
-<p>作为个人我自然会偏向于自适应布局，但是不是绝对的说什么都要自适应布局才行。</p>
-<p>截至目前，Flexibox Box（弹性布局或者也说伸缩性布局）出现的字眼越来越频繁了，这似乎是一个趋势并正在走向主流。</p>
-<p>那么，什么是Flexibox Box？（一开始是box，然后是flexbox，现在最新版本的属性名称是flex。）</p>
-<p>简单的说，这是一个在css3中出现的新的布局属性。旨在提供一个更加有效的方式制定、调整和分布一个容器里的项目布局，即使他们的大小是未知或者是动态的。Flex布局主要思想是让容器有能力让其子项目能够改变其宽度、高度(甚至顺序)，以最佳方式填充可用空间（主要是为了适应所有类型的显示设备和屏幕大小）。</p>
-<p>为什么是Flex？</p>
-<p>我们知道移动端两大主流平台android和ios的浏览器都是webkit内核的，而webkit内核的浏览器对css3支持是最好的，也是走在前列的。</p>
-<p>一个在线生成flex布局框架的网站：<a href="http://flexiejs.com/playground" target="_blank" rel="external">http://flexiejs.com/playground</a></p>
-<p>详情：<a href="http://www.w3.org/TR/css3-flexbox" target="_blank" rel="external">http://www.w3.org/TR/css3-flexbox</a></p>
-<p>最后我们来看一下手机移动端的布局</p>
-<p>做过移动端网页的人应该会很熟悉跟这一行类似的标签：</p>
-<pre><code class="html"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0, user-scalable=no” &gt;</span></span>
-</code></pre>
-<p>其中：viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例为1.0，即网页初始大小占屏幕面积的100%，不允许用户缩放界面。</p>
-<p>当然，作为一种相对新生的事物，通常情况下自然也就只能作用在新生的浏览器上。不过其实还好，除去IE6、7、8，几乎其他的浏览器包括移动端都是支持这个设置的。</p>
-<p>网页的宽度高度可以自动调整后，那么接下来我们要面对的就是内容如何自适应了。要想实现自适应，我们要改变一些什么习惯或者有什么新的特性可以使用呢？</p>
-<p>一个很明显的特点的就是：单位的改变，改用相对的单位。比如：em、rem、%、px。其中图像自适应有一段神奇的代码，img{max-width:100%;height:auto;}</p>
-<p><strong>强烈推荐一个移动端资源的github：<a href="https://github.com/jtyjty99999/mobileTech" target="_blank" rel="external">https://github.com/jtyjty99999/mobileTech</a></strong></p>
-<p>一个东西再先进再强大，最终我们看的还是是否接地气。新技术可以无忧的全兼容的正常使用么？想太多了，那是只存在于理想国度。</p>
-<p>PS：</p>
-<p>这个是个人2014年6月在福建前端联盟交流会上的一些文字内容（厦门小鱼网提供场地）。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="u4E00_u3001_u56DE_u987E_u5E03_u5C40_u7684_u524D_u4E16_u4ECA_u751F"><a href="#u4E00_u3001_u56DE_u987E_u5E03_u5C40_u7684_u524D_u4E16_u]]>
-    </summary>
-    
-      <category term="布局" scheme="http://blog.imruxin.com/tags/%E5%B8%83%E5%B1%80/"/>
     
       <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
     
