@@ -1,6 +1,6 @@
 (function($) {
 
-	// back to top
+  // back to top
   ;(function() {
     $("#backtop").hide();
     $(window).scroll(function() {
@@ -80,10 +80,10 @@
   // 文字向左无缝滚动
   function marqueeTextLeft() {
 
-  	var marqueeObj = document.querySelector('.aside-notice');
+    var marqueeObj = document.querySelector('.aside-notice');
     var marqueeText = document.querySelector('.notice-text');
     var marqueeTextCopy = document.querySelector('.marqueeTextCopy');
-	  var scrollSpeed = 50;
+    var scrollSpeed = 50;
     marqueeTextCopy.innerHTML = marqueeText.innerHTML;
     // 滚动效果生成代码
     function textScrollLeft() {
@@ -128,6 +128,25 @@
     $('.menu-list,.mask-full').toggleClass('dn');
     $('body').toggleClass('ovh');
   });
+
+
+  // return homepage
+  var error404 = $('.content').find('#error-404').length;
+  if (error404) {
+    var toNewUrl = setInterval(jumpUrl, 1000);
+    function jumpUrl() {
+      var jumpEle = $("#jumpGoHomeSeconds"), // 包裹数字的对象标签，直接获取标签中的数字
+          num = parseInt(jumpEle.text());
+      --num;
+      jumpEle.text(num);
+      if (num == 0) {
+          window.location.href = "/";
+          clearInterval(toNewUrl);
+      };
+    }
+  }
+
+
 
 
 
