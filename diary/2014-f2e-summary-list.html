@@ -1,106 +1,415 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-siteapp">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="keywords" content="ruxin,imruxin,客家,思考,阅读,记录,旅行,前端,移动互联网,App">
-  <meta name="description" content="I am Ruxin, Make a better life and just do it. | Ruxin·s Personal Website | Meet new and Make a better life | UED、Front-End、PM、UI/UX | 发现生活·遇见自己 ">
-  <meta name="google-site-verification" content="Vu3g6eNpkXegClTTY348d3lQD8_VIf8SBWWdPd1CRXU">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <title>2014年在前端中遇到的那些问题 | Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己</title>
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
   
   
-    <link rel="icon" href="/favicon.ico">
   
-  <link rel="stylesheet" href="/css/style.min.css" type="text/css">
-  <!--[if lt IE 9]>
-    <p class="tac"><strong style="color:#ff8000">您的浏览器版本过低（IE8及以下），为了您的安全及获得更好的功能体验，强烈建议升级您的浏览器。建议使用最新版的浏览器，推荐<a href="http://www.google.cn/chrome/" targer="_blank">Chrome浏览器</a></strong></p>
-  <![endif]-->
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.useso.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="总结," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下半年小做了一段时间设计+切图的工作。
+在2014年大部分的时间里，其实几乎都是处于忙碌或者加班状态的（年初的二月三月以及年末2015春节前最后两三个月相对清闲了）。因为公司是创业型公司（我是从另一家公">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2014年在前端中遇到的那些问题">
+<meta property="og:url" content="http://blog.imruxin.com/diary/2014-f2e-summary-list.html">
+<meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
+<meta property="og:description" content="2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下半年小做了一段时间设计+切图的工作。
+在2014年大部分的时间里，其实几乎都是处于忙碌或者加班状态的（年初的二月三月以及年末2015春节前最后两三个月相对清闲了）。因为公司是创业型公司（我是从另一家公">
+<meta property="og:updated_time" content="2016-01-08T07:08:18.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2014年在前端中遇到的那些问题">
+<meta name="twitter:description" content="2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下半年小做了一段时间设计+切图的工作。
+在2014年大部分的时间里，其实几乎都是处于忙碌或者加班状态的（年初的二月三月以及年末2015春节前最后两三个月相对清闲了）。因为公司是创业型公司（我是从另一家公">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 8509733,
+      author: '作者'
+    }
+  };
+</script>
+
+  <title> 2014年在前端中遇到的那些问题 | Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己 </title>
 </head>
-<body>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
 
 
-  <!-- header -->
-<header id="header" class="header">
-  <menu class="w auto">
-    <div class="index-nav">
-      <a href="/" class="logo" title="logo"><img class="vam" src="/images/logo.png"></a>
-      <span class="site-desc">发现生活 <i class="icon-emo-happy"></i> 遇见自己</span>
-    </div>
-    <nav class="nav-right">
-      <ul>
-        <li><a href="/categories/diary" title="Diary">Diary</a></li>
-        <li><a href="/categories/update" title="Observe|Thinking|Recording">Update</a></li>
-        <li><a href="/categories/ued" title="User Experience Design">UED</a></li>
-        <li><a href="/categories/develop" title="Front-End|iOS|App">Develop</a></li>
-        <li><a href="https://github.com/imruxin/front-end-study-collect" title="Resource" targer="_blank">Resource</a></li>
-        <li><a href="/about" title="About">About</a></li>
-      </ul>
-    </nav>
-  </menu>
-</header>
-<header class="m-header">
-  <div class="m-menu">
-    <a class="menu-toggle" href="javascript:void(0);"><i class="icon-menu"></i></a>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53923132-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?9c1bc1461bafa49a47cc967c5a16c1fb";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Meet New</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
-  <ul class="menu-list dn fix">
-    <li><a href="/categories/diary" title="Diary">Diary</a></li>
-    <li><a href="/categories/update" title="Observe|Thinking|Recording">Update</a></li>
-    <li><a href="/categories/ued" title="User Experience Design">UED</a></li>
-    <li><a href="/categories/develop" title="Front-End|iOS|App">Develop</a></li>
-    <li><a href="https://github.com/imruxin/front-end-study-collect" title="Resource" targer="_blank">Resource</a></li>
-    <li><a href="/about" title="About">About</a></li>
-  </ul>
-  <div class="index-nav">
-    <a href="/" class="logo" title="logo"><img class="vam" src="/images/logo.png"></a>
-    <a href="/" class="site-desc" title="发现生活·遇见自己">发现生活 <i class="icon-emo-happy"></i> 遇见自己</a>
-  </div>
-</header>
-<!-- /header -->
+  <p class="site-subtitle"></p>
+</div>
 
-    <!-- main content -->
-    <div class="main-wrap">
-      <!-- content -->
-      <main class="post">
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
         
-  <article id="2014-f2e-summary-list" class="article article-detail article-type-post" itemscope itemprop="blogPost">
-    
-      <h2 class="article-tit"><a href="/diary/2014-f2e-summary-list.html" title="2014年在前端中遇到的那些问题"><i class="icon-newspaper"></i>2014年在前端中遇到的那些问题</a></h2>
-    
-    <div class="hd-info">
-      <span><i class="icon-clock"></i>2015-02-10</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
       
-        <span id="/diary/2014-f2e-summary-list.html" class="leancloud_visitors"  data-flag-title="2014年在前端中遇到的那些问题"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
       
-      <a class="comments-show" href="#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvsa008o2pcolgmgqi8z" data-count-type="comments"></span></a>
-      <a class="read-more" id="go-comments" href="#comments">留言互动<i class="icon-angle-double-right"></i></a>
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
     </div>
-    <div class="content" itemprop="articleBody">
-      <p>2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下半年小做了一段时间设计+切图的工作。</p>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                2014年在前端中遇到的那些问题
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-02-10T10:03:10+08:00" content="2015-02-10">
+              2015-02-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/2014-f2e-summary-list.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/2014-f2e-summary-list.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/2014-f2e-summary-list.html" class="leancloud_visitors" data-flag-title="2014年在前端中遇到的那些问题">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下半年小做了一段时间设计+切图的工作。</p>
 <p>在2014年大部分的时间里，其实几乎都是处于忙碌或者加班状态的（年初的二月三月以及年末2015春节前最后两三个月相对清闲了）。因为公司是创业型公司（我是从另一家公司（同个老板）转岗到这公司的），所以之前没有任何可用的产品，一切的页面和功能都是从零开始的。</p>
 <p>这里抛开公司管理、文化和工作流程等其他因素，单纯的说说过去一年切图中遇到的问题吧（公司目前就我一个前端，中途有来一个，后来又撤了）。</p>
 <p>四月份最开始的页面其实真的很简单，只要PC端（之后也开始PC+Mobile两种版本），然后没涉及到太多的布局和js效果（实际上是jQuery/zepto，最初简单的几版还会考虑到IE6，之后就只到IE8了，下同）。早期可能是过去切图不算多和不熟练的原因，所以拿到一个PSD稿后，似乎也还是要花上个一天的时候。不过随着熟练，后面就快速多了。使用的编辑工具是Sublime text3以及四月底借了点钱下单了一台中配的RMBP。2014年中的时候开始改用sass和grunt自动化工具，之后又改用gulp并一直用到现在。</p>
 <p>以上的其实都是扯蛋，那么接下去的才是正文。</p>
-<h3 id="u4E00_u3001_u524D_u7AEF_u5F00_u53D1_u9047_u5230_u7684_u7B2C_u4E00_u4E2A_u95EE_u9898_uFF0C_u5C31_u662F_u5E03_u5C40_u7684_u9009_u62E9_u4E86_u3002"><a href="#u4E00_u3001_u524D_u7AEF_u5F00_u53D1_u9047_u5230_u7684_u7B2C_u4E00_u4E2A_u95EE_u9898_uFF0C_u5C31_u662F_u5E03_u5C40_u7684_u9009_u62E9_u4E86_u3002" class="headerlink" title="一、前端开发遇到的第一个问题，就是布局的选择了。"></a>一、前端开发遇到的第一个问题，就是布局的选择了。</h3><p>固定宽度还是自适应还是响应式？理论上，网页能自动根据页面大小而适配那是最好的，但是这背后也要包含时间和开发以及测试成本和产品本身生命周期的问题。然后，最后还是选择了一个动态范围：一开始的主题内容是1280px～1000px，到后面就变成了1200px～960px。</p>
+<h3 id="一、前端开发遇到的第一个问题，就是布局的选择了。"><a href="#一、前端开发遇到的第一个问题，就是布局的选择了。" class="headerlink" title="一、前端开发遇到的第一个问题，就是布局的选择了。"></a>一、前端开发遇到的第一个问题，就是布局的选择了。</h3><p>固定宽度还是自适应还是响应式？理论上，网页能自动根据页面大小而适配那是最好的，但是这背后也要包含时间和开发以及测试成本和产品本身生命周期的问题。然后，最后还是选择了一个动态范围：一开始的主题内容是1280px～1000px，到后面就变成了1200px～960px。</p>
 <p>关于这个问题，刚开始也有看过一些其他电商网站或者兄弟公司的网站，发现这个问题是没有标准答案的。然后会分成固定宽度和非固定宽度两大阵营，而非固定宽度也只是一个大概的范围。</p>
 <p>那么在非固定宽度的网页制作中，根据个人实际工作的反馈，发现比较不好适配的就是首页内容要铺满整屏的这种。因为这个其实跟设计本身也有很大的关系，而且浏览器内容展示窗口的大小和比例还真是挺多的。所以网页内容的显示也只能说是照顾绝大部分的人而不是照顾所有的人。额外吐槽下，关于自适应页面，产品设计还有我大家都没什么经验，所以这个导致了曾经有一段比较苦逼的岁月。</p>
 <p>网页内容要怎么自适应？自适应的分段点？适配的主要分辨率？怎么考虑显示和隐藏内容的切换或者变动，浏览器本身有一些什么限制（比如webkit内核浏览器的最小字体限制了12px）么等等，这些都是需要UEDer考虑的问题。</p>
-<h3 id="u4E8C_u3001_u4F4E_u7248_u672C_u6D4F_u89C8_u5668_u7684_u9002_u914D_u95EE_u9898_u3002"><a href="#u4E8C_u3001_u4F4E_u7248_u672C_u6D4F_u89C8_u5668_u7684_u9002_u914D_u95EE_u9898_u3002" class="headerlink" title="二、低版本浏览器的适配问题。"></a>二、低版本浏览器的适配问题。</h3><p>似乎曾经有一个传统的想法是：所有浏览器中展示的内容效果必须是一致的？然后前端开发人员就开始了各种苦逼的适配、cssHack、js兼容等等。</p>
+<h3 id="二、低版本浏览器的适配问题。"><a href="#二、低版本浏览器的适配问题。" class="headerlink" title="二、低版本浏览器的适配问题。"></a>二、低版本浏览器的适配问题。</h3><p>似乎曾经有一个传统的想法是：所有浏览器中展示的内容效果必须是一致的？然后前端开发人员就开始了各种苦逼的适配、cssHack、js兼容等等。</p>
 <p><strong>然后问题就来了？为什么所有的浏览器上内容效果一定要是一样的呢？</strong></p>
 <p>最后，大部分人出于性能、成本和维护等方面的考虑，开始出现了“优雅降级”“渐进增强”等的术语。宗旨是让现代浏览器获得最完美的体验，而那些老旧的浏览器则适当的忽略一些效果。这样的话就不要一堆额外的css或者js来适配那些老旧的浏览器，而加快开发速度和把时间花到正常功能的开发及维护上。</p>
 <p>就个人而言，我觉得普通企业适配到IE8就足矣了（传统的大型国企及事业单位则看具体情况吧）。</p>
-<h3 id="u4E09_u3001_u4EA7_u54C1_u8FED_u4EE3_u3001_u6A21_u5757_u5316_u7684_u95EE_u9898_u3002"><a href="#u4E09_u3001_u4EA7_u54C1_u8FED_u4EE3_u3001_u6A21_u5757_u5316_u7684_u95EE_u9898_u3002" class="headerlink" title="三、产品迭代、模块化的问题。"></a>三、产品迭代、模块化的问题。</h3><p>产品迭代这个是肯定是，但是产品策划营运人员如何和设计以及开发人员沟通协调，如果处理得不好这的确会是一个很大的问题。关于这个，其实有太多的吐槽了，不过当自己都经历过了一遍后，很多问题也就知道了。</p>
+<h3 id="三、产品迭代、模块化的问题。"><a href="#三、产品迭代、模块化的问题。" class="headerlink" title="三、产品迭代、模块化的问题。"></a>三、产品迭代、模块化的问题。</h3><p>产品迭代这个是肯定是，但是产品策划营运人员如何和设计以及开发人员沟通协调，如果处理得不好这的确会是一个很大的问题。关于这个，其实有太多的吐槽了，不过当自己都经历过了一遍后，很多问题也就知道了。</p>
 <p>通常而言，从长远来看，对于一个常规（除非是只有几个页面）的网站，都应该走模块化。html模块化、css模块化、js模块化，所以如果可以的话我们可以提取出近似或者可以不断复用的东西，然后再个性化的使用。</p>
 <p>模块化或者按功能或者按类别或者按使用频率来划分吧，然后结合sass/less或者requierjs/seajs等模块加载器来加载。当然划分中的细分程度，这个取决于当前网站规模和个人对规划的理解吧，好像是没有具体的参考标准的。</p>
-<h3 id="u56DB_u3001_u624B_u673A_u7AEF_u8981_u6CE8_u610F_u7684_u95EE_u9898_u3002"><a href="#u56DB_u3001_u624B_u673A_u7AEF_u8981_u6CE8_u610F_u7684_u95EE_u9898_u3002" class="headerlink" title="四、手机端要注意的问题。"></a>四、手机端要注意的问题。</h3><p>手机端要注意的问题，似乎相对的ios端的好像会多些，因为ios端的浏览器被预置的效果会多一些，比如圆形按钮、数字电话号码等。</p>
+<h3 id="四、手机端要注意的问题。"><a href="#四、手机端要注意的问题。" class="headerlink" title="四、手机端要注意的问题。"></a>四、手机端要注意的问题。</h3><p>手机端要注意的问题，似乎相对的ios端的好像会多些，因为ios端的浏览器被预置的效果会多一些，比如圆形按钮、数字电话号码等。</p>
 <p>这里有个专门收集移动端开发信息相关的github，资料还是非常多的：<a href="https://github.com/jtyjty99999/mobileTech" target="_blank" rel="external">https://github.com/jtyjty99999/mobileTech</a></p>
-<h3 id="u4E94_u3001_u56DE_u5230_u4EE3_u7801_u672C_u8EAB_uFF0C_u5C31_u662Fcss_u548Cjs_u672C_u8EAB_u7684_u517C_u5BB9_u6027_u4EE5_u53CA_u5C5E_u6027_u95EE_u9898_u4E86_u3002"><a href="#u4E94_u3001_u56DE_u5230_u4EE3_u7801_u672C_u8EAB_uFF0C_u5C31_u662Fcss_u548Cjs_u672C_u8EAB_u7684_u517C_u5BB9_u6027_u4EE5_u53CA_u5C5E_u6027_u95EE_u9898_u4E86_u3002" class="headerlink" title="五、回到代码本身，就是css和js本身的兼容性以及属性问题了。"></a>五、回到代码本身，就是css和js本身的兼容性以及属性问题了。</h3><p>其实这个就可以说是所谓的经验问题了，前端很容易入门，但是深入还是非易事的。对于css部分，感觉本身谈不上什么难度，也没涉及到什么逻辑问题，但是就是多，各种小问题不少。比如：你知道html、body本身是没有高度的么，所以你要用css实现首页铺满整个高度则需要：<code>html,body{ height: 100%;}</code>。你知道margin/padding等的百分百单位是以什么为参考对象的么？（都是基于宽度）你知道图片下方为什么会和容器有一定间隙么？（默认的baseline对齐问题）你知道经典的inline-block问题么？等等</p>
+<h3 id="五、回到代码本身，就是css和js本身的兼容性以及属性问题了。"><a href="#五、回到代码本身，就是css和js本身的兼容性以及属性问题了。" class="headerlink" title="五、回到代码本身，就是css和js本身的兼容性以及属性问题了。"></a>五、回到代码本身，就是css和js本身的兼容性以及属性问题了。</h3><p>其实这个就可以说是所谓的经验问题了，前端很容易入门，但是深入还是非易事的。对于css部分，感觉本身谈不上什么难度，也没涉及到什么逻辑问题，但是就是多，各种小问题不少。比如：你知道html、body本身是没有高度的么，所以你要用css实现首页铺满整个高度则需要：<code>html,body{ height: 100%;}</code>。你知道margin/padding等的百分百单位是以什么为参考对象的么？（都是基于宽度）你知道图片下方为什么会和容器有一定间隙么？（默认的baseline对齐问题）你知道经典的inline-block问题么？等等</p>
 <p>css这方面，张鑫旭、一丝一丝、飘零雾雨等还是比较厉害也写过一些文章的。比如：</p>
 <ul>
 <li><a href="http://www.zhangxinxu.com/wordpress/" target="_blank" rel="external">张鑫旭</a></li>
@@ -112,166 +421,559 @@
 <p>JS学习还未完成，因为中途被环境以及一些事情给中断了。2016年继续～</p>
 <p>Renewed @201601</p>
 
-    </div>
-    
-    <div class="share ds-share flat" data-thread-key="cio9gbvsa008o2pcolgmgqi8z" data-title="2014年在前端中遇到的那些问题" data-images="" data-content="2014年从2月11号就开始了年后的工作之旅，这个时间点对我而言最多只能算是一个前端（切图仔）新手吧。不过坦诚的说，我入前端的时间也确实不长，跨专业，然后最早的接触是因为学校学生会网络部，接着13年下" data-url="http://blog.imruxin.com/diary/2014-f2e-summary-list.html">
-      <div class="ds-share-inline">
-        <ul  class="ds-share-icons-16">
-          <li data-toggle="ds-share-icons-more"><span class="ds-more">分享到：</span></li>
-          <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-          <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-          <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-          <li> <a class="ds-youdao" href="javascript:void(0);" data-service="youdao">有道云笔记</a> </li>
-          <li> <a class="ds-twitter" href="javascript:void(0);" data-service="twitter">Twitter</a> </li>
-        </ul>
-      </div>
-   </div>
-    <div class="article-copyright">
-      <p><em>声明：</em>除非注明，否则文章均为原创，为了之后发现错误方便他人及时修正，转载请以链接形式标明本文地址。</p>
-      <p>本文链接：<a href="http://blog.imruxin.com/diary/2014-f2e-summary-list.html" title="2014年在前端中遇到的那些问题">http://blog.imruxin.com/diary/2014-f2e-summary-list.html</a></p>
-    </div>
-    
       
-<div class="article-nav fix">
-  
-    <a href="/diary/boys-and-girls-how-are-you-2014.html" id="article-nav-prev">
-      <i class="icon-left-open"></i>Hi,各位最近过的还好么？
-    </a>
-  
-  
-    <a href="/diary/record-thought-before-start-at-2015.html" id="article-nav-next">
+    </div>
+
+    <div>
+      
         
-          离开前，2015春节假期的一些想法记录
-        
-      <i class="icon-right-open"></i>
-    </a>
-  
+<div id="wechat_subscriber" style="display: block； padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="http://ruxin.u.qiniudn.com/meetnew-qrcode.jpg" alt="imruxin wechat" style="width: 200px; max-width: 100%;"/>
+    <div>扫一扫上面的微信公众号，我们微信上继续交流！</div>
 </div>
 
-    
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://blog.imruxin.com/images/pay-wechat.jpg" alt="imruxin WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://blog.imruxin.com/images/pay-zfb.jpg" alt="imruxin Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/总结/" rel="tag">#总结</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/diary/boys-and-girls-how-are-you-2014.html" rel="next" title="Hi,各位最近过的还好么？">
+                <i class="fa fa-chevron-left"></i> Hi,各位最近过的还好么？
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/diary/record-thought-before-start-at-2015.html" rel="prev" title="离开前，2015春节假期的一些想法记录">
+                离开前，2015春节假期的一些想法记录 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
-  
-  <div class="comments-main" id="comments">
-    <div class="ds-thread" data-thread-key="cio9gbvsa008o2pcolgmgqi8z" data-title="2014年在前端中遇到的那些问题" data-url="http://blog.imruxin.com/diary/2014-f2e-summary-list.html"></div>
-  </div>
-  
-
-      </main>
-      <!-- sidebar -->
-      <aside id="sidebar">
-  <div class="search-box">
-    <input class="input st-default-search-input" type="text" placeholder="输入关键字Enter键搜索">
-    <button class="input-btn" type="submit"><i class="icon-search"></i></button>
-  </div>
-
-  <div class="widget aside-contant">
-    <a href="http://weibo.com/1918164631" title="新浪微博" target="_blank"><i class="icon-weibo"></i></a>
-    <a id="wechat-link" href="javascript:void(0);" title="微信公众号：meetnew"><i class="icon-wechat"></i><img class="wechat-img" src="http://ruxin.u.qiniudn.com/index/meetnew-qrcode.jpg"></a>
-    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=nP-o5eb07uTc6vXssu3tsv-z8Q" title="邮件联系,广告勿扰" target="_blank"><i class="icon-mail"></i></a>
-    <a href="https://github.com/imruxin" title="Github" target="_blank"><i class="icon-github"></i></a>
-    <a href="https://twitter.com/imruxin" title="需翻墙，不定时逛逛" target="_blank"><i class="icon-twitter"></i></a><a href="http://photo.imruxin.com/" title="Photos，让图片说话" target="_blank"><i class="icon-camera"></i></a>
-  </div>
-
-  <div class="widget aside-notice">
-    <p class="notice-text"><span id="helloWord"></span> 现在是：<span id="showTime"></span> <span id="tipsWord"></span> 重新扬帆起航，做一个纯粹的学习分享者。</p>
-    <p class="marqueeTextCopy"></p>
-  </div>
-
-  <div class="widget aside-donate fix">
-    <h3 class="widget-tit">打赏鼓励</h3>
-    <div class="donate-chose">
-      <p>支付宝</p>
-      <img src="/images/pay-zfb.jpg" alt="支付宝赠我一杯茶">
-    </div>
-    <div class="donate-chose">
-      <p>微信(wechat)</p>
-      <img src="/images/pay-wechat.jpg" alt="微信赠我一杯咖啡">
-    </div>
-    <p class="pay-desc">二维码扫扫，赠我一杯咖啡。</p>
-  </div>
-
-  <div class="widget aside-hot-article">
-    <h3 class="widget-tit">热评文章</h3>
-    <ul  class="ds-top-threads" data-range="monthly" data-num-items="8"></ul>
-  </div>
-
-  
-    
-  <div class="widget aside-archive">
-    <h3 class="widget-tit">文章归档</h3>
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016年02月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">2015年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015年03月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">2015年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">2014年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">2014年11月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">2014年10月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">2014年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">2014年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">2014年07月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">2014年06月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">2014年05月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">2014年04月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">2014年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">2014年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">2014年01月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">2013年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">2013年11月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">2013年10月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">2013年09月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">2013年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">2013年07月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">2013年06月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">2013年05月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">2013年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">2013年03月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">2013年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/01/">2013年01月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">2012年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/08/">2012年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/07/">2012年07月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">2012年06月</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">2012年05月</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">2012年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">2012年03月</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">2012年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">2012年01月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">2011年12月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">2011年11月</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">2011年10月</a><span class="archive-list-count">1</span></li></ul>
-  </div>
 
 
-  
-    
-  <div class="widget aside-tags">
-    <h3 class="widget-tit">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/css3/" style="font-size: 16px;">css3</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/grunt/" style="font-size: 10px;">grunt</a> <a href="/tags/gulp/" style="font-size: 10px;">gulp</a> <a href="/tags/head/" style="font-size: 10px;">head</a> <a href="/tags/javascript/" style="font-size: 14px;">javascript</a> <a href="/tags/meta/" style="font-size: 10px;">meta</a> <a href="/tags/scss/" style="font-size: 10px;">scss</a> <a href="/tags/seo/" style="font-size: 10px;">seo</a> <a href="/tags/teamwork/" style="font-size: 10px;">teamwork</a> <a href="/tags/ued/" style="font-size: 10px;">ued</a> <a href="/tags/人生/" style="font-size: 10px;">人生</a> <a href="/tags/公益/" style="font-size: 12px;">公益</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/历史/" style="font-size: 10px;">历史</a> <a href="/tags/厦图/" style="font-size: 10px;">厦图</a> <a href="/tags/喜欢/" style="font-size: 10px;">喜欢</a> <a href="/tags/婚姻/" style="font-size: 12px;">婚姻</a> <a href="/tags/孤独/" style="font-size: 10px;">孤独</a> <a href="/tags/安全/" style="font-size: 10px;">安全</a> <a href="/tags/工作/" style="font-size: 12px;">工作</a> <a href="/tags/布局/" style="font-size: 10px;">布局</a> <a href="/tags/总结/" style="font-size: 18px;">总结</a> <a href="/tags/恋爱/" style="font-size: 10px;">恋爱</a> <a href="/tags/情感/" style="font-size: 10px;">情感</a> <a href="/tags/效率/" style="font-size: 10px;">效率</a> <a href="/tags/旅行/" style="font-size: 12px;">旅行</a> <a href="/tags/未来/" style="font-size: 14px;">未来</a> <a href="/tags/游玩/" style="font-size: 10px;">游玩</a> <a href="/tags/爱情/" style="font-size: 12px;">爱情</a> <a href="/tags/生活/" style="font-size: 14px;">生活</a> <a href="/tags/知乎/" style="font-size: 10px;">知乎</a> <a href="/tags/考研/" style="font-size: 10px;">考研</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a> <a href="/tags/青春/" style="font-size: 12px;">青春</a>
+
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="diary/2014-f2e-summary-list.html"
+     data-title="2014年在前端中遇到的那些问题"
+     data-content=""
+     data-url="http://blog.imruxin.com/diary/2014-f2e-summary-list.html">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
     </div>
   </div>
-
-
-  
-
-  <div class="widget aside-visitors">
-    <h3 class="widget-tit">最近访客</h3>
-    <ul class="ds-recent-visitors"></ul>
-  </div>
-
-</aside>
-
-    </div>
-    <!-- end main content -->
-
-<!-- footer -->
-<footer class="footer">
-  <address>
-    <span>&copy; 2011-2016 <a href="http://www.imruxin.com" title="Ruxin·s Personal Website | 随便写写，记录点滴生活 | UED、Front-End、PM、UI/UX" target="_blank">imruxin</a> .
-    <a href="sitemap.xml" title="sitemap" target="_blank">Sitemap</a> . <a href="atom.xml" title="RSS" target="_blank">RSS</a> . Theme by imruxin . <a href="http://www.miitbeian.gov.cn/" title="闽ICP备15011150号" target="_blank">闽ICP备15011150号</a>
-    </span>
-    <span class="dn"><script type="text/javascript">
-    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9c1bc1461bafa49a47cc967c5a16c1fb' type='text/javascript'%3E%3C/script%3E"));
-    </script></span>
-    <p>Powered by <a href="//hexo.io/" target="_blank" title="Hexo">Hexo</a> & <a href="https://portal.qiniu.com/signup?code=3laa10i20xlci" target="_blank" title="七牛">七牛</a> & <a href="https://github.com/" target="_blank" title="Github">Github</a> & <a href="https://gitcafe.com/" target="_blank" title="Gitcafe">Gitcafe</a></p>
-  </address>
-</footer>
-<!-- 返回顶部 -->
-<div id="backtop">
-  <a href="#" class="backtop"></a>
 </div>
-<div class="mask-full dn"></div>
+      
+    </div>
+  </div>
 
-<!-- jQuery load -->
-<script src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
 
-<!-- 多说评论开始 -->
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="diary/2014-f2e-summary-list.html"
+           data-title="2014年在前端中遇到的那些问题" data-url="http://blog.imruxin.com/diary/2014-f2e-summary-list.html">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://www.imruxin.com/logo.jpg"
+               alt="imruxin" />
+          <p class="site-author-name" itemprop="name">imruxin</p>
+          <p class="site-description motion-element" itemprop="description">Make a better life and just do it. Meet new and Make a better life | 发现生活·遇见自己</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">104</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">36</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/imruxin" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/imruxin" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/ruxin520" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://github.com/imruxin/front-end-study-collect" title="前端资源汇总" target="_blank">前端资源汇总</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+          <div class="visitors-list">
+            <div class="visitors-list-title">最近访客</div>
+            <div class="ds-recent-visitors" data-num-items="25" data-avatar-size="34" id="ds-recent-visitors"></div>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、前端开发遇到的第一个问题，就是布局的选择了。"><span class="nav-number">1.</span> <span class="nav-text">一、前端开发遇到的第一个问题，就是布局的选择了。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、低版本浏览器的适配问题。"><span class="nav-number">2.</span> <span class="nav-text">二、低版本浏览器的适配问题。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、产品迭代、模块化的问题。"><span class="nav-number">3.</span> <span class="nav-text">三、产品迭代、模块化的问题。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、手机端要注意的问题。"><span class="nav-number">4.</span> <span class="nav-text">四、手机端要注意的问题。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、回到代码本身，就是css和js本身的兼容性以及属性问题了。"><span class="nav-number">5.</span> <span class="nav-text">五、回到代码本身，就是css和js本身的兼容性以及属性问题了。</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2016</span>
+  . <a href="sitemap.xml" title="sitemap" target="_blank">Sitemap</a>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <a href="http://www.imruxin.com" title="Ruxin·s Personal Website | 随便写写，记录点滴生活 | UED、Front-End、PM、UI/UX" target="_blank">imruxin</a>
+  . <a href="http://www.miitbeian.gov.cn/" title="闽ICP备15011150号" target="_blank">闽ICP备15011150号</a>
+</div>
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+   & <a href="https://portal.qiniu.com/signup?code=3laa10i20xlci" target="_blank" title="七牛">七牛</a> & <a href="https://github.com/" target="_blank" title="Github">Github</a> & <a href="https://coding.net" target="_blank" title="Coding">Coding</a>
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
 
 <script type="text/javascript">
-var duoshuoQuery = {short_name: "imruxin" };
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"imruxin"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
   </script>
 
-<!-- 多说评论结束 -->
+  
+    
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
+    
+  
 
-<script src="/js/blazy.min.js" type="text/javascript"></script>
-<script src="/js/function.min.js" type="text/javascript"></script>
 
 
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
   <script>
-    function showViews(Counter) {
+    function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -293,10 +995,10 @@ var duoshuoQuery = {short_name: "imruxin" };
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var times = item.get('times');
+            var time = item.get('time');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(times);
+            $(element).find(COUNT_CONTAINER_REF).text(time);
           }
         })
         .fail(function (object, error) {
@@ -316,11 +1018,11 @@ var duoshuoQuery = {short_name: "imruxin" };
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("times");
+            counter.increment("time");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('times'));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -328,13 +1030,19 @@ var duoshuoQuery = {short_name: "imruxin" };
             });
           } else {
             var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("times", 1);
+            newcounter.set("time", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -352,37 +1060,15 @@ var duoshuoQuery = {short_name: "imruxin" };
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else {
-        showViews(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
       }
     });
   </script>
 
 
 
-
-<!-- swift_search -->
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-  _st('install','KG5xuZWjUwzZJDEL-u3t','2.0.0');
-</script>
-
-
-<!-- Google Analytics -->
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-53923132-1', 'auto');
-ga('send', 'pageview');
-</script>
-
+  
 
 </body>
 </html>

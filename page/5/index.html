@@ -1,550 +1,2085 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-siteapp">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="keywords" content="ruxin,imruxin,客家,思考,阅读,记录,旅行,前端,移动互联网,App">
-  <meta name="description" content="I am Ruxin, Make a better life and just do it. | Ruxin·s Personal Website | Meet new and Make a better life | UED、Front-End、PM、UI/UX | 发现生活·遇见自己 ">
-  <meta name="google-site-verification" content="Vu3g6eNpkXegClTTY348d3lQD8_VIf8SBWWdPd1CRXU">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <title>Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己</title>
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
   
   
-    <link rel="icon" href="/favicon.ico">
   
-  <link rel="stylesheet" href="/css/style.min.css" type="text/css">
-  <!--[if lt IE 9]>
-    <p class="tac"><strong style="color:#ff8000">您的浏览器版本过低（IE8及以下），为了您的安全及获得更好的功能体验，强烈建议升级您的浏览器。建议使用最新版的浏览器，推荐<a href="http://www.google.cn/chrome/" targer="_blank">Chrome浏览器</a></strong></p>
-  <![endif]-->
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.useso.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="imruxin,前端,App,iOS,互联网,mobile" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="Make a better life and just do it. Meet new and Make a better life | 发现生活·遇见自己">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
+<meta property="og:url" content="http://blog.imruxin.com/page/5/index.html">
+<meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
+<meta property="og:description" content="Make a better life and just do it. Meet new and Make a better life | 发现生活·遇见自己">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
+<meta name="twitter:description" content="Make a better life and just do it. Meet new and Make a better life | 发现生活·遇见自己">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 8509733,
+      author: '作者'
+    }
+  };
+</script>
+
+  <title> Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己 </title>
 </head>
-<body>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
 
 
-  <!-- header -->
-<header id="header" class="header">
-  <menu class="w auto">
-    <div class="index-nav">
-      <a href="/" class="logo" title="logo"><img class="vam" src="/images/logo.png"></a>
-      <span class="site-desc">发现生活 <i class="icon-emo-happy"></i> 遇见自己</span>
-    </div>
-    <nav class="nav-right">
-      <ul>
-        <li><a href="/categories/diary" title="Diary">Diary</a></li>
-        <li><a href="/categories/update" title="Observe|Thinking|Recording">Update</a></li>
-        <li><a href="/categories/ued" title="User Experience Design">UED</a></li>
-        <li><a href="/categories/develop" title="Front-End|iOS|App">Develop</a></li>
-        <li><a href="https://github.com/imruxin/front-end-study-collect" title="Resource" targer="_blank">Resource</a></li>
-        <li><a href="/about" title="About">About</a></li>
-      </ul>
-    </nav>
-  </menu>
-</header>
-<header class="m-header">
-  <div class="m-menu">
-    <a class="menu-toggle" href="javascript:void(0);"><i class="icon-menu"></i></a>
-  </div>
-  <ul class="menu-list dn fix">
-    <li><a href="/categories/diary" title="Diary">Diary</a></li>
-    <li><a href="/categories/update" title="Observe|Thinking|Recording">Update</a></li>
-    <li><a href="/categories/ued" title="User Experience Design">UED</a></li>
-    <li><a href="/categories/develop" title="Front-End|iOS|App">Develop</a></li>
-    <li><a href="https://github.com/imruxin/front-end-study-collect" title="Resource" targer="_blank">Resource</a></li>
-    <li><a href="/about" title="About">About</a></li>
-  </ul>
-  <div class="index-nav">
-    <a href="/" class="logo" title="logo"><img class="vam" src="/images/logo.png"></a>
-    <a href="/" class="site-desc" title="发现生活·遇见自己">发现生活 <i class="icon-emo-happy"></i> 遇见自己</a>
-  </div>
-</header>
-<!-- /header -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53923132-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
-    <!-- main content -->
-    <div class="main-wrap">
-      <!-- content -->
-      <main class="post">
-        
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?9c1bc1461bafa49a47cc967c5a16c1fb";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
   
     
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html" class="title"><i class="icon-newspaper"></i>触碰自己很少关注的地方，然后思考并加以改善</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html">
-    
-  </a>
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Meet New</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
 </div>
 
-        <p class="article-excerpt">
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html" itemprop="url">
+                  触碰自己很少关注的地方，然后思考并加以改善
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2014-01-10T21:00:00+08:00" content="2014-01-10">
+              2014-01-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/touch-my-little-attention-and-then-thinking-and-improve.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/touch-my-little-attention-and-then-thinking-and-improve.html" class="leancloud_visitors" data-flag-title="触碰自己很少关注的地方，然后思考并加以改善">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           今天中午吃完饭后，我又坐上了公交来到了轮渡。
 小坐了一会儿后，接着就是六个多小时无目的的慢速的徒步行走。从轮渡码头徒步到中山路步行街到中山公园、动物园到火车站，线路是随机的。
 身体在行走，在相对的确保自己相对安全的前提下，眼睛却一直在看着手机屏幕。
-因为在公交车上的时候，根据某公共帐号的推荐意外的翻阅了一些关于生活关于两性情感方面的文章。然后，就不知不觉看了好几个小时。文章是层层递进，逐步...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2014-01-10</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+因为在公交车上的时候，根据某公共帐号的推荐意外的翻
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/touch-my-little-attention-and-then-thinking-and-improve.html" class="leancloud_visitors"  data-flag-title="触碰自己很少关注的地方，然后思考并加以改善"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvn1001b2pcojvmpoehx" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/touch-my-little-attention-and-then-thinking-and-improve.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/get-along-with-loneliness-and-talk-with-inner.html" class="title"><i class="icon-newspaper"></i>与孤独相处，和内心对话</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/get-along-with-loneliness-and-talk-with-inner.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/get-along-with-loneliness-and-talk-with-inner.html" itemprop="url">
+                  与孤独相处，和内心对话
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2014-01-09T21:00:00+08:00" content="2014-01-09">
+              2014-01-09
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/get-along-with-loneliness-and-talk-with-inner.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/get-along-with-loneliness-and-talk-with-inner.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/get-along-with-loneliness-and-talk-with-inner.html" class="leancloud_visitors" data-flag-title="与孤独相处，和内心对话">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           冥冥之中，似乎很快就会结束这相对孤独的岁月。
-趁着还是一个人的生活，所以尝试全方位的跟自己对话，体验和感受一个人内心最真实的孤独。尝试着触摸自己内心隐藏的孤独，看看自己孤独的时候会有些什么反映和什么想法，自己又是在什么情况下会非常难受等等。也许可以尝试着通过自己的感受和一些观察及思考，推己及人去分析一些人的内心世界及状态。
-在2013年的11、12月份，实际花了一个多月的时间梳理了一下自己...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2014-01-09</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+趁着还是一个人的生活，所以尝试全方位的跟自己对话，体验和感受一个人内心最真实的孤独。尝试着触摸自己内心隐藏的孤独，看看自己孤独的时候会有些什么反映和什么想法，自己又是在什么情况下会非常难受等等。也许可以尝试着通过自己的感受和一些观察及思考，推己及人去分析
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/get-along-with-loneliness-and-talk-with-inner.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/get-along-with-loneliness-and-talk-with-inner.html" class="leancloud_visitors"  data-flag-title="与孤独相处，和内心对话"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/get-along-with-loneliness-and-talk-with-inner.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvqz006d2pcof5w4boy6" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/get-along-with-loneliness-and-talk-with-inner.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/say-goodbye-to-2013-and-face-2014.html" class="title"><i class="icon-newspaper"></i>告别2013，致敬过去的二十四年</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/say-goodbye-to-2013-and-face-2014.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/say-goodbye-to-2013-and-face-2014.html" itemprop="url">
+                  告别2013，致敬过去的二十四年
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-12-31T21:00:00+08:00" content="2013-12-31">
+              2013-12-31
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/say-goodbye-to-2013-and-face-2014.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/say-goodbye-to-2013-and-face-2014.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/say-goodbye-to-2013-and-face-2014.html" class="leancloud_visitors" data-flag-title="告别2013，致敬过去的二十四年">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           随着时间的推动，岁月在苍老，青春在流逝。
 回顾过去的这些岁月，有道不出的种种。
 人与社会都在不断的变化中，我不知道我将来会变成怎么样，但我希望是良性的。
 每个人都渴望自由，都渴望可以按照自己的选择来前进。但是理性告诉你，这是不可能的，因为自由是相对的。
-经历过了青春的人们，总是喜欢跟青春有关的岁月。因为青春，所以我们年轻；因为青春，所以我们肆无忌惮；因为青春，所以我们好奇又朦胧。青春的成长...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-12-31</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+经历过了青春的人们，总是喜欢跟青春有关的岁月。
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/say-goodbye-to-2013-and-face-2014.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/say-goodbye-to-2013-and-face-2014.html" class="leancloud_visitors"  data-flag-title="告别2013，致敬过去的二十四年"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/say-goodbye-to-2013-and-face-2014.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvnx00292pcopldrevmx" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/say-goodbye-to-2013-and-face-2014.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/let-us-go-to-xmlib-together.html" class="title"><i class="icon-newspaper"></i>走，咱们一起泡厦图去！</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/let-us-go-to-xmlib-together.html">
-    
-      <img src="data:image/gif;base64,R0lGODlhEAAQALMPAHp6evf394qKiry8vJOTk83NzYKCgubm5t7e3qysrMXFxe7u7pubm7S0tKOjo////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCAAPACwAAAAAEAAQAAAETPDJSau9NRDAgWxDYGmdZADCkQnlU7CCOA3oNgXsQG2FRhUAAoWDIU6MGeSDR0m4ghRa7JjIUXCogqQzpRxYhi2HILsOGuJxGcNuTyIAIfkECQgADwAsAAAAABAAEAAABGLwSXmMmjhLAQjSWDAYQHmAz8GVQPIESxZwggIYS0AIATYAvAdh8OIQJwRAQbJkdjAlUCA6KfU0VEmyGWgWnpNfcEAoAo6SmWtBUtCuk9gjwQKeQAeWYQAHIZICKBoKBncTEQAh+QQJCAAPACwAAAAAEAAQAAAEWvDJORejGCtQsgwDAQAGGWSHMK7jgAWq0CGj0VEDIJxPnvAU0a13eAQKrsnI81gqAZ6AUzIonA7JRwFAyAQSgCQsjCmUAIhjDEhlrQTFV+lMGLApWwUzw1jsIwAh+QQJCAAPACwAAAAAEAAQAAAETvDJSau9L4QaBgEAMWgEQh0CqALCZ0pBKhRSkYLvM7Ab/OGThoE2+QExyAdiuexhVglKwdCgqKKTGGBgBc00Np7VcVsJDpVo5ydyJt/wCAAh+QQJCAAPACwAAAAAEAAQAAAEWvDJSau9OAwCABnBtQhdCQjHlQhFWJBCOKWPLAXk8KQIkCwWBcAgMDw4Q5CkgOwohCVCYTIwdAgPolVhWSQAiN1jcLLVQrQbrBV4EcySA8l0Alo0yA8cw+9TIgAh+QQFCAAPACwAAAAAEAAQAAAEWvDJSau9WA4AyAhWMChPwXHCQRUGYARgKQBCzJxAQgXzIC2KFkc1MREoHMTAhwQ0Y5oBgkMhAAqUw8mgWGho0EcCx5DwaAUQrGXATg6zE7bwCQ2sAGZmz7dEAAA7" data-src="http://cdn-img.imruxin.com/blog/2013/20131113IMG_20131110_144605.jpg!blogwm" alt="走，咱们一起泡厦图去！" class="b-lazy" />
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/let-us-go-to-xmlib-together.html" itemprop="url">
+                  走，咱们一起泡厦图去！
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-11-13T21:00:00+08:00" content="2013-11-13">
+              2013-11-13
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/let-us-go-to-xmlib-together.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/let-us-go-to-xmlib-together.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/let-us-go-to-xmlib-together.html" class="leancloud_visitors" data-flag-title="走，咱们一起泡厦图去！">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           呵呵，很失望，还是决定自己自学去吧！
 曾经还在学校里的时候，不知道珍惜图书馆，常常把一些时间花在七七八八的可有可无的事情上。当快要离校的时候，才突然发现图书馆里还有好多自己喜欢看的书。为自己争取一些可免费利用的资源，这也是我当时考研的一个动力因素之一。
-曾经以为，离开了校园，那些免费的图书资源也就离自己而去了。但是，某天自己一不小心去了厦图（厦门图书馆），才发现原来并没有，而且同时发现自己...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-11-13</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+曾经以为，离开了校园，那些免费的图书资源也就离
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/let-us-go-to-xmlib-together.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/let-us-go-to-xmlib-together.html" class="leancloud_visitors"  data-flag-title="走，咱们一起泡厦图去！"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/let-us-go-to-xmlib-together.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvpq004e2pcoaz6x1zdw" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/let-us-go-to-xmlib-together.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/goodbye-old-time-and-renew-growth.html" class="title"><i class="icon-newspaper"></i>再见旧时光，重新梳理一下职业发展与未来成长</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/goodbye-old-time-and-renew-growth.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/goodbye-old-time-and-renew-growth.html" itemprop="url">
+                  再见旧时光，重新梳理一下职业发展与未来成长
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-10-21T21:00:00+08:00" content="2013-10-21">
+              2013-10-21
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/goodbye-old-time-and-renew-growth.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/goodbye-old-time-and-renew-growth.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/goodbye-old-time-and-renew-growth.html" class="leancloud_visitors" data-flag-title="再见旧时光，重新梳理一下职业发展与未来成长">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           作为一个踏入了社会的新学员，少不了迷茫，少不了碰壁，也必然会有点不知所措。但是，即使再怎么迷茫，再怎么不知所措，这些都不能成为阻碍前进的借口。
-初入职场，没有所谓的工作经验，太多的熟悉的伙伴各奔东西，剩下的只是过着“形单影只”的生活。还有太多的东西需要学习，但同时几乎又不会有人会主动提醒你要及时学习。要让自己获得快速的成长，就要直面自己还需要提高的部分，敢于面对现实中的否定。作为一个客观真...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-10-21</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+初入职场，没有所谓的工作经验，太多的熟悉的伙伴各奔东西，剩下的只是过着“形单影只”的生活。还有太多的东西需要学习，但同时几乎又不会有人会主动提醒你要及时学习
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/goodbye-old-time-and-renew-growth.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/goodbye-old-time-and-renew-growth.html" class="leancloud_visitors"  data-flag-title="再见旧时光，重新梳理一下职业发展与未来成长"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/goodbye-old-time-and-renew-growth.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvqp00612pco8xnsw1r3" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/goodbye-old-time-and-renew-growth.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html" class="title"><i class="icon-newspaper"></i>压力是因为离那些美好的憧憬有着好长的距离</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html" itemprop="url">
+                  压力是因为离那些美好的憧憬有着好长的距离
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-10-10T21:00:00+08:00" content="2013-10-10">
+              2013-10-10
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/pressure-because-have-long-distance-away-from-the-beautiful.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html" class="leancloud_visitors" data-flag-title="压力是因为离那些美好的憧憬有着好长的距离">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           今天10号，我感受到了厦门的工资的确不高，对于一个初来厦门的小年轻来说确实是有点压力的。当然，话又说回来了，压力是因为发现离那些美好的憧憬有着好长的距离。
-北上穷游回来后，就要开始投入工作了。其实我自己本身也并不急切，但迫于某些压力和不想继续打扰亲友的缘故，在通过面试和上机操作考核后，匆匆的租了房子和去了先要自己的公司。继续经过了一个星期的预考核，在公司我感觉算是被直接跳过了培训和过度。紧...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-10-10</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+北上穷游回来后，就要开始投入工作了。其实我自己本身也并不急切，但迫于某些压力和不想继续打扰亲友的缘故，在通过面试和上机操作考核后，匆匆的租了房子
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html" class="leancloud_visitors"  data-flag-title="压力是因为离那些美好的憧憬有着好长的距离"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvoh002z2pcoe3iml0cp" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/pressure-because-have-long-distance-away-from-the-beautiful.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/you-feel-pain-is-because-you-are-uping.html" class="title"><i class="icon-newspaper"></i>如果你感到生活有点辛苦，那是因为你正在走上坡路</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/you-feel-pain-is-because-you-are-uping.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/you-feel-pain-is-because-you-are-uping.html" itemprop="url">
+                  如果你感到生活有点辛苦，那是因为你正在走上坡路
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-09-06T21:00:00+08:00" content="2013-09-06">
+              2013-09-06
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/you-feel-pain-is-because-you-are-uping.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/you-feel-pain-is-because-you-are-uping.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/you-feel-pain-is-because-you-are-uping.html" class="leancloud_visitors" data-flag-title="如果你感到生活有点辛苦，那是因为你正在走上坡路">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           感觉很就没写文章了，其实不是不写，而是时间不知不觉又过去了。八月份结束了穷游，心里彻底告别了学生时代而毕业了。一个人的时候，特别是又无工作，又在相对陌生的环境的时候，总是会联想到过去的一些美好的日子。
-来到厦门，呆了十天的样子就开始在软件园上班了。我自认为目前只是一个行业新人，需要学习的东西真的很多。成长需要一个过程，而且更重要的是不能惧怕成长过程中的痛。一个人需要大体的知道自己会些什么，...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-09-06</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+来到厦门，呆了十天的样子就开始在软件园上班了。我自认为目前只是一个行业新人，需要学习的东西真的很多
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/you-feel-pain-is-because-you-are-uping.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/you-feel-pain-is-because-you-are-uping.html" class="leancloud_visitors"  data-flag-title="如果你感到生活有点辛苦，那是因为你正在走上坡路"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/you-feel-pain-is-because-you-are-uping.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvls00032pco18v617m3" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/you-feel-pain-is-because-you-are-uping.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/backpacker-and-north-to-travel.html" class="title"><i class="icon-newspaper"></i>背包客，一个人一路北上穷游</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/backpacker-and-north-to-travel.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/backpacker-and-north-to-travel.html" itemprop="url">
+                  背包客，一个人一路北上穷游
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-08-14T21:00:00+08:00" content="2013-08-14">
+              2013-08-14
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/backpacker-and-north-to-travel.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/backpacker-and-north-to-travel.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/backpacker-and-north-to-travel.html" class="leancloud_visitors" data-flag-title="背包客，一个人一路北上穷游">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           大学后半段期间，一直在等待着，希望可以有伴出去穷游，出去感受下这个真实的世界。但是一直到最后，身边都没出现这样的伙伴。不知不觉也就算是走上就业道路了。
 对于就业，我始终认为而且我自己的遭遇也是这样的：找个混口饭吃的工作真没什么难度，而且随时都会有。但要找一个自己喜欢的待遇福利好的好工作的确很难。
-大学没出去走走一直都是一个巨大的遗憾，工作期间也受到同学穷游青海湖的诱惑，所以我趁着一切还没稳...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-08-14</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+大
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/backpacker-and-north-to-travel.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/backpacker-and-north-to-travel.html" class="leancloud_visitors"  data-flag-title="背包客，一个人一路北上穷游"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/backpacker-and-north-to-travel.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvru007z2pcoms47ljlb" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/backpacker-and-north-to-travel.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/normal-life-style.html" class="title"><i class="icon-newspaper"></i>生活常态，人生是一场旅行！</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/normal-life-style.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/normal-life-style.html" itemprop="url">
+                  生活常态，人生是一场旅行！
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-07-14T21:00:00+08:00" content="2013-07-14">
+              2013-07-14
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/normal-life-style.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/normal-life-style.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/normal-life-style.html" class="leancloud_visitors" data-flag-title="生活常态，人生是一场旅行！">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           人生是一场旅行！是的，人生是一场旅行！
 至少，我认为的人生应该是一场旅行，是一场风雨兼程的旅程。有苦有乐，有辛酸有甜美，有充实有荒废，有无助也有希望。体验过了痛苦，才会知道什么是真正的快乐。而且，体验过的痛苦越深，你所感受到的快乐就越强。人生大道上总是会有磕磕碰碰，痛苦也快乐！
-我不知道别人的人生追求是什么？想要的生活方式是什么？
-但不管别人的是什么，这些都不会妨碍我对一些生活方式的追求。...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-07-14</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+我不知道别人的人生追
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/normal-life-style.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/normal-life-style.html" class="leancloud_visitors"  data-flag-title="生活常态，人生是一场旅行！"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/normal-life-style.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvp1003c2pco58uxiuh3" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/normal-life-style.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </section>
+  </article>
+
+
+    
+      
 
   
-    
-  <section>
-    <article class="article article-index">
-      <h2 class="article-tit">
-        <a href="/diary/learning-is-an-endless-process-and-insist.html" class="title"><i class="icon-newspaper"></i>学无止境，向SB一样的坚持着</a>
-      </h2>
-      <div class="content">
-        
-<div class="thumbnail">
-  <a href="/diary/learning-is-an-endless-process-and-insist.html">
-    
-  </a>
-</div>
+  
 
-        <p class="article-excerpt">
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/diary/learning-is-an-endless-process-and-insist.html" itemprop="url">
+                  学无止境，向SB一样的坚持着
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2013-06-03T21:00:00+08:00" content="2013-06-03">
+              2013-06-03
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/diary/" itemprop="url" rel="index">
+                    <span itemprop="name">diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/diary/learning-is-an-endless-process-and-insist.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="diary/learning-is-an-endless-process-and-insist.html" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/diary/learning-is-an-endless-process-and-insist.html" class="leancloud_visitors" data-flag-title="学无止境，向SB一样的坚持着">
+               &nbsp; | &nbsp;
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               <span class="post-meta-item-text">阅读次数 </span>
+               <span class="leancloud-visitors-count"></span>
+              </span>
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
           
           成长是一种痛，特别是一个人的独自奋斗的成长。
 不过，也只有自己体验过了成长中的风雨，才会更加的感受到什么才是快乐。
-学无止境，我一直都是这么认为的。非要说个问题的话，就是学习不精。不过，我又认为除非是吃饭用的，否则了解或者够我们日常使用就好了。一个人的时间和精力都是有限的，怎么可能每样都精通，不过只是在一个大领域里还是很有可能的。兴趣是最好的老师，然后不断的扩充。当然，可恨的是，我自己要从...
-        </p>
-      </div>
-    </article>
-    <footer class="info-bar">
-      <span><i class="icon-clock"></i>2013-06-03</span>
-      <a class="article-category-link" href="/categories/diary/">diary</a>
+学无止境，我一直都是这么认为的。非要说个问题的话，就是学习不精。不过，我又认为除非是吃饭用的，否则了解或者够我们日常使用就好了。一个人的时间和精力都是有限的，怎么可能每样都精通，不过只
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/diary/learning-is-an-endless-process-and-insist.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
       
-        <span id="/diary/learning-is-an-endless-process-and-insist.html" class="leancloud_visitors"  data-flag-title="学无止境，向SB一样的坚持着"><i class="icon-eye"></i><em class="leancloud-visitors-count"></em> 浏览
-          </span>
+    </div>
+
+    <div>
       
-      <a class="comments-show" href="/diary/learning-is-an-endless-process-and-insist.html#comments"><i class="icon-comment"></i><span class="ds-thread-count" data-thread-key="cio9gbvpt004i2pcoofl1mk2h" data-count-type="comments"></span></a>
-      <a class="read-more" href="/diary/learning-is-an-endless-process-and-insist.html">阅读全文<i class="icon-angle-double-right"></i></a>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
+  </article>
+
+
+    
   </section>
 
   
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
   
-    <div class="pagination fix">
-      <a class="extend prev" rel="prev" href="/page/4/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/6/">下一页</a>
-      <p class="pagination-info">第 5 页，共 11 页</p>
-    </div>
-  
-
-
-      </main>
-      <!-- sidebar -->
-      <aside id="sidebar">
-  <div class="search-box">
-    <input class="input st-default-search-input" type="text" placeholder="输入关键字Enter键搜索">
-    <button class="input-btn" type="submit"><i class="icon-search"></i></button>
-  </div>
-
-  <div class="widget aside-contant">
-    <a href="http://weibo.com/1918164631" title="新浪微博" target="_blank"><i class="icon-weibo"></i></a>
-    <a id="wechat-link" href="javascript:void(0);" title="微信公众号：meetnew"><i class="icon-wechat"></i><img class="wechat-img" src="http://ruxin.u.qiniudn.com/index/meetnew-qrcode.jpg"></a>
-    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=nP-o5eb07uTc6vXssu3tsv-z8Q" title="邮件联系,广告勿扰" target="_blank"><i class="icon-mail"></i></a>
-    <a href="https://github.com/imruxin" title="Github" target="_blank"><i class="icon-github"></i></a>
-    <a href="https://twitter.com/imruxin" title="需翻墙，不定时逛逛" target="_blank"><i class="icon-twitter"></i></a><a href="http://photo.imruxin.com/" title="Photos，让图片说话" target="_blank"><i class="icon-camera"></i></a>
-  </div>
-
-  <div class="widget aside-notice">
-    <p class="notice-text"><span id="helloWord"></span> 现在是：<span id="showTime"></span> <span id="tipsWord"></span> 重新扬帆起航，做一个纯粹的学习分享者。</p>
-    <p class="marqueeTextCopy"></p>
-  </div>
-
-  <div class="widget aside-donate fix">
-    <h3 class="widget-tit">打赏鼓励</h3>
-    <div class="donate-chose">
-      <p>支付宝</p>
-      <img src="/images/pay-zfb.jpg" alt="支付宝赠我一杯茶">
-    </div>
-    <div class="donate-chose">
-      <p>微信(wechat)</p>
-      <img src="/images/pay-wechat.jpg" alt="微信赠我一杯咖啡">
-    </div>
-    <p class="pay-desc">二维码扫扫，赠我一杯咖啡。</p>
-  </div>
-
-  <div class="widget aside-hot-article">
-    <h3 class="widget-tit">热评文章</h3>
-    <ul  class="ds-top-threads" data-range="monthly" data-num-items="8"></ul>
-  </div>
-
-  
-    
-  <div class="widget aside-archive">
-    <h3 class="widget-tit">文章归档</h3>
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016年02月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">2015年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">2015年03月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/02/">2015年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">2014年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">2014年11月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">2014年10月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">2014年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">2014年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">2014年07月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">2014年06月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">2014年05月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">2014年04月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">2014年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/02/">2014年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">2014年01月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">2013年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">2013年11月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">2013年10月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">2013年09月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">2013年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/07/">2013年07月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">2013年06月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/05/">2013年05月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/04/">2013年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/03/">2013年03月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">2013年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/01/">2013年01月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/09/">2012年09月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/08/">2012年08月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/07/">2012年07月</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">2012年06月</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">2012年05月</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/04/">2012年04月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/03/">2012年03月</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">2012年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">2012年01月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">2011年12月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">2011年11月</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">2011年10月</a><span class="archive-list-count">1</span></li></ul>
-  </div>
-
-
-  
-    
-  <div class="widget aside-tags">
-    <h3 class="widget-tit">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/css3/" style="font-size: 16px;">css3</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/grunt/" style="font-size: 10px;">grunt</a> <a href="/tags/gulp/" style="font-size: 10px;">gulp</a> <a href="/tags/head/" style="font-size: 10px;">head</a> <a href="/tags/javascript/" style="font-size: 14px;">javascript</a> <a href="/tags/meta/" style="font-size: 10px;">meta</a> <a href="/tags/scss/" style="font-size: 10px;">scss</a> <a href="/tags/seo/" style="font-size: 10px;">seo</a> <a href="/tags/teamwork/" style="font-size: 10px;">teamwork</a> <a href="/tags/ued/" style="font-size: 10px;">ued</a> <a href="/tags/人生/" style="font-size: 10px;">人生</a> <a href="/tags/公益/" style="font-size: 12px;">公益</a> <a href="/tags/分享/" style="font-size: 10px;">分享</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/历史/" style="font-size: 10px;">历史</a> <a href="/tags/厦图/" style="font-size: 10px;">厦图</a> <a href="/tags/喜欢/" style="font-size: 10px;">喜欢</a> <a href="/tags/婚姻/" style="font-size: 12px;">婚姻</a> <a href="/tags/孤独/" style="font-size: 10px;">孤独</a> <a href="/tags/安全/" style="font-size: 10px;">安全</a> <a href="/tags/工作/" style="font-size: 12px;">工作</a> <a href="/tags/布局/" style="font-size: 10px;">布局</a> <a href="/tags/总结/" style="font-size: 18px;">总结</a> <a href="/tags/恋爱/" style="font-size: 10px;">恋爱</a> <a href="/tags/情感/" style="font-size: 10px;">情感</a> <a href="/tags/效率/" style="font-size: 10px;">效率</a> <a href="/tags/旅行/" style="font-size: 12px;">旅行</a> <a href="/tags/未来/" style="font-size: 14px;">未来</a> <a href="/tags/游玩/" style="font-size: 10px;">游玩</a> <a href="/tags/爱情/" style="font-size: 12px;">爱情</a> <a href="/tags/生活/" style="font-size: 14px;">生活</a> <a href="/tags/知乎/" style="font-size: 10px;">知乎</a> <a href="/tags/考研/" style="font-size: 10px;">考研</a> <a href="/tags/随记/" style="font-size: 20px;">随记</a> <a href="/tags/青春/" style="font-size: 12px;">青春</a>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
 
-  
+      
 
-  <div class="widget aside-visitors">
-    <h3 class="widget-tit">最近访客</h3>
-    <ul class="ds-recent-visitors"></ul>
-  </div>
+      
 
-</aside>
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://www.imruxin.com/logo.jpg"
+               alt="imruxin" />
+          <p class="site-author-name" itemprop="name">imruxin</p>
+          <p class="site-description motion-element" itemprop="description">Make a better life and just do it. Meet new and Make a better life | 发现生活·遇见自己</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">104</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">36</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/imruxin" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/imruxin" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/ruxin520" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://github.com/imruxin/front-end-study-collect" title="前端资源汇总" target="_blank">前端资源汇总</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+          <div class="visitors-list">
+            <div class="visitors-list-title">最近访客</div>
+            <div class="ds-recent-visitors" data-num-items="25" data-avatar-size="34" id="ds-recent-visitors"></div>
+          </div>
+        
+
+      </section>
+
+      
 
     </div>
-    <!-- end main content -->
+  </aside>
 
-<!-- footer -->
-<footer class="footer">
-  <address>
-    <span>&copy; 2011-2016 <a href="http://www.imruxin.com" title="Ruxin·s Personal Website | 随便写写，记录点滴生活 | UED、Front-End、PM、UI/UX" target="_blank">imruxin</a> .
-    <a href="sitemap.xml" title="sitemap" target="_blank">Sitemap</a> . <a href="atom.xml" title="RSS" target="_blank">RSS</a> . Theme by imruxin . <a href="http://www.miitbeian.gov.cn/" title="闽ICP备15011150号" target="_blank">闽ICP备15011150号</a>
-    </span>
-    <span class="dn"><script type="text/javascript">
-    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9c1bc1461bafa49a47cc967c5a16c1fb' type='text/javascript'%3E%3C/script%3E"));
-    </script></span>
-    <p>Powered by <a href="//hexo.io/" target="_blank" title="Hexo">Hexo</a> & <a href="https://portal.qiniu.com/signup?code=3laa10i20xlci" target="_blank" title="七牛">七牛</a> & <a href="https://github.com/" target="_blank" title="Github">Github</a> & <a href="https://gitcafe.com/" target="_blank" title="Gitcafe">Gitcafe</a></p>
-  </address>
-</footer>
-<!-- 返回顶部 -->
-<div id="backtop">
-  <a href="#" class="backtop"></a>
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2016</span>
+  . <a href="sitemap.xml" title="sitemap" target="_blank">Sitemap</a>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <a href="http://www.imruxin.com" title="Ruxin·s Personal Website | 随便写写，记录点滴生活 | UED、Front-End、PM、UI/UX" target="_blank">imruxin</a>
+  . <a href="http://www.miitbeian.gov.cn/" title="闽ICP备15011150号" target="_blank">闽ICP备15011150号</a>
 </div>
-<div class="mask-full dn"></div>
 
-<!-- jQuery load -->
-<script src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<div class="powered-by">
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
+   & <a href="https://portal.qiniu.com/signup?code=3laa10i20xlci" target="_blank" title="七牛">七牛</a> & <a href="https://github.com/" target="_blank" title="Github">Github</a> & <a href="https://coding.net" target="_blank" title="Coding">Coding</a>
+</div>
 
-<!-- 多说评论开始 -->
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
 
 <script type="text/javascript">
-var duoshuoQuery = {short_name: "imruxin" };
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"imruxin"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
   </script>
 
-<!-- 多说评论结束 -->
+  
+    
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js"></script>
+    
+  
 
-<script src="/js/blazy.min.js" type="text/javascript"></script>
-<script src="/js/function.min.js" type="text/javascript"></script>
 
 
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
   <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
   <script>
-    function showViews(Counter) {
+    function showTime(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -566,10 +2101,10 @@ var duoshuoQuery = {short_name: "imruxin" };
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var times = item.get('times');
+            var time = item.get('time');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(times);
+            $(element).find(COUNT_CONTAINER_REF).text(time);
           }
         })
         .fail(function (object, error) {
@@ -589,11 +2124,11 @@ var duoshuoQuery = {short_name: "imruxin" };
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("times");
+            counter.increment("time");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('times'));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -601,13 +2136,19 @@ var duoshuoQuery = {short_name: "imruxin" };
             });
           } else {
             var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("times", 1);
+            newcounter.set("time", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -625,37 +2166,15 @@ var duoshuoQuery = {short_name: "imruxin" };
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else {
-        showViews(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
       }
     });
   </script>
 
 
 
-
-<!-- swift_search -->
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-  _st('install','KG5xuZWjUwzZJDEL-u3t','2.0.0');
-</script>
-
-
-<!-- Google Analytics -->
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-53923132-1', 'auto');
-ga('send', 'pageview');
-</script>
-
+  
 
 </body>
 </html>
