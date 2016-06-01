@@ -104,19 +104,16 @@
 
 
 
-<meta name="description" content="我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。
-首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什">
+<meta name="description" content="我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么">
 <meta property="og:type" content="article">
 <meta property="og:title" content="javascript中的数据类型">
 <meta property="og:url" content="http://blog.imruxin.com/develop/javascript-data-type.html">
 <meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta property="og:description" content="我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。
-首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什">
+<meta property="og:description" content="我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么">
 <meta property="og:updated_time" content="2016-01-14T02:31:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="javascript中的数据类型">
-<meta name="twitter:description" content="我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。
-首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什">
+<meta name="twitter:description" content="我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么">
 
 
 
@@ -259,7 +256,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="popup-trigger">
+            <a href="#" class="st-search-show-outputs">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -274,12 +271,19 @@
   
     <div class="site-search">
       
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">close</span>
-</div>
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'KG5xuZWjUwzZJDEL-u3t','2.0.0');
+</script>
+
 
 
     </div>
@@ -391,20 +395,7 @@
       
 
       
-        <p>我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。</p>
-<p>首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么而来的？</p>
-<p>在定义数据类型及分类的时候，我想我们肯定要考虑到所有的数据类型。之所以要考虑到所有的数据类型，大概是出于安全性和严谨性的考虑，而分类则是根据使用频率或者功能来的。当然了数据类型定义好了，也不是你想怎么用就可以任性的怎么用的，还是需要遵照一些规则来的。</p>
-<p>Number（数字）类型是几乎任何语言都要有的一种基本类型，也是使用频率非常高的一种常规数据类型。对于这种类型，我们通常要知道的就是数字的范围以及比较吧？</p>
-<p>String（字符串）类型</p>
-<p>PS：</p>
-<p>未完待续</p>
-<p><strong>参考及延伸资料：</strong></p>
-<ul>
-<li><a href="http://web.jobbole.com/26859/" target="_blank" rel="external">JavaScript: 数据类型</a></li>
-<li><a href="http://web.jobbole.com/24329/" target="_blank" rel="external">了解 JavaScript 中的内置对象</a></li>
-<li><a href="http://www.cnblogs.com/ziyunfei/archive/2012/10/11/2717057.html" target="_blank" rel="external">JavaScript:如何判断值的类型</a></li>
-</ul>
-
+        <p>我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。</p><p>首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么而来的？</p><p>在定义数据类型及分类的时候，我想我们肯定要考虑到所有的数据类型。之所以要考虑到所有的数据类型，大概是出于安全性和严谨性的考虑，而分类则是根据使用频率或者功能来的。当然了数据类型定义好了，也不是你想怎么用就可以任性的怎么用的，还是需要遵照一些规则来的。</p><p>Number（数字）类型是几乎任何语言都要有的一种基本类型，也是使用频率非常高的一种常规数据类型。对于这种类型，我们通常要知道的就是数字的范围以及比较吧？</p><p>String（字符串）类型</p><p>PS：</p><p>未完待续</p><p><strong>参考及延伸资料：</strong></p><ul><li><a href="http://web.jobbole.com/26859/" target="_blank" rel="external">JavaScript: 数据类型</a></li><li><a href="http://web.jobbole.com/24329/" target="_blank" rel="external">了解 JavaScript 中的内置对象</a></li><li><a href="http://www.cnblogs.com/ziyunfei/archive/2012/10/11/2717057.html" target="_blank" rel="external">JavaScript:如何判断值的类型</a></li></ul>
       
     </div>
 
@@ -953,11 +944,10 @@
 
   
 
-  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
+  <script>AV.initialize("<%- theme.leancloud_visitors.app_id %>", "<%- theme.leancloud_visitors.app_key %>");</script>
   <script>
-    function showTime(Counter) {
+    function showViews(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -979,10 +969,10 @@
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var time = item.get('time');
+            var times = item.get('times');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(times);
           }
         })
         .fail(function (object, error) {
@@ -1002,11 +992,11 @@
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("time");
+            counter.increment("times");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('times'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -1014,19 +1004,13 @@
             });
           } else {
             var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("time", 1);
+            newcounter.set("times", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -1044,8 +1028,8 @@
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
+      } else {
+        showViews(Counter);
       }
     });
   </script>

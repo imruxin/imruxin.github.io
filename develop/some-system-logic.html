@@ -104,25 +104,16 @@
 
 
 
-<meta name="description" content="计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。
-对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。
-如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。
-以8位二进制为例：数值的">
+<meta name="description" content="计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。以8位二进制为例：数值的范围是">
 <meta property="og:type" content="article">
 <meta property="og:title" content="一些进制、逻辑运算的整理">
 <meta property="og:url" content="http://blog.imruxin.com/develop/some-system-logic.html">
 <meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta property="og:description" content="计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。
-对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。
-如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。
-以8位二进制为例：数值的">
+<meta property="og:description" content="计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。以8位二进制为例：数值的范围是">
 <meta property="og:updated_time" content="2016-01-09T06:49:19.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一些进制、逻辑运算的整理">
-<meta name="twitter:description" content="计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。
-对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。
-如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。
-以8位二进制为例：数值的">
+<meta name="twitter:description" content="计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。以8位二进制为例：数值的范围是">
 
 
 
@@ -265,7 +256,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="popup-trigger">
+            <a href="#" class="st-search-show-outputs">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -280,12 +271,19 @@
   
     <div class="site-search">
       
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">close</span>
-</div>
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'KG5xuZWjUwzZJDEL-u3t','2.0.0');
+</script>
+
 
 
     </div>
@@ -397,21 +395,7 @@
       
 
       
-        <p>计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。</p>
-<p>对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。</p>
-<p>如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。</p>
-<p>以8位二进制为例：数值的范围是00000000B~11111111B，表示0~255共256个数（2的8次方）。</p>
-<p>自然的二进制表示的数也称无符号数。在需要表示负数的时候，必须在8位中将符号表示出来。约定以最高有效位表示：0表正，1表负。这样的表示方法称作有符号数的二进制补码表示。8位符号二进制表示的范围是-128~+127（2的7次方）。是否符号数，由人或软件自行决定。</p>
-<p>补码：对原码取反后再加1，高位符号不变。</p>
-<p>小数的表示：左侧第一个表示2的0次方，一次方；小数点右侧的第一个1表示2的负一次方，都相应以此类推。</p>
-<p>BCD码：十进制形式的二进制表示。比如：00100101B也就是25H，按照BCD码解释就是25D。十位数是0010（即2），个位数是0101（即5）。</p>
-<p>逻辑与运算（AND）：相同则为正确，否则为错误（计算机中数字1表示正确，0表示错误，下同）。</p>
-<p>逻辑或运算（OR）：有一个真就为真，两个都是否才是否。</p>
-<p>逻辑非运算（NOT）：只有一个数参与，即取反。</p>
-<p>逻辑异或运算（XOR）：两个不同时为真，相同时为假。</p>
-<p>运算时，都要先把数字转换成二进制哦。</p>
-<p>今天，开始每天抽点时间玩玩英语。慢慢的，玩的感觉在逐渐回来了…</p>
-
+        <p>计算机内部的数据都是以二进制的形式表示的(数字0和1)，我们日常生活中基本是以十进制的形式表示数的。</p><p>对于进制的后缀约定：B代表二进制，O代表八进制，D代表十进制，H代表十六进制（都是相应英文单词的首个字母）。十进制是人类最常用的，不加后缀默认为十进制（后缀的大小写无区别）。</p><p>如：01001010B（二进制）和4AH（十六进制）表示的是同一个数，即十进制的74（74D）。</p><p>以8位二进制为例：数值的范围是00000000B~11111111B，表示0~255共256个数（2的8次方）。</p><p>自然的二进制表示的数也称无符号数。在需要表示负数的时候，必须在8位中将符号表示出来。约定以最高有效位表示：0表正，1表负。这样的表示方法称作有符号数的二进制补码表示。8位符号二进制表示的范围是-128~+127（2的7次方）。是否符号数，由人或软件自行决定。</p><p>补码：对原码取反后再加1，高位符号不变。</p><p>小数的表示：左侧第一个表示2的0次方，一次方；小数点右侧的第一个1表示2的负一次方，都相应以此类推。</p><p>BCD码：十进制形式的二进制表示。比如：00100101B也就是25H，按照BCD码解释就是25D。十位数是0010（即2），个位数是0101（即5）。</p><p>逻辑与运算（AND）：相同则为正确，否则为错误（计算机中数字1表示正确，0表示错误，下同）。</p><p>逻辑或运算（OR）：有一个真就为真，两个都是否才是否。</p><p>逻辑非运算（NOT）：只有一个数参与，即取反。</p><p>逻辑异或运算（XOR）：两个不同时为真，相同时为假。</p><p>运算时，都要先把数字转换成二进制哦。</p><p>今天，开始每天抽点时间玩玩英语。慢慢的，玩的感觉在逐渐回来了…</p>
       
     </div>
 
@@ -954,11 +938,10 @@
 
   
 
-  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
+  <script>AV.initialize("<%- theme.leancloud_visitors.app_id %>", "<%- theme.leancloud_visitors.app_key %>");</script>
   <script>
-    function showTime(Counter) {
+    function showViews(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -980,10 +963,10 @@
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var time = item.get('time');
+            var times = item.get('times');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(times);
           }
         })
         .fail(function (object, error) {
@@ -1003,11 +986,11 @@
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("time");
+            counter.increment("times");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('times'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -1015,19 +998,13 @@
             });
           } else {
             var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("time", 1);
+            newcounter.set("times", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -1045,8 +1022,8 @@
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
+      } else {
+        showViews(Counter);
       }
     });
   </script>

@@ -1663,7 +1663,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a2ebff;
+  background: #41fc59;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2662,4 +2662,12 @@ body {
   -ms-transform: rotateZ(360deg);
   -o-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
+}
+.error-404 {
+  text-align: center;
+  font-size: 16px;
+  background: url("http://cdn-img.imruxin.com/blog/404.png") center top no-repeat;
+  padding-top: 380px;
+  width: 100%;
+  margin-bottom: 30px;
 }

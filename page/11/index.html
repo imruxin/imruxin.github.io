@@ -257,7 +257,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="popup-trigger">
+            <a href="#" class="st-search-show-outputs">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -272,12 +272,19 @@
   
     <div class="site-search">
       
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">close</span>
-</div>
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'KG5xuZWjUwzZJDEL-u3t','2.0.0');
+</script>
+
 
 
     </div>
@@ -394,11 +401,7 @@
       
         
           
-          
-做自己生命的主角，而不是别人生命中的看客。
-只爱爱我的人，青春只为TA挥霍。
-前面的路还很远，你可能会哭，但是一定要走下去，一定不能停。当你频回首，哪里顾得了前面的路；你不专注，又如何把这路走得远。
-在我们周围，能够真正关注你的，就那么廖廖几个。所以我们无须在意别人的评说，只要把自己的事情做好；无
+          做自己生命的主角，而不是别人生命中的看客。只爱爱我的人，青春只为TA挥霍。前面的路还很远，你可能会哭，但是一定要走下去，一定不能停。当你频回首，哪里顾得了前面的路；你不专注，又如何把这路走得远。在我们周围，能够真正关注你的，就那么廖廖几个。所以我们无须在意别人的评说，只要把自己的事情做好；无须看别人
           ...
 
           <div class="post-more-link text-center">
@@ -532,12 +535,7 @@
       
         
           
-          
-一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的对方，到哪里都是在流浪。
-
-很多东西必须要告一段落了，接下来的时间里，我要做的就是好好读我想要读的书籍。
-该撒手的确实要果断撒手，一段时间后，有些人有了收获，而有些人却变得更一无所有。
-外在的是浮云，内在的将伴随一生。当有人离开你的生活时，随
+          一个人至少拥有一个梦想，有一个理由去坚强。心若没有栖息的对方，到哪里都是在流浪。很多东西必须要告一段落了，接下来的时间里，我要做的就是好好读我想要读的书籍。该撒手的确实要果断撒手，一段时间后，有些人有了收获，而有些人却变得更一无所有。外在的是浮云，内在的将伴随一生。当有人离开你的生活时，随他们去吧这
           ...
 
           <div class="post-more-link text-center">
@@ -671,9 +669,7 @@
       
         
           
-          有些东西，一切尽在不言中吧，现在看看貌似有点沉长。但不管怎么说，这也确实是人生的一小段群体记忆吧。全部自己一个人DIY的记忆专业一起永泰青云山之旅～
-素材来源：图片来源于同学和自己借的相机，视频来源于与自己的手机。
-
+          有些东西，一切尽在不言中吧，现在看看貌似有点沉长。但不管怎么说，这也确实是人生的一小段群体记忆吧。全部自己一个人DIY的记忆专业一起永泰青云山之旅～素材来源：图片来源于同学和自己借的相机，视频来源于与自己的手机。
           
 
           <div class="post-more-link text-center">
@@ -807,11 +803,7 @@
       
         
           
-          首先，欢迎并感谢你访问博客网站的第一篇文章。
-正常情况下，我觉得你至少是个感性的人。
-或者换句话说，你的情感至少不会是贫瘠的，应该是个爱生活情感丰富的性情中人。
-其次，这篇文章存在的意义更多的是纪念的意思。
-写博客的习惯是始于大学期间，当初写博客的原因有两个，一个是自我疗伤，另一个是简单的记录自己。
+          首先，欢迎并感谢你访问博客网站的第一篇文章。正常情况下，我觉得你至少是个感性的人。或者换句话说，你的情感至少不会是贫瘠的，应该是个爱生活情感丰富的性情中人。其次，这篇文章存在的意义更多的是纪念的意思。写博客的习惯是始于大学期间，当初写博客的原因有两个，一个是自我疗伤，另一个是简单的记录自己。早期写博
           ...
 
           <div class="post-more-link text-center">
@@ -1267,11 +1259,10 @@
 
   
 
-  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
+  <script>AV.initialize("<%- theme.leancloud_visitors.app_id %>", "<%- theme.leancloud_visitors.app_key %>");</script>
   <script>
-    function showTime(Counter) {
+    function showViews(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -1293,10 +1284,10 @@
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var time = item.get('time');
+            var times = item.get('times');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(times);
           }
         })
         .fail(function (object, error) {
@@ -1316,11 +1307,11 @@
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("time");
+            counter.increment("times");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('times'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -1328,19 +1319,13 @@
             });
           } else {
             var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("time", 1);
+            newcounter.set("times", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -1358,8 +1343,8 @@
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
+      } else {
+        showViews(Counter);
       }
     });
   </script>

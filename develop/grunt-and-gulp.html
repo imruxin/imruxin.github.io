@@ -104,19 +104,16 @@
 
 
 
-<meta name="description" content="伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。
-2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键">
+<meta name="description" content="伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="自动化工具Grunt和Gulp">
 <meta property="og:url" content="http://blog.imruxin.com/develop/grunt-and-gulp.html">
 <meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta property="og:description" content="伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。
-2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键">
+<meta property="og:description" content="伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键的">
 <meta property="og:updated_time" content="2016-01-12T05:52:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="自动化工具Grunt和Gulp">
-<meta name="twitter:description" content="伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。
-2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键">
+<meta name="twitter:description" content="伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键的">
 
 
 
@@ -259,7 +256,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="popup-trigger">
+            <a href="#" class="st-search-show-outputs">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -274,12 +271,19 @@
   
     <div class="site-search">
       
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">close</span>
-</div>
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'KG5xuZWjUwzZJDEL-u3t','2.0.0');
+</script>
+
 
 
     </div>
@@ -391,68 +395,7 @@
       
 
       
-        <p>伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。</p>
-<p>2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键的其实就是那两个配置文件了，即：Gruntfile.js和package.json。</p>
-<p>再接着没多久，就又接触了gulp。grunt是同步的，而gulp是异步的。相对而言，gulp也显得更简洁单一和高效吧，是一种stream工作流模式。在实际工作中，grunt使用了一段时间，然后也许是受潮流的推动和PC机上（公司的台式机）运行一段时间后的反应略慢的原因，最后又走向了gulp。</p>
-<p>gulp和grunt可以说是大同小异，本质上都是一种效率工具。不过其实现的原理和运行的效率还是有点差别的。其实在目前而言，两种工具都是不错和足以应付我们的常规工作的。</p>
-<p>这两种自动化工具都依赖于两个文件，即一个Gruntfile.js(grunt)/Gulpfile.js(gulp)和package.json。网络上的教程其实也挺多的，具体的可以直接百度或者谷歌吧。那么下面就自己的情况，做一个备份吧。</p>
-<p>这两种自动化工具使用起来都很简单，在安装好nodejs、ruby、grunt/gulp后，进入有grunt/gulp配置文件的文件夹，然后在CMD/终端里运行自定义的命令就ok。</p>
-<p><strong>一些说明：</strong></p>
-<ul>
-<li><p>nodejs是基础环境，ruby是因为使用sass而需要的环境。</p>
-</li>
-<li><p>windows上，可以进入你想要使用命令窗口的文件夹里，然后Shift+鼠标右键选择<em>在此处打开命令窗口（W）</em>。Mac上就简单多了，直接<code>cd path</code>。</p>
-</li>
-<li><p>对于安装而言，本质上都是npm的使用。根据官方文档提供的模块名称安装即可，比如全局安装grunt是（全局安装，在Mac下需要sudo）：</p>
-</li>
-</ul>
-<p><code>npm install -g grunt-cli // install后面的命令顺序随意，-g是-global的简写，下同</code></p>
-<p>对应的gulp也一样：<code>npm install -g gulp</code></p>
-<p>对于插件的安装本质上和安装grunt和gulp自身其实都差不多，都是安装npm模块。</p>
-<p><code>npm install --save-dev gulp // 安装的信息会写入到package.json中的devDependencies里，方面下次一键安装。不带--save*这个的则只安装不写入配置文件里</code></p>
-<p>–save和–save-dev感觉在实际使用中，似乎没什么差别。–save则是写入到package.json中的dependencies里。</p>
-<ul>
-<li>对于配置文件而言，也是需要根据官方提供的格式，添加自己需要的模块插件和定义自己需要的任务。最后进入项目文件里，使用命令<code>npm install</code>一键安装或者自定义安装新的模块即可。</li>
-</ul>
-<p>nodejs传送门：<a href="http://www.nodejs.org/" target="_blank" rel="external">http://www.nodejs.org/</a></p>
-<p>###关于grunt的补充：</p>
-<p>grunt官网：<a href="http://gruntjs.com/" target="_blank" rel="external">http://gruntjs.com/</a></p>
-<p>几个中文的学习参考网站：</p>
-<ul>
-<li><a href="http://www.gruntjs.org/" target="_blank" rel="external">http://www.gruntjs.org/</a></li>
-<li><a href="http://www.gruntjs.net/" target="_blank" rel="external">http://www.gruntjs.net/</a></li>
-</ul>
-<p>###关于gulp的补充：</p>
-<p>几个主要部分简单的说一下：</p>
-<ul>
-<li>src表示的是文件来源，以及可重置文件夹起始位置。</li>
-<li>pipe表示要引入的任务内容，流水式作业。</li>
-<li>gulp.dest：表示输出的目录。</li>
-</ul>
-<p>或者这样来说：</p>
-<ul>
-<li><code>gulp.task(&#39;taskname&#39;, [ taskDep1, taskDep2 ],taskContentFunc)</code>定义一个任务,声明它的名称, 任务依赖, 和任务内容.</li>
-<li><code>gulp.src( file[s] )</code>读取文件,参数为文件路径字符串或数组, 支持通配符.</li>
-<li><code>gulp.dest( destPath )</code>写入文件, 作为pipe的一个流程.文件夹不存在时会被自动创建.</li>
-<li><code>gulp.watch(files, [taskDep, taskDep2])</code>监控文件,执行任务.</li>
-</ul>
-<p>官网：<a href="http://gulpjs.com/" target="_blank" rel="external">http://gulpjs.com/</a></p>
-<p>API:<a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md" target="_blank" rel="external">https://github.com/gulpjs/gulp/blob/master/docs/API.md</a></p>
-<p>plugins: </p>
-<ul>
-<li><a href="http://gulpjs.com/plugins/" target="_blank" rel="external">http://gulpjs.com/plugins/</a></li>
-<li><a href="http://gratimax.net/search-gulp-plugins/" target="_blank" rel="external">http://gratimax.net/search-gulp-plugins/</a></li>
-</ul>
-<p>##关于NPM模块复用的补充</p>
-<p>鉴于国内的网络环境和出于“强迫症”的原因，显然如果每次新开一个项目又要重新来一次<code>npm install</code>，那么这的确是一件让人很忧伤的事情，而且这网络有时候也的确很坑呀。所以可以采用把module模块全局安装（命令行添加<code>-g</code>），然后用npm link的方式来引用你项目中需要用到的module了从而避免每次重新下载同样的模块（Mac下全局安装需要sudo）。</p>
-<p>如果你已经全局安装好了module后，则你只需要把两个配置文件拷贝到新项目中，自定义自己的配置，然后link自己需要的module(Mac下需要sudo，否则会提示报错，不过在实际中没有sudo依然可以正常使用)：</p>
-<figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="title">npm</span></span> link gulp gulp-ruby-sass gulp-minify-css ...</span><br></pre></td></tr></table></figure>
-<p><strong>其他：</strong></p>
-<p>个人grunt配置备份：<a href="https://github.com/imruxin/grunt" target="_blank" rel="external">https://github.com/imruxin/grunt</a></p>
-<p>个人gulp配置备份：<a href="https://github.com/imruxin/gulp" target="_blank" rel="external">https://github.com/imruxin/gulp</a></p>
-<p>PS：</p>
-<p>前端技术的发展是很快的，看着市面上不断涌现出那么多的新工具和框架，其实选择一个适合自己的即可。如果只是一味的追求最新和潮流，那么等待你的只会是疲于奔命和得不偿失吧。我想还是回归本质的学习比较好，至于新工具新框架要知道要了解但不一定要深入，等到工作的地方需要时再熟悉应用起来应该也会很快的。</p>
-
+        <p>伴随着随着nodejs的出现，越来越多的前端自动化工具出现在了人们的视野里，比如：grunt、gulp、Yeoman、FIS、bower等。自动化工具的确大大解放了前端工程师们的双手，比如可以自动检测文件改动自动编译、压缩、刷新浏览器等，让前端工程师们可以更专心的coding，而不是传统的不断的重复着F5。</p><p>2014年上半年一不小心接触了Grunt，然后也花了几天去小看了一下相关的资料。然后最关键的其实就是那两个配置文件了，即：Gruntfile.js和package.json。</p><p>再接着没多久，就又接触了gulp。grunt是同步的，而gulp是异步的。相对而言，gulp也显得更简洁单一和高效吧，是一种stream工作流模式。在实际工作中，grunt使用了一段时间，然后也许是受潮流的推动和PC机上（公司的台式机）运行一段时间后的反应略慢的原因，最后又走向了gulp。</p><p>gulp和grunt可以说是大同小异，本质上都是一种效率工具。不过其实现的原理和运行的效率还是有点差别的。其实在目前而言，两种工具都是不错和足以应付我们的常规工作的。</p><p>这两种自动化工具都依赖于两个文件，即一个Gruntfile.js(grunt)/Gulpfile.js(gulp)和package.json。网络上的教程其实也挺多的，具体的可以直接百度或者谷歌吧。那么下面就自己的情况，做一个备份吧。</p><p>这两种自动化工具使用起来都很简单，在安装好nodejs、ruby、grunt/gulp后，进入有grunt/gulp配置文件的文件夹，然后在CMD/终端里运行自定义的命令就ok。</p><p><strong>一些说明：</strong></p><ul><li><p>nodejs是基础环境，ruby是因为使用sass而需要的环境。</p></li><li><p>windows上，可以进入你想要使用命令窗口的文件夹里，然后Shift+鼠标右键选择<em>在此处打开命令窗口（W）</em>。Mac上就简单多了，直接<code>cd path</code>。</p></li><li><p>对于安装而言，本质上都是npm的使用。根据官方文档提供的模块名称安装即可，比如全局安装grunt是（全局安装，在Mac下需要sudo）：</p></li></ul><p><code>npm install -g grunt-cli // install后面的命令顺序随意，-g是-global的简写，下同</code></p><p>对应的gulp也一样：<code>npm install -g gulp</code></p><p>对于插件的安装本质上和安装grunt和gulp自身其实都差不多，都是安装npm模块。</p><p><code>npm install --save-dev gulp // 安装的信息会写入到package.json中的devDependencies里，方面下次一键安装。不带--save*这个的则只安装不写入配置文件里</code></p><p>–save和–save-dev感觉在实际使用中，似乎没什么差别。–save则是写入到package.json中的dependencies里。</p><ul><li>对于配置文件而言，也是需要根据官方提供的格式，添加自己需要的模块插件和定义自己需要的任务。最后进入项目文件里，使用命令<code>npm install</code>一键安装或者自定义安装新的模块即可。</li></ul><p>nodejs传送门：<a href="http://www.nodejs.org/" target="_blank" rel="external">http://www.nodejs.org/</a></p><p>###关于grunt的补充：</p><p>grunt官网：<a href="http://gruntjs.com/" target="_blank" rel="external">http://gruntjs.com/</a></p><p>几个中文的学习参考网站：</p><ul><li><a href="http://www.gruntjs.org/" target="_blank" rel="external">http://www.gruntjs.org/</a></li><li><a href="http://www.gruntjs.net/" target="_blank" rel="external">http://www.gruntjs.net/</a></li></ul><p>###关于gulp的补充：</p><p>几个主要部分简单的说一下：</p><ul><li>src表示的是文件来源，以及可重置文件夹起始位置。</li><li>pipe表示要引入的任务内容，流水式作业。</li><li>gulp.dest：表示输出的目录。</li></ul><p>或者这样来说：</p><ul><li><code>gulp.task(&#39;taskname&#39;, [ taskDep1, taskDep2 ],taskContentFunc)</code>定义一个任务,声明它的名称, 任务依赖, 和任务内容.</li><li><code>gulp.src( file[s] )</code>读取文件,参数为文件路径字符串或数组, 支持通配符.</li><li><code>gulp.dest( destPath )</code>写入文件, 作为pipe的一个流程.文件夹不存在时会被自动创建.</li><li><code>gulp.watch(files, [taskDep, taskDep2])</code>监控文件,执行任务.</li></ul><p>官网：<a href="http://gulpjs.com/" target="_blank" rel="external">http://gulpjs.com/</a></p><p>API:<a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md" target="_blank" rel="external">https://github.com/gulpjs/gulp/blob/master/docs/API.md</a></p><p>plugins:</p><ul><li><a href="http://gulpjs.com/plugins/" target="_blank" rel="external">http://gulpjs.com/plugins/</a></li><li><a href="http://gratimax.net/search-gulp-plugins/" target="_blank" rel="external">http://gratimax.net/search-gulp-plugins/</a></li></ul><p>##关于NPM模块复用的补充</p><p>鉴于国内的网络环境和出于“强迫症”的原因，显然如果每次新开一个项目又要重新来一次<code>npm install</code>，那么这的确是一件让人很忧伤的事情，而且这网络有时候也的确很坑呀。所以可以采用把module模块全局安装（命令行添加<code>-g</code>），然后用npm link的方式来引用你项目中需要用到的module了从而避免每次重新下载同样的模块（Mac下全局安装需要sudo）。</p><p>如果你已经全局安装好了module后，则你只需要把两个配置文件拷贝到新项目中，自定义自己的配置，然后link自己需要的module(Mac下需要sudo，否则会提示报错，不过在实际中没有sudo依然可以正常使用)：</p><figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="title">npm</span></span> link gulp gulp-ruby-sass gulp-minify-css ...</span><br></pre></td></tr></table></figure><p><strong>其他：</strong></p><p>个人grunt配置备份：<a href="https://github.com/imruxin/grunt" target="_blank" rel="external">https://github.com/imruxin/grunt</a></p><p>个人gulp配置备份：<a href="https://github.com/imruxin/gulp" target="_blank" rel="external">https://github.com/imruxin/gulp</a></p><p>PS：</p><p>前端技术的发展是很快的，看着市面上不断涌现出那么多的新工具和框架，其实选择一个适合自己的即可。如果只是一味的追求最新和潮流，那么等待你的只会是疲于奔命和得不偿失吧。我想还是回归本质的学习比较好，至于新工具新框架要知道要了解但不一定要深入，等到工作的地方需要时再熟悉应用起来应该也会很快的。</p>
       
     </div>
 
@@ -1003,11 +946,10 @@
 
   
 
-  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
+  <script>AV.initialize("<%- theme.leancloud_visitors.app_id %>", "<%- theme.leancloud_visitors.app_key %>");</script>
   <script>
-    function showTime(Counter) {
+    function showViews(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -1029,10 +971,10 @@
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var time = item.get('time');
+            var times = item.get('times');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(times);
           }
         })
         .fail(function (object, error) {
@@ -1052,11 +994,11 @@
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("time");
+            counter.increment("times");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('times'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -1064,19 +1006,13 @@
             });
           } else {
             var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("time", 1);
+            newcounter.set("times", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -1094,8 +1030,8 @@
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
+      } else {
+        showViews(Counter);
       }
     });
   </script>

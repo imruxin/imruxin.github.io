@@ -106,19 +106,16 @@
 
 
 
-<meta name="description" content="不好意思，您要找的页面不见了。Sorry, the page you requested was not found.
-  8 秒后，将会返回首页。">
+<meta name="description" content="不好意思，您要找的页面不见了。Sorry, the page you requested was not found.8 秒后，将会返回首页。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
 <meta property="og:url" content="http://blog.imruxin.com/404.html">
 <meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta property="og:description" content="不好意思，您要找的页面不见了。Sorry, the page you requested was not found.
-  8 秒后，将会返回首页。">
+<meta property="og:description" content="不好意思，您要找的页面不见了。Sorry, the page you requested was not found.8 秒后，将会返回首页。">
 <meta property="og:updated_time" content="2016-01-15T07:21:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta name="twitter:description" content="不好意思，您要找的页面不见了。Sorry, the page you requested was not found.
-  8 秒后，将会返回首页。">
+<meta name="twitter:description" content="不好意思，您要找的页面不见了。Sorry, the page you requested was not found.8 秒后，将会返回首页。">
 
 
 
@@ -267,7 +264,7 @@
       
         <li class="menu-item menu-item-search">
           
-            <a href="#" class="popup-trigger">
+            <a href="#" class="st-search-show-outputs">
           
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
@@ -282,12 +279,19 @@
   
     <div class="site-search">
       
-  <div class="popup">
- <span class="search-icon fa fa-search"></span>
- <input type="text" id="local-search-input">
- <div id="local-search-result"></div>
- <span class="popup-btn-close">close</span>
-</div>
+  <form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'KG5xuZWjUwzZJDEL-u3t','2.0.0');
+</script>
+
 
 
     </div>
@@ -306,13 +310,7 @@
   <div id="posts" class="posts-expand">
     
     
-      <!-- 404 content -->
-<div class="error-404" id="error-404">
-  <p>不好意思，您要找的页面不见了。Sorry, the page you requested was not found.</p>
-  <p><span id="jumpGoHomeSeconds">8</span> 秒后，将会<a href="/">返回首页</a>。</p>
-</div>
-<!-- end 404 content -->
-
+      <div class="error-404" id="error-404"><p>不好意思，您要找的页面不见了。Sorry, the page you requested was not found.</p><p><span id="jumpGoHomeSeconds">8</span> 秒后，将会<a href="/">返回首页</a>。</p></div>
     
   </div>
 
@@ -738,11 +736,10 @@
 
   
 
-  
   <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
-  <script>AV.initialize("Sht9zYHMH5F70sAI8GSP4u2S-gzGzoHsz", "7LlDOqfzkxKmzLdPJ6hEu6om");</script>
+  <script>AV.initialize("<%- theme.leancloud_visitors.app_id %>", "<%- theme.leancloud_visitors.app_key %>");</script>
   <script>
-    function showTime(Counter) {
+    function showViews(Counter) {
       var query = new AV.Query(Counter);
       var entries = [];
       var $visitors = $(".leancloud_visitors");
@@ -764,10 +761,10 @@
           for (var i = 0; i < results.length; i++) {
             var item = results[i];
             var url = item.get('url');
-            var time = item.get('time');
+            var times = item.get('times');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            $(element).find(COUNT_CONTAINER_REF).text(times);
           }
         })
         .fail(function (object, error) {
@@ -787,11 +784,11 @@
           if (results.length > 0) {
             var counter = results[0];
             counter.fetchWhenSave(true);
-            counter.increment("time");
+            counter.increment("times");
             counter.save(null, {
               success: function(counter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                $element.find('.leancloud-visitors-count').text(counter.get('times'));
               },
               error: function(counter, error) {
                 console.log('Failed to save Visitor num, with error message: ' + error.message);
@@ -799,19 +796,13 @@
             });
           } else {
             var newcounter = new Counter();
-            /* Set ACL */
-            var acl = new AV.ACL();
-            acl.setPublicReadAccess(true);
-            acl.setPublicWriteAccess(true);
-            newcounter.setACL(acl);
-            /* End Set ACL */
             newcounter.set("title", title);
             newcounter.set("url", url);
-            newcounter.set("time", 1);
+            newcounter.set("times", 1);
             newcounter.save(null, {
               success: function(newcounter) {
                 var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('times'));
               },
               error: function(newcounter, error) {
                 console.log('Failed to create');
@@ -829,8 +820,8 @@
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
-        showTime(Counter);
+      } else {
+        showViews(Counter);
       }
     });
   </script>
