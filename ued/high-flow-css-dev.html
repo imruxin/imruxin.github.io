@@ -104,16 +104,25 @@
 
 
 
-<meta name="description" content="1、流程协作与快捷工具作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用。作为">
+<meta name="description" content="1、流程协作与快捷工具作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：
+
+一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；
+另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="浅谈高流量网站css开发的学习">
 <meta property="og:url" content="http://blog.imruxin.com/ued/high-flow-css-dev.html">
 <meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta property="og:description" content="1、流程协作与快捷工具作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用。作为">
+<meta property="og:description" content="1、流程协作与快捷工具作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：
+
+一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；
+另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用">
 <meta property="og:updated_time" content="2016-01-13T04:45:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="浅谈高流量网站css开发的学习">
-<meta name="twitter:description" content="1、流程协作与快捷工具作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用。作为">
+<meta name="twitter:description" content="1、流程协作与快捷工具作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：
+
+一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；
+另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用">
 
 
 
@@ -395,7 +404,60 @@
       
 
       
-        <h2 id="1、流程协作与快捷工具"><a href="#1、流程协作与快捷工具" class="headerlink" title="1、流程协作与快捷工具"></a>1、流程协作与快捷工具</h2><p>作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：</p><ul><li>一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；</li><li>另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用。</li></ul><p>作为前端调试，经常更改代码是我们的特性，所以我们自然会想是否有一些自动化的或者一些比较高大上的方法来提高自己的效率。于是乎，koala和grunt/gulp这些自动化工具出现在了我们的视野。</p><p>koala是一款国人开发的可以直接上手的简单易用的图形编译软件，官方网站是：<a href="http://koala-app.com" target="_blank" rel="external">http://koala-app.com</a> 支持Less、Sass、Compass、CoffeeScript。跨平台兼容windows、linux、mac。</p><p>相比于考拉，命令行操作的grunt/gulp则显得比较复杂，当然功能也强大的多。</p><p>做前端开发，如果有一款自己顺手的编辑器，那么敲起代码来就会非常的爽。常见的一些编辑器，比如：Editplus，vim、WebStorm、Aptana、Brackets、Sublime Text etc，不需要去纠结哪一款编辑器好，关键是自己熟悉了习惯了就好了。</p><p>我目前主要用的就是sublime text，主要用ST+emmet（+snippets）。</p><ul><li>emmet的官方网站是这个：<a href="http://docs.emmet.io" target="_blank" rel="external">http://docs.emmet.io</a></li><li>sublime插件网站：<a href="https://sublime.wbond.net" target="_blank" rel="external">https://sublime.wbond.net</a></li></ul><h2 id="2、css性能与效率"><a href="#2、css性能与效率" class="headerlink" title="2、css性能与效率"></a>2、css性能与效率</h2><p>1.所谓的格式指导标准：<br><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml" target="_blank" rel="external">http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml</a><br>（关键在于内部的约定俗成吧。简约，语义话。语言是写给机器读的，但是也写给人看的，因为往往也需要协作。）</p><p>2.权重与特殊性:!important、hack</p><p>css是有权重的。四种选择器：ID、class、 tag和通用符的渲染速度差不多就是从快到慢的。</p><p>一般情况下，优先级如下：</p><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">External <span class="built_in">style</span> sheet（外部样式）&lt; Internal <span class="built_in">style</span> sheet（内部样式）&lt; Inline <span class="built_in">style</span>（内联样式）</span><br></pre></td></tr></table></figure><p>选择器的优先权，确切的说应该是权重值，如：<br>&gt;</p><ul><li>1、内联样式表的权值最高 1000</li><li>2、ID选择器的权值为 100</li><li>3、Class类选择器的权值为 10</li><li>4、HTML标签选择器的权值为 1</li></ul><p>早期的IE（其实现在可以不管了吧）：一个style标记只有前31次@import指令有效应用，一个css文件只有前31次@import指令有效应用，一个CSS文件的大小不能超过288kb。</p><p><strong>防御式css和脆弱的css</strong></p><p>防止被简单的覆盖：加前缀、合理命名、多重组合、增加权重</p><p>注意了：css引擎查找样式表，对每条规则都按从右到左的顺序去匹配。（从上到下，从右到左）</p><h2 id="3-框架与整合"><a href="#3-框架与整合" class="headerlink" title="3.框架与整合"></a>3.框架与整合</h2><p>个人因为工作时间不长，所以到目前为止其实还没有用过任何框架，很多框架也仅限于了解认识，并未实战。</p><p>重置（reset.css、normalize.css）和检测（<a href="http://caniuse.com" target="_blank" rel="external">http://caniuse.com</a>、modernizr.js）</p><p>对于框架什么的，必然是有选择的选取，而不是盲目的照搬。</p><p>CSS的组织或者说布局方式，比如：OOCSS（面向对象的css）</p><ul><li>精简高效的CSS命名准则/方法：<a href="http://www.zhangxinxu.com/wordpress/?p=1098" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1098</a></li><li>去除冗余 – 精简您的CSS样式代码：<a href="http://www.zhangxinxu.com/wordpress/?p=629" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=629</a></li><li>CSS页面重构之“门派”之分：<a href="http://www.zhangxinxu.com/wordpress/?p=1022" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1022</a></li><li>CSS reset的重新审视 – 避免样式重置：<a href="http://www.zhangxinxu.com/wordpress/?p=758" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=758</a></li><li>CSS样式分离之再分离：<a href="http://www.zhangxinxu.com/wordpress/?p=916" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=916</a></li></ul><h2 id="4-性能及动态css"><a href="#4-性能及动态css" class="headerlink" title="4.性能及动态css"></a>4.性能及动态css</h2><p>不推荐@import方式导入外部样式表</p><p>title之后，header之前关于SEO的考虑。还有对图片不能缺少alt的属性等。</p><p>css图片合并，比如sprit的合理使用，记住是合理而不是必须。</p><p>单位（px、em、%、rem等），理论上固定单位效率比相对单位高，因为像em、%等这样的单位浏览器还要执行计算和换算。</p><p>预编译工具的使用和图片压缩：less、sass，图片压缩（ie6png）。</p><p>PS:</p><p>其实可学习css的网站多了去了，网站链接里也整了有些个人感觉还不错的网站，有兴趣可以翻翻。</p><p>延伸阅读：</p><ul><li><a href="http://justineo.github.io/slideshows/creating-stylesheets/" target="_blank" rel="external">Creating Style Sheets</a></li><li><a href="http://perfectionkills.com/profiling-css-for-fun-and-profit-optimization-notes/" target="_blank" rel="external">Profiling CSS for fun and profit</a></li></ul>
+        <h2 id="1、流程协作与快捷工具"><a href="#1、流程协作与快捷工具" class="headerlink" title="1、流程协作与快捷工具"></a>1、流程协作与快捷工具</h2><p>作为一个项目的开始，我们必然要对我们的项目进行一些规划，所以我们会有一个流程协作的问题。在我现在有限的认知里，我觉得流程协作的好坏主要体现于两方面：</p>
+<ul>
+<li>一个是项目的流程，通常是：需求》策划》设计》前端》程序》测试》上线；</li>
+<li>另一个则是程序员之间的配合了。程序员之间的配合关键在于约定一份大家可以接受的xx规范，模块化分割和注释，以及借助一些版本控制工具（比如Git或SVN）的使用。</li>
+</ul>
+<p>作为前端调试，经常更改代码是我们的特性，所以我们自然会想是否有一些自动化的或者一些比较高大上的方法来提高自己的效率。于是乎，koala和grunt/gulp这些自动化工具出现在了我们的视野。</p>
+<p>koala是一款国人开发的可以直接上手的简单易用的图形编译软件，官方网站是：<a href="http://koala-app.com" target="_blank" rel="external">http://koala-app.com</a> 支持Less、Sass、Compass、CoffeeScript。跨平台兼容windows、linux、mac。</p>
+<p>相比于考拉，命令行操作的grunt/gulp则显得比较复杂，当然功能也强大的多。</p>
+<p>做前端开发，如果有一款自己顺手的编辑器，那么敲起代码来就会非常的爽。常见的一些编辑器，比如：Editplus，vim、WebStorm、Aptana、Brackets、Sublime Text etc，不需要去纠结哪一款编辑器好，关键是自己熟悉了习惯了就好了。</p>
+<p>我目前主要用的就是sublime text，主要用ST+emmet（+snippets）。</p>
+<ul>
+<li>emmet的官方网站是这个：<a href="http://docs.emmet.io" target="_blank" rel="external">http://docs.emmet.io</a></li>
+<li>sublime插件网站：<a href="https://sublime.wbond.net" target="_blank" rel="external">https://sublime.wbond.net</a></li>
+</ul>
+<h2 id="2、css性能与效率"><a href="#2、css性能与效率" class="headerlink" title="2、css性能与效率"></a>2、css性能与效率</h2><p>1.所谓的格式指导标准：<br><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml" target="_blank" rel="external">http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml</a><br>（关键在于内部的约定俗成吧。简约，语义话。语言是写给机器读的，但是也写给人看的，因为往往也需要协作。）</p>
+<p>2.权重与特殊性:!important、hack</p>
+<p>css是有权重的。四种选择器：ID、class、 tag和通用符的渲染速度差不多就是从快到慢的。</p>
+<p>一般情况下，优先级如下：</p>
+<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">External <span class="built_in">style</span> sheet（外部样式）&lt; Internal <span class="built_in">style</span> sheet（内部样式）&lt; Inline <span class="built_in">style</span>（内联样式）</span><br></pre></td></tr></table></figure>
+<p>选择器的优先权，确切的说应该是权重值，如：<br>&gt;</p>
+<ul>
+<li>1、内联样式表的权值最高 1000</li>
+<li>2、ID选择器的权值为 100</li>
+<li>3、Class类选择器的权值为 10</li>
+<li>4、HTML标签选择器的权值为 1</li>
+</ul>
+<p>早期的IE（其实现在可以不管了吧）：一个style标记只有前31次@import指令有效应用，一个css文件只有前31次@import指令有效应用，一个CSS文件的大小不能超过288kb。</p>
+<p><strong>防御式css和脆弱的css</strong></p>
+<p>防止被简单的覆盖：加前缀、合理命名、多重组合、增加权重</p>
+<p>注意了：css引擎查找样式表，对每条规则都按从右到左的顺序去匹配。（从上到下，从右到左）</p>
+<h2 id="3-框架与整合"><a href="#3-框架与整合" class="headerlink" title="3.框架与整合"></a>3.框架与整合</h2><p>个人因为工作时间不长，所以到目前为止其实还没有用过任何框架，很多框架也仅限于了解认识，并未实战。</p>
+<p>重置（reset.css、normalize.css）和检测（<a href="http://caniuse.com" target="_blank" rel="external">http://caniuse.com</a>、modernizr.js）</p>
+<p>对于框架什么的，必然是有选择的选取，而不是盲目的照搬。</p>
+<p>CSS的组织或者说布局方式，比如：OOCSS（面向对象的css）</p>
+<ul>
+<li>精简高效的CSS命名准则/方法：<a href="http://www.zhangxinxu.com/wordpress/?p=1098" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1098</a></li>
+<li>去除冗余 – 精简您的CSS样式代码：<a href="http://www.zhangxinxu.com/wordpress/?p=629" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=629</a></li>
+<li>CSS页面重构之“门派”之分：<a href="http://www.zhangxinxu.com/wordpress/?p=1022" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=1022</a></li>
+<li>CSS reset的重新审视 – 避免样式重置：<a href="http://www.zhangxinxu.com/wordpress/?p=758" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=758</a></li>
+<li>CSS样式分离之再分离：<a href="http://www.zhangxinxu.com/wordpress/?p=916" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/?p=916</a></li>
+</ul>
+<h2 id="4-性能及动态css"><a href="#4-性能及动态css" class="headerlink" title="4.性能及动态css"></a>4.性能及动态css</h2><p>不推荐@import方式导入外部样式表</p>
+<p>title之后，header之前关于SEO的考虑。还有对图片不能缺少alt的属性等。</p>
+<p>css图片合并，比如sprit的合理使用，记住是合理而不是必须。</p>
+<p>单位（px、em、%、rem等），理论上固定单位效率比相对单位高，因为像em、%等这样的单位浏览器还要执行计算和换算。</p>
+<p>预编译工具的使用和图片压缩：less、sass，图片压缩（ie6png）。</p>
+<p>PS:</p>
+<p>其实可学习css的网站多了去了，网站链接里也整了有些个人感觉还不错的网站，有兴趣可以翻翻。</p>
+<p>延伸阅读：</p>
+<ul>
+<li><a href="http://justineo.github.io/slideshows/creating-stylesheets/" target="_blank" rel="external">Creating Style Sheets</a></li>
+<li><a href="http://perfectionkills.com/profiling-css-for-fun-and-profit-optimization-notes/" target="_blank" rel="external">Profiling CSS for fun and profit</a></li>
+</ul>
+
       
     </div>
 
@@ -552,7 +614,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">104</span>
+              <span class="site-state-item-count">100</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -560,7 +622,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -569,7 +631,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">36</span>
+                <span class="site-state-item-count">37</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -740,6 +802,9 @@
 
   
   <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/function.js"></script>
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>

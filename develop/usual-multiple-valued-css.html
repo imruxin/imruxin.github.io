@@ -104,16 +104,25 @@
 
 
 
-<meta name="description" content="随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。首先来说一说，那些必须要多参数才可以有作用效果的css属性。border系列，包括border-top/right/bottom/left1borde: 1px solid; // 至少需要两个">
+<meta name="description" content="随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。
+首先来说一说，那些必须要多参数才可以有作用效果的css属性。
+border系列，包括border-top/right/bottom/left
+1borde: 1px solid; // 至少需">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常用的必须多参数才可以看到效果以及可以多参数叠加的css">
 <meta property="og:url" content="http://blog.imruxin.com/develop/usual-multiple-valued-css.html">
 <meta property="og:site_name" content="Ruxin·s Personal Website | Meet new and Make a better life | 发现生活·遇见自己">
-<meta property="og:description" content="随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。首先来说一说，那些必须要多参数才可以有作用效果的css属性。border系列，包括border-top/right/bottom/left1borde: 1px solid; // 至少需要两个">
+<meta property="og:description" content="随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。
+首先来说一说，那些必须要多参数才可以有作用效果的css属性。
+border系列，包括border-top/right/bottom/left
+1borde: 1px solid; // 至少需">
 <meta property="og:updated_time" content="2016-01-09T06:31:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="常用的必须多参数才可以看到效果以及可以多参数叠加的css">
-<meta name="twitter:description" content="随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。首先来说一说，那些必须要多参数才可以有作用效果的css属性。border系列，包括border-top/right/bottom/left1borde: 1px solid; // 至少需要两个">
+<meta name="twitter:description" content="随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。
+首先来说一说，那些必须要多参数才可以有作用效果的css属性。
+border系列，包括border-top/right/bottom/left
+1borde: 1px solid; // 至少需">
 
 
 
@@ -395,7 +404,25 @@
       
 
       
-        <p>随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。</p><p>首先来说一说，那些必须要多参数才可以有作用效果的css属性。</p><p><strong>border系列，包括border-top/right/bottom/left</strong></p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">borde: 1px solid; // 至少需要两个参数，一个是大小和类型，至于颜色则会有默认的#000</span><br></pre></td></tr></table></figure><p><strong>box-shadow</strong></p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">box-shadow: 1px 1px #aaa; // 最少需要3个参数，但通常来说一般是四个的用的比较多吧？</span><br></pre></td></tr></table></figure><blockquote><p>none：无阴影<br>第1个长度值用来设置对象的阴影水平偏移值。可以为负值<br>第2个长度值用来设置对象的阴影垂直偏移值。可以为负值<br>如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值<br>如果提供了第4个长度值则用来设置对象的阴影外延值。可以为负值<br>color：设置对象的阴影的颜色。<br>inset：设置对象的阴影类型为内阴影。该值为空时，则对象的阴影类型为外阴影</p></blockquote><p><strong>text-shadow</strong></p><p>这个跟box-shadow也有点像。</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">text-shadow: 1px 1px #ddd;// 最少需要3个参数</span><br></pre></td></tr></table></figure><blockquote><p>none：无阴影<br>第1个长度值用来设置对象的阴影水平偏移值。可以为负值<br>第2个长度值用来设置对象的阴影垂直偏移值。可以为负值<br>如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值<br>color：设置对象的阴影的颜色。</p></blockquote><p>必须多个参数的暂时就只想起了那么些了，剩下的就是一些<strong>可叠加使用的css3属性</strong>了。通过那些属性值的叠加也可以做出一些非常好看好玩的东西。</p><p>其实常见的就是那些<strong>背景、文字、阴影、动画</strong>了。这个的话，直接看别人的作品似乎会来得更有视觉冲击力也好模仿和练习研究。</p><p>基于单个DIV的绘图：<a href="https://github.com/lynnandtonic/a-single-div" title="A Single Div" target="_blank" rel="external">https://github.com/lynnandtonic/a-single-div</a></p>
+        <p>随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。</p>
+<p>首先来说一说，那些必须要多参数才可以有作用效果的css属性。</p>
+<p><strong>border系列，包括border-top/right/bottom/left</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">borde: 1px solid; // 至少需要两个参数，一个是大小和类型，至于颜色则会有默认的#000</span><br></pre></td></tr></table></figure>
+<p><strong>box-shadow</strong></p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">box-shadow: 1px 1px #aaa; // 最少需要3个参数，但通常来说一般是四个的用的比较多吧？</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>none：无阴影<br>第1个长度值用来设置对象的阴影水平偏移值。可以为负值<br>第2个长度值用来设置对象的阴影垂直偏移值。可以为负值<br>如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值<br>如果提供了第4个长度值则用来设置对象的阴影外延值。可以为负值<br>color：设置对象的阴影的颜色。<br>inset：设置对象的阴影类型为内阴影。该值为空时，则对象的阴影类型为外阴影</p>
+</blockquote>
+<p><strong>text-shadow</strong></p>
+<p>这个跟box-shadow也有点像。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">text-shadow: 1px 1px #ddd;// 最少需要3个参数</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>none：无阴影<br>第1个长度值用来设置对象的阴影水平偏移值。可以为负值<br>第2个长度值用来设置对象的阴影垂直偏移值。可以为负值<br>如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值<br>color：设置对象的阴影的颜色。</p>
+</blockquote>
+<p>必须多个参数的暂时就只想起了那么些了，剩下的就是一些<strong>可叠加使用的css3属性</strong>了。通过那些属性值的叠加也可以做出一些非常好看好玩的东西。</p>
+<p>其实常见的就是那些<strong>背景、文字、阴影、动画</strong>了。这个的话，直接看别人的作品似乎会来得更有视觉冲击力也好模仿和练习研究。</p>
+<p>基于单个DIV的绘图：<a href="https://github.com/lynnandtonic/a-single-div" title="A Single Div" target="_blank" rel="external">https://github.com/lynnandtonic/a-single-div</a></p>
+
       
     </div>
 
@@ -552,7 +579,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">104</span>
+              <span class="site-state-item-count">100</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -560,7 +587,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -569,7 +596,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">36</span>
+                <span class="site-state-item-count">37</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -740,6 +767,9 @@
 
   
   <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/function.js"></script>
 
   
   <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
