@@ -1,7 +1,7 @@
 $(function() {
 
   // show Time
-  !(function() {
+  function showTime() {
     // 获取时间元素
     var now = new Date();
     var year = now.getFullYear();
@@ -26,7 +26,7 @@ $(function() {
       '凌晨好','上午好','中午好','下午好','傍晚好','晚上好','夜深了，注意休息！'
     ];
     var hello = document.getElementById("helloText");
-    if (hello.length) {
+    if (hello) {
       if (h > 5 && h < 8) {
         hello.innerHTML = helloWordText[0];
       } else if (h >=8 && h < 12 ){
@@ -45,11 +45,12 @@ $(function() {
     }
     // 信息显示
     var eleObj = document.getElementById("showTime");
-    if (eleObj.length) {
+    if (eleObj) {
       eleObj.innerHTML = year + "年" + month + "月" + day + "日 " + week + " " + h + ":" + m + ":" + s;
       t = setTimeout(showTime, 500);
     }
-  })();
+  };
+  showTime();
 
 
   // return homepage
