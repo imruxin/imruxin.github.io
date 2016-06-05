@@ -1649,12 +1649,14 @@ pre .javascript .function {
 .sidebar-time a:hover i {
   color: #fff;
 }
-.sidebar-time p {
-  color: #fc6423;
+.sidebar-time {
+  padding-top: 8px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  text-align: center;
 }
 .sidebar-time p:hover {
-  color: #fff;
-  background: #fc6423;
+  color: #fc6423;
 }
 .links-of-author {
   margin-top: 20px;
@@ -1675,7 +1677,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f0ffff;
+  background: #ff309e;
 }
 .links-of-blogroll {
   font-size: 13px;
