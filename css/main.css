@@ -1677,7 +1677,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cb5dff;
+  background: #ff6aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2067,6 +2067,11 @@ pre .javascript .function {
 .post-spread {
   margin-top: 20px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .post-spread {
+    display: none;
+  }
 }
 .jiathis_style {
   display: inline-block;
