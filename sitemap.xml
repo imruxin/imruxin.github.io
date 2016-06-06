@@ -2,6 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.imruxin.com/about/index.html</loc>
+    
+    <lastmod>2016-06-06T11:35:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/front-end/usual-multiple-valued-css.html</loc>
+    
+    <lastmod>2016-06-06T11:32:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/front-end/usual-css-short.html</loc>
+    
+    <lastmod>2016-06-06T11:32:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/front-end/about-seo.html</loc>
+    
+    <lastmod>2016-06-06T11:31:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/2016-new-job-talking.html</loc>
+    
+    <lastmod>2016-06-06T11:28:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/go-home-new-year-and-talking-about-us.html</loc>
+    
+    <lastmod>2016-06-06T11:27:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/front-end/html-meta.html</loc>
+    
+    <lastmod>2016-06-06T11:26:24.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</loc>
+    
+    <lastmod>2016-06-06T11:25:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/online-teamwork-tools.html</loc>
+    
+    <lastmod>2016-06-06T11:24:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/front-end/javascript-predefine.html</loc>
+    
+    <lastmod>2016-06-06T11:23:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/study/bank-and-accounts-safety.html</loc>
+    
+    <lastmod>2016-06-06T11:19:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/front-end/xmf2e-18th.html</loc>
+    
+    <lastmod>2016-06-06T11:18:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/2014-11-the-next-time.html</loc>
+    
+    <lastmod>2016-06-06T11:16:58.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/still-go-myself-road.html</loc>
+    
+    <lastmod>2016-06-06T11:07:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.imruxin.com/diary/start-again.html</loc>
+    
+    <lastmod>2016-06-06T11:06:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.imruxin.com/diary/meet-the-26th-birthday-and-do-sth-well.html</loc>
     
     <lastmod>2016-06-05T05:51:36.000Z</lastmod>
@@ -212,23 +317,9 @@
   </url>
   
   <url>
-    <loc>http://blog.imruxin.com/about/index.html</loc>
-    
-    <lastmod>2016-05-31T15:02:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.imruxin.com/categories/index.html</loc>
     
     <lastmod>2016-05-29T12:02:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/develop/usual-css-short.html</loc>
-    
-    <lastmod>2016-05-29T11:38:12.000Z</lastmod>
     
   </url>
   
@@ -240,30 +331,9 @@
   </url>
   
   <url>
-    <loc>http://blog.imruxin.com/diary/2016-new-job-talking.html</loc>
-    
-    <lastmod>2016-02-20T18:44:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/diary/go-home-new-year-and-talking-about-us.html</loc>
-    
-    <lastmod>2016-01-30T15:37:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.imruxin.com/diary/backpacker-and-north-to-travel.html</loc>
     
     <lastmod>2016-01-28T04:10:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/develop/html-meta.html</loc>
-    
-    <lastmod>2016-01-20T07:52:51.000Z</lastmod>
     
   </url>
   
@@ -275,23 +345,9 @@
   </url>
   
   <url>
-    <loc>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</loc>
-    
-    <lastmod>2016-01-16T06:40:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.imruxin.com/diary/life-to-travel-and-travel-to-life.html</loc>
     
     <lastmod>2016-01-16T05:33:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/diary/2014-11-the-next-time.html</loc>
-    
-    <lastmod>2016-01-16T05:21:25.000Z</lastmod>
     
   </url>
   
@@ -334,27 +390,6 @@
     <loc>http://blog.imruxin.com/diary/near-the-end-of-2014.html</loc>
     
     <lastmod>2016-01-14T13:13:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/develop/javascript-data-type.html</loc>
-    
-    <lastmod>2016-01-14T02:31:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/develop/javascript-predefine.html</loc>
-    
-    <lastmod>2016-01-14T02:30:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/diary/javascript-study-again.html</loc>
-    
-    <lastmod>2016-01-14T02:29:33.000Z</lastmod>
     
   </url>
   
@@ -569,20 +604,6 @@
   </url>
   
   <url>
-    <loc>http://blog.imruxin.com/update/bank-and-accounts-safety.html</loc>
-    
-    <lastmod>2016-01-11T03:01:06.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/update/online-teamwork-tools.html</loc>
-    
-    <lastmod>2016-01-09T07:41:12.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.imruxin.com/develop/some-system-logic.html</loc>
     
     <lastmod>2016-01-09T06:49:19.000Z</lastmod>
@@ -590,30 +611,9 @@
   </url>
   
   <url>
-    <loc>http://blog.imruxin.com/diary/still-go-myself-road.html</loc>
-    
-    <lastmod>2016-01-09T06:47:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/diary/start-again.html</loc>
-    
-    <lastmod>2016-01-09T06:43:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.imruxin.com/diary/ued-start-again.html</loc>
     
     <lastmod>2016-01-09T06:41:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/develop/usual-multiple-valued-css.html</loc>
-    
-    <lastmod>2016-01-09T06:31:30.000Z</lastmod>
     
   </url>
   
@@ -639,13 +639,6 @@
   </url>
   
   <url>
-    <loc>http://blog.imruxin.com/ued/about-seo.html</loc>
-    
-    <lastmod>2016-01-08T15:49:27.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.imruxin.com/diary/a-dialectical-thinking.html</loc>
     
     <lastmod>2016-01-08T15:04:33.000Z</lastmod>
@@ -656,13 +649,6 @@
     <loc>http://blog.imruxin.com/diary/2014-f2e-summary-list.html</loc>
     
     <lastmod>2016-01-08T07:08:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.imruxin.com/ued/xmf2e-18th.html</loc>
-    
-    <lastmod>2016-01-08T06:06:27.000Z</lastmod>
     
   </url>
   

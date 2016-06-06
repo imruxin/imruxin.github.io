@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.imruxin.com/"/>
-  <updated>2016-02-20T18:44:21.000Z</updated>
+  <updated>2016-06-06T11:28:17.000Z</updated>
   <id>http://blog.imruxin.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>又是一次春节后求职跳槽的高峰期，我们一起聊聊</title>
+    <title>又是一次春节后求职跳槽的高峰期，一起聊聊</title>
     <link href="http://blog.imruxin.com/diary/2016-new-job-talking.html"/>
     <id>http://blog.imruxin.com/diary/2016-new-job-talking.html</id>
     <published>2016-02-20T18:42:36.000Z</published>
-    <updated>2016-02-20T18:44:21.000Z</updated>
+    <updated>2016-06-06T11:28:17.000Z</updated>
     
     <content type="html">&lt;p&gt;今天（周六）是春节假期结束后的第一个周末，白天的天气是挺不错的。M君本来是计划去一趟图书馆然后海边走一趟的，不过最终的行程却是几个人相约咖啡厅聊天交换一些关于工作上的想法，时间延续是一不小心从下午两点一直到了晚上九点多结束。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2016/02/IMG_3581.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -76,10 +76,10 @@
     <link href="http://blog.imruxin.com/diary/go-home-new-year-and-talking-about-us.html"/>
     <id>http://blog.imruxin.com/diary/go-home-new-year-and-talking-about-us.html</id>
     <published>2016-01-30T15:22:45.000Z</published>
-    <updated>2016-01-30T15:37:19.000Z</updated>
+    <updated>2016-06-06T11:27:30.000Z</updated>
     
     <content type="html">&lt;p&gt;昨天公司年会结束，一个工作的阶段也算是告一段落了。这一年内心的此起彼伏和触碰，让自己在思想上有了不少的变化，工作情感都有了更清晰的线路，也更明确了自己接下去的工作学习方向。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2016/01/yunduo-2015.jpg&quot; alt=&quot;&quot; title=&quot;2015云朵活动中&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2016/01/yunduo-2015.jpg&quot; alt=&quot;&quot; title=&quot;2015云朵年会活动中&quot;&gt;&lt;/p&gt;
 &lt;p&gt;下周六就回家准备过年了，这一年回家相对的是比较迟的。公司放假8天，然后自己没请假，年假也早已用完。在距离回家还有几天的这几天，我想状态是相对的悠闲的吧，而且其实所谓的工作状态似乎也不会太高。&lt;/p&gt;
 &lt;p&gt;再次经过一年的往复，此刻对于工作的心态和状态都算是经历了一番蜕变了。借鉴于2015年工作上的没明显成长和未完成以及为避免重蹈覆辙，使得自己在2016年的这一年会强迫自己要有一个变化（春节后）以及有一个可以看得到的专注区域。不管外界的工作和任务如何，都会让自己至少坚持2016的这一年。&lt;strong&gt;对于学习技术和扩充技能的意义也已经变了，此刻对于我而言学习技术是为了之后参与创造产品和更好的优化产品，目的性很明确的缺什么就去学习什么。&lt;/strong&gt;当然对于学习的层次要求大部分都是基于可以正常应用这个层级，除了少部分外，大部分扩充性的学习也不会太去深究，毕竟人的精力有限。&lt;/p&gt;
 &lt;p&gt;再次经过一年的重复，徒步慢跑已经正式成为了自己业余生活锻炼的一部分了，也很高兴认识了一群喜欢奔跑的小伙伴。徒步慢跑是为了释放自己和锻炼身体保持健康，长距离的慢跑更是为了不断的磨练自己的意志。在长距离慢跑（10km+）中，在内心里“不想跑了放弃吧”和“再坚持坚持就结束了”这两种声音中不断的斗争着往前走。2015的这一年，参加了一定数量的半程、全程马拉松赛，今年会回归常规的慢跑（通常会是5km+，以10km为主），常规情况下应该不会自己主动花钱报名去参加马拉松赛了。奔跑的意义不是为了参加马拉松，我也不是马拉松狂热份子，我更认可那些能把跑步长期坚持下去而不是一两次跑马结束后就闪人的人，前者才是真正的健康跑。奔跑是为了遇见更好的自己，奔跑也只是一种最常见的运动方式。春节后也很可能会主动的承担起跑团的建设任务，如果在身边的你们喜欢奔跑的感觉需要一个平台锻炼各种软技能，那么也欢迎加入。有爱一起跑，悦跑越阳光，我们一起改变自己。&lt;/p&gt;
@@ -102,10 +102,10 @@
   
   <entry>
     <title>HTML中head头结构和Meta标签</title>
-    <link href="http://blog.imruxin.com/develop/html-meta.html"/>
-    <id>http://blog.imruxin.com/develop/html-meta.html</id>
+    <link href="http://blog.imruxin.com/front-end/html-meta.html"/>
+    <id>http://blog.imruxin.com/front-end/html-meta.html</id>
     <published>2016-01-20T07:12:01.000Z</published>
-    <updated>2016-01-20T07:52:51.000Z</updated>
+    <updated>2016-06-06T11:26:24.000Z</updated>
     
     <content type="html">&lt;p&gt;网页中的meta元素关系到了很多方面，对网站的宣传对SEO和网页本身的渲染都是举足轻重的。这个meta标签的了解基本上算是一个知识储备性质的，因为没涉及到太多逻辑很复杂的计算啥的。&lt;/p&gt;
 &lt;p&gt;然后，强烈建议阅读下方的扩充资料，这样了解的会更全面，也可以当作手册一样备份查询。强烈建议阅读下方的扩充资料，这样了解的会更全面，也可以当作手册一样备份查询。强烈建议阅读下方的扩充资料，这样了解的会更全面，也可以当作手册一样备份查询。重要的事情说三遍。&lt;/p&gt;
@@ -129,12 +129,10 @@
     
     </summary>
     
-      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+      <category term="front-end" scheme="http://blog.imruxin.com/categories/front-end/"/>
     
     
       <category term="meta" scheme="http://blog.imruxin.com/tags/meta/"/>
-    
-      <category term="head" scheme="http://blog.imruxin.com/tags/head/"/>
     
   </entry>
   
@@ -180,12 +178,10 @@
     <link href="http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html"/>
     <id>http://blog.imruxin.com/diary/say-goodbye-for-27-and-welcome-to-28.html</id>
     <published>2016-01-07T14:56:08.000Z</published>
-    <updated>2016-01-16T06:40:33.000Z</updated>
+    <updated>2016-06-06T11:25:28.000Z</updated>
     
     <content type="html">&lt;p&gt;当告别人生的一些节点的时候，反正我是会习惯性的去翻翻过去。其实现在这状态，最想做的事情是在一个积极的环境下和一群有事业心的人奋斗和折腾。我现在不喜欢安逸的生活，因为现在的安逸就代表着未来的不安逸，至少这阶段肯定不能安逸。而且随着生活的继续，某些现实的压力也慢慢的上来了，我更没理由去选择安逸了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2016/01/IMG_0047.jpg&quot; alt=&quot;&quot; title=&quot;厦门环岛路&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;img-desc&quot;&gt;厦门环岛路&lt;/p&gt;
-
 &lt;p&gt;这三四天也重新把博客样式给整了一遍，因为接下去我要认真的去做一些事情。我需要一些记录，也需要一个专属的平台，然后觉得自己的个人独立博客是一个非常好的载体，于是乎就花点时间去把这个平台给重新DIY一遍了。同时，借助这次机会，我也把相关的平台给重新整一下，加入了新的微信公众号平台，同时会重新继续在简书和豆瓣以及网易摄影上阶段性的活跃。&lt;/p&gt;
 &lt;p&gt;你现在看到的这个博客是基于hexo生成的，整站都是纯静态页面。如果你们有看到底部信息的话应该是会知道这个博客是搭载在github和gitcafe上的，然后通过DNSPOD的所谓的智能解析把国内的电信、联通和局域网IP指向gitcafe上，其他地区的IP则指向github上，这样做的目的是提高访问速度。&lt;/p&gt;
 &lt;p&gt;至于博客主题的话，是我自己瞎折腾的，是自己从无到有创建的。自己先用gulp自动化工具折腾了一个本地的静态页面，再然后套模板。本想用jade或swig重写的，不过发现时间和熟练度会是一个问题所以就放弃了。网站的评论系统采用的是多说，然后评论数也是基于多说的，阅读数则是网络上看到的基于leancloud服务自己再DIY的。图床采用的是七牛云存储，底部也有邀请链接。上传方式是采用命令行，因为一行代码就可以批量更新和上传所有图片了。&lt;/p&gt;
@@ -195,8 +191,6 @@
 &lt;p&gt;现在的自己总体还是挺充实的，甚至大部分的时候一点都不觉得一个人会怎么样，也可能习惯了一个人的生活了吧。一个人生活，一个人吃饭睡觉运动看书看电影码字等等，其实也挺自由和惬意的。有时候如果不是因为被一些社会环境影响和家里婚姻的促催，我还可能会忘了自己现在还是单身狗的身份。&lt;/p&gt;
 &lt;p&gt;不过有时候，或许是源自社会也或许是源自家里也有可能是源自自己内心，到了人生的一定时刻，似乎还是更喜欢有一个属于自己的家吧。换句话说就是，开始更频繁的希望有一个依靠有一个属于自己的两个人的小世界，有一个属于自己的归属感，有一个自己喜欢的人或者有一个喜欢自己的人。还有就是更愿意去寻找一个生活的合作伙伴，一起前行和奋斗。毕竟这社会一个人单打独斗的力量还是不如“团队”的力量的。从此之后就会想要着主动去寻找女朋友，开始留心并物色另一半，更愿意去主动尝试和接触更多的异性参加更多各式各样的活动。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2016/01/IMG_0050.jpg&quot; alt=&quot;&quot; title=&quot;厦门环岛路&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;img-desc&quot;&gt;厦门环岛路&lt;/p&gt;
-
 &lt;p&gt;有时候人就是很奇怪的吧。2015已经在不知不觉中度过了，2016自己会去寻找自己想要的，但同时对于一般性的人事物而言我也更喜欢选择安静和自己独自的去做自己的事情去。&lt;/p&gt;
 &lt;p&gt;PS：或许很多时候，生活中也确实有着不少的巧合吧。10月份后，经济开始出现很紧张的状态，不过还好意外的小单加东拼西凑给度过去了。只是来年也肯定不能再这么下去，所以这段时间得重新抉择。然后正在自己重新开始新的出发时，和一群圈子同仁在一起聊天中前辈们也直白的提醒了自己的一些问题。真诚的敢于批评还是好的，给一些警醒也是有必要的，我不排斥基于尊重客观理性的建议。回顾过去的“思想泛滥”，现在也的确是到了该收的重要关头了。旧文里的“类似重复性的思考”也会暂时告一段落，接下去等待自己的就是学习，学习的目标就是把自己的想法和追求变现。加油～&lt;/p&gt;
 </content>
@@ -218,10 +212,10 @@
   
   <entry>
     <title>在线团队协同平台</title>
-    <link href="http://blog.imruxin.com/update/online-teamwork-tools.html"/>
-    <id>http://blog.imruxin.com/update/online-teamwork-tools.html</id>
+    <link href="http://blog.imruxin.com/diary/online-teamwork-tools.html"/>
+    <id>http://blog.imruxin.com/diary/online-teamwork-tools.html</id>
     <published>2015-05-11T03:09:35.000Z</published>
-    <updated>2016-01-09T07:41:12.000Z</updated>
+    <updated>2016-06-06T11:24:32.000Z</updated>
     
     <content type="html">&lt;p&gt;最近刚好碰到了这方面的问题，所以就对目前一些常见的&lt;strong&gt;在线团队协同工作平台&lt;/strong&gt;进行一下备份。当然了，自己公司早已不在使用第三方在线平台工具了，因为自己搭建了。&lt;/p&gt;
 &lt;p&gt;就个人目前所知的，在团队协同这一块，主要是有这么几个平台（我之前只玩过前面两个，都有iOS及Android版本）：&lt;/p&gt;
@@ -252,7 +246,7 @@
     
     </summary>
     
-      <category term="update" scheme="http://blog.imruxin.com/categories/update/"/>
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
     
     
       <category term="teamwork" scheme="http://blog.imruxin.com/tags/teamwork/"/>
@@ -260,46 +254,11 @@
   </entry>
   
   <entry>
-    <title>javascript中的数据类型</title>
-    <link href="http://blog.imruxin.com/develop/javascript-data-type.html"/>
-    <id>http://blog.imruxin.com/develop/javascript-data-type.html</id>
-    <published>2015-04-20T12:03:10.000Z</published>
-    <updated>2016-01-14T02:31:46.000Z</updated>
-    
-    <content type="html">&lt;p&gt;我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着这六种数据类型走一遍。&lt;/p&gt;
-&lt;p&gt;首先对于这些数据的分类和定义，我们是否会去思考一个问题：为什么要有这些数据类型以及这些数据类型是依据什么而来的？&lt;/p&gt;
-&lt;p&gt;在定义数据类型及分类的时候，我想我们肯定要考虑到所有的数据类型。之所以要考虑到所有的数据类型，大概是出于安全性和严谨性的考虑，而分类则是根据使用频率或者功能来的。当然了数据类型定义好了，也不是你想怎么用就可以任性的怎么用的，还是需要遵照一些规则来的。&lt;/p&gt;
-&lt;p&gt;Number（数字）类型是几乎任何语言都要有的一种基本类型，也是使用频率非常高的一种常规数据类型。对于这种类型，我们通常要知道的就是数字的范围以及比较吧？&lt;/p&gt;
-&lt;p&gt;String（字符串）类型&lt;/p&gt;
-&lt;p&gt;PS：&lt;/p&gt;
-&lt;p&gt;未完待续&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;参考及延伸资料：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.jobbole.com/26859/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript: 数据类型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://web.jobbole.com/24329/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;了解 JavaScript 中的内置对象&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/ziyunfei/archive/2012/10/11/2717057.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;JavaScript:如何判断值的类型&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们清楚，javascript中的数据类型有6种，即：5种基本类型（Number、String、Boolean、Null、Undefinded）加一种复杂类型（Object）。（有些人认为函数（Function）也是一种，这里暂且就不去讨论是不是了。）那么现在就尝试着围绕着
-    
-    </summary>
-    
-      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
-    
-    
-      <category term="javascript" scheme="http://blog.imruxin.com/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
     <title>javascript中的预定义</title>
-    <link href="http://blog.imruxin.com/develop/javascript-predefine.html"/>
-    <id>http://blog.imruxin.com/develop/javascript-predefine.html</id>
+    <link href="http://blog.imruxin.com/front-end/javascript-predefine.html"/>
+    <id>http://blog.imruxin.com/front-end/javascript-predefine.html</id>
     <published>2015-04-16T12:03:10.000Z</published>
-    <updated>2016-01-14T02:30:58.000Z</updated>
+    <updated>2016-06-06T11:23:08.000Z</updated>
     
     <content type="html">&lt;p&gt;按照常理说，设计一门计算机语言的话肯定是要考虑这门语言的用途、场景以及逻辑和安全性等等。而且创建语言本身的目的就是用来给别人用的，所以为了让开发人员更好的使用这门语言，那么每一门语言必然都会有一些预置的和预定义的东西以及对应的规则和使用方法。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;javascript是一门动态语言，那么在javascript的世界里，我们该怎么去更好的学习和理解这门语言的特性呢？欢迎前辈以及大神们指导&lt;/strong&gt;&lt;/p&gt;
@@ -318,8 +277,6 @@
 &lt;p&gt;javascript数据本身的操作结束后，那么用什么形式和什么方法与外界通信呢？这个则就涉及到事件了，还有ajax、json等这些与浏览器或者服务器交互的方式方法了。javascript预置的事件还是挺多的，所以后面也需要按照的一定的顺序来梳理一遍吧。&lt;/p&gt;
 &lt;p&gt;然后如何保证数据传输的安全和效率以及准确性，这些则又包含了javascript对DOM、BOM等的操作以及javascript本身的安全机制以及对事件处理还有兼容性处理的学习了。具体的则DOM可以细化成选择器（getElementById、getElementByName、querySelector等等）、CSS操作（className、style等等）、属性操作（offsetHeight、offsetWidth等等）等等；BOM可以细化为常用事件（onload、onclick等等）、常用方法（window.open、document.write等）、常用属性（clinetWidth、clinetHeight）等等。&lt;/p&gt;
 &lt;p&gt;截至目前，我们所说的其实都只是我们主观在操作的，那么在操作的过程中我们必然也是会遇到一些问题的。所以问题又来了，我们怎么去排查以及怎么借助一些工具去排查错误呢？比如常规的用&lt;code&gt;alert()&lt;/code&gt;或者&lt;code&gt;console.log()&lt;/code&gt;等方式。&lt;/p&gt;
-&lt;p&gt;最后的最后，写着写着就变成了这样了，跟自己的预期算是有点出入吧。原本我是打算把那些预置的东西都进行一个归纳整理的，不过发现内容有点多而且有些也不确定具体到哪个级别才算是合适。&lt;/p&gt;
-&lt;p&gt;然后接下去的一篇，则很自然的就是javascript数据类型的思考与学习了。&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -329,42 +286,7 @@
     
     </summary>
     
-      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
-    
-    
-      <category term="javascript" scheme="http://blog.imruxin.com/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>javascript的重新学习</title>
-    <link href="http://blog.imruxin.com/diary/javascript-study-again.html"/>
-    <id>http://blog.imruxin.com/diary/javascript-study-again.html</id>
-    <published>2015-04-16T07:03:10.000Z</published>
-    <updated>2016-01-14T02:29:33.000Z</updated>
-    
-    <content type="html">&lt;p&gt;在2014年其实也算是翻阅了不少jQuery/javascript的资料，不过都不是很深，或者是看后时间一长就又有点模糊了。截至目前，对于很多的学习都是自己一个人在进行着，可能速度上和进度上不懂会不会略慢。不过一个人自学就自学吧，反正中学时代就开始了以自己自学为主的生涯。而且更重要的是，刚好也可以借助自学重新梳理自己的逻辑和学习方法，以及怎么去思考一个问题和解决这个问题。&lt;/p&gt;
-&lt;p&gt;现在重新学习一门语言，我会按照一定的套路开始而不是盲目的学习。那么&lt;strong&gt;对于javascript的学习，我不懂你们是怎么学习的，自己好像也大概有了一定的学习线路。不过如果有过来人看到了这篇文章的话，欢迎提供指导意见，个人也期待您的指导。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;假设你会开发一门语言，那么你会怎么去设计这门语言呢？对于javascript而言，javascript语言是怎么被设计出来的？作者又是怎么组织着整个框架同时又要考虑哪些因素以及为什么要考虑这些因素？这些其实都挺值得玩味的。&lt;/p&gt;
-&lt;p&gt;对于一门语言的学习，很显然第一步要问的就是为什么要学习这门语言以及这门语言能用来做什么？历史版本这东西，看了也忘，详细的也记不清，所以我现在就暂且不去看了。&lt;/p&gt;
-&lt;p&gt;语言是用来给开发者用的，所以了解语言产生的背景以及语言使用的环境可以让人更能注意到这门语言与其他语言之间的异同吧。&lt;/p&gt;
-&lt;p&gt;学习也总是要遵行一定的客观规律：从简单到复杂。学习最后应该要知其然更要知其所以然，然后举一反三触类旁通。那么接下去，梳理一下思绪和架构，结合思维导图按照一定的逻辑顺序重新学习一下javascript基础，然后ES6。然后再继续逐步深入一些框架、APP的学习。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;这个学习会是一个系列，至于效果如何和知识本身的对错与否我不得而知。不过个人的学识毕竟有限，而且我本身也并不是一个专业的程序员。我希望通过这阶段对javascript的自学，把自己的思维重新整一遍同时检验一下自己的思考能力、逻辑能力以及自主学习的能力。如若这个系列中存在着什么错误的认知欢迎指出，以及如果你对一些知识点有更好的理解欢迎指导。我希望可以尊重知识本身而不是所谓的面子问题，所以欢迎拍砖。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;PS：本博客存放于github上，使用hexo生成，基于markdown写作。&lt;/p&gt;
-&lt;p&gt;附：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果说要考虑兼容性问题的话，我也只会考虑到IE8。&lt;/li&gt;
-&lt;li&gt;JS-guide：&lt;a href=&quot;https://github.com/imruxin/f2e-lib/tree/master/js-guide&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/imruxin/f2e-lib/tree/master/js-guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在2014年其实也算是翻阅了不少jQuery/javascript的资料，不过都不是很深，或者是看后时间一长就又有点模糊了。截至目前，对于很多的学习都是自己一个人在进行着，可能速度上和进度上不懂会不会略慢。不过一个人自学就自学吧，反正中学时代就开始了以自己自学为主的生涯。而
-    
-    </summary>
-    
-      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+      <category term="front-end" scheme="http://blog.imruxin.com/categories/front-end/"/>
     
     
       <category term="javascript" scheme="http://blog.imruxin.com/tags/javascript/"/>
@@ -373,10 +295,10 @@
   
   <entry>
     <title>我所知道的网络帐号和网银安全相关的那些事</title>
-    <link href="http://blog.imruxin.com/update/bank-and-accounts-safety.html"/>
-    <id>http://blog.imruxin.com/update/bank-and-accounts-safety.html</id>
+    <link href="http://blog.imruxin.com/study/bank-and-accounts-safety.html"/>
+    <id>http://blog.imruxin.com/study/bank-and-accounts-safety.html</id>
     <published>2015-04-14T06:03:10.000Z</published>
-    <updated>2016-01-11T03:01:06.000Z</updated>
+    <updated>2016-06-06T11:19:01.000Z</updated>
     
     <content type="html">&lt;p&gt;最近频繁发现身边一些人的QQ被盗，对于很多不懂网络安全或者是对电脑对互联网对那些背后盗取信息流程不懂的人，的确很容易发生帐号被盗或者干脆一棍子打死不敢用的情况。要防止被盗号就应该知道别人在什么情况下可以通过什么方式来盗取到你的号。&lt;/p&gt;
 &lt;p&gt;我们主要从两个方面入手吧，第一个是常规的安全及基础知识科普，第二个则是结合网银、支付宝、银行卡、QQ、邮箱等帐号的防护。&lt;/p&gt;
@@ -432,7 +354,7 @@
     
     </summary>
     
-      <category term="update" scheme="http://blog.imruxin.com/categories/update/"/>
+      <category term="study" scheme="http://blog.imruxin.com/categories/study/"/>
     
     
       <category term="安全" scheme="http://blog.imruxin.com/tags/%E5%AE%89%E5%85%A8/"/>
@@ -479,17 +401,15 @@
   
   <entry>
     <title>福建前端联盟分享会第18期</title>
-    <link href="http://blog.imruxin.com/ued/xmf2e-18th.html"/>
-    <id>http://blog.imruxin.com/ued/xmf2e-18th.html</id>
+    <link href="http://blog.imruxin.com/front-end/xmf2e-18th.html"/>
+    <id>http://blog.imruxin.com/front-end/xmf2e-18th.html</id>
     <published>2015-03-26T14:03:10.000Z</published>
-    <updated>2016-01-08T06:06:27.000Z</updated>
+    <updated>2016-06-06T11:18:12.000Z</updated>
     
     <content type="html">&lt;p&gt;2015年三月份，前端联盟分享拉开序幕了。这次是第十八期，这期的主题是前端项目及团队管理。&lt;/p&gt;
 &lt;p&gt;对于项目管理和团队管理，这是每个做了一段时间后的前端儿都应该要思考的问题。&lt;/p&gt;
 &lt;p&gt;然后简单的做了一个思维导图，直接看思维导图，查看原图吧。如果你刚好看到了这篇文章，也可以直接来交流交流。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2015/04/xmf2e-18th.png&quot; alt=&quot;&quot; title=&quot;福建前端联盟分享会第18期思维导图&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;img-desc&quot;&gt;福建前端联盟分享会第18期&lt;/p&gt;
-
 &lt;p&gt;花絮：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/7254de97jw1eqjg2qqscvj218g0xctja.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/7254de97jw1eqjg2s13fvj20xc18gn6z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
@@ -507,7 +427,7 @@
     
     </summary>
     
-      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
+      <category term="front-end" scheme="http://blog.imruxin.com/categories/front-end/"/>
     
     
       <category term="前端" scheme="http://blog.imruxin.com/tags/%E5%89%8D%E7%AB%AF/"/>
@@ -655,12 +575,10 @@
     <link href="http://blog.imruxin.com/diary/2014-11-the-next-time.html"/>
     <id>http://blog.imruxin.com/diary/2014-11-the-next-time.html</id>
     <published>2014-11-23T13:00:00.000Z</published>
-    <updated>2016-01-16T05:21:25.000Z</updated>
+    <updated>2016-06-06T11:16:58.000Z</updated>
     
     <content type="html">&lt;p&gt;最近似乎总是会遇到一些事情，虽然也谈不上什么大事。不过这种小情况也总是让人显的很疲惫，所以也不得不重新考虑有些问题。想得太完美，考虑的东西过多往往很可能会适得其反，虽然这也是一种尝试，但也许还是回到常规化比较实在吧。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn-img.imruxin.com/blog/2014/1123xmhdl.jpg&quot; alt=&quot;&quot; title=&quot;环岛路快走&quot;&gt;&lt;/p&gt;
-&lt;p class=&quot;img-desc&quot;&gt;环岛路快走&lt;/p&gt;
-
 &lt;p&gt;接下去如果没什么事情的话，下班后应该就暂且不在留公司了。接下去，我要做的事情就是把过往折腾的看到的东西整理一下，把css模块化，整出自己的个性化框架。把常见的jQuery效果整理一下，把jQuery的api对照着手册依次过一遍。同时把jQuery源码看一下，顺便尝试着提炼出一些比较常用的原生js。下班后我只想做三件事：一是锻炼身体，围绕五缘湾跑一圈+简单器械锻炼；二是回顾过去结合自己的所知和感受梳理一些想法，然后有选择的码字，并发表在个人独立博客上；三是扩大阅读和深入思考，不逃避不回避直面问题和现状本身。也许是时间和年龄也都到了，也不得不从彷徨中过渡到呐喊，从沉默思考观察中恢复到主动执行强势中。&lt;/p&gt;
 &lt;p&gt;说实话，要开始陆陆续续的写一大段的文字，似乎很难迈开第一步。不过今年应该不会像去年一样，不至于一下子写个十几万字，至少感觉上应该没那么多充裕的时间。今年的码字尽可能的接地气，尽可能的客观全面，尽可能的独立以及辩证。码字的点应该主要是在回顾过去的一些经历、工作职业事业相关、男女情感婚姻的认知、成长中的一些理解感触以及关于社会关于未来的一些诉说。相比于去年，今年的文字会公开到个人博客上，不一定写完就马上发，但会在下一个生日到来之前发完。公开文字的目的主要有这么几个方面：一是作为一种呐喊，告诉身边人自己的真实想法；二是寻求有理想又志同道合的人，向适合的人靠近，向有共同或者至少说是有近似价值观的人靠近；三是寻找并与有共同兴趣爱好的人一起生活；四是以一颗平和的心，接受思想碰撞，接受合理的批评和鞭策。&lt;/p&gt;
 &lt;p&gt;因为报了2015年的厦门全程马拉松，所以本着为自己负责和塑身的需要，锻炼是必然的。同时，自己似乎也喜欢上了快走了。&lt;/p&gt;
@@ -685,10 +603,10 @@
   
   <entry>
     <title>说说网页中的SEO</title>
-    <link href="http://blog.imruxin.com/ued/about-seo.html"/>
-    <id>http://blog.imruxin.com/ued/about-seo.html</id>
+    <link href="http://blog.imruxin.com/front-end/about-seo.html"/>
+    <id>http://blog.imruxin.com/front-end/about-seo.html</id>
     <published>2014-11-09T03:03:10.000Z</published>
-    <updated>2016-01-08T15:49:27.000Z</updated>
+    <updated>2016-06-06T11:31:12.000Z</updated>
     
     <content type="html">&lt;p&gt;作为一个前端开发者，一些关于SEO（Search Engine Optimization）搜索引擎优化的基础知识还是要懂的。个人第一次接触这个所谓的SEO是在2011年10月的时候，因为那时候自己在做个人博客网站（大概两个月后就到了rankpage 2，不过现在谷歌已经停止这种模式了）。在那一段时间里，的确也翻阅了不少论坛和看了一些资料，不过之后就没在继续深入了。&lt;/p&gt;
 &lt;p&gt;有些SEO的东西总是相通而且是基础性的东西，就像一门语言的常规基础知识一样，是通用的。那么在SEO这块，我觉得应该要知道的至少有这么些吧。&lt;/p&gt;
@@ -734,7 +652,7 @@
     
     </summary>
     
-      <category term="ued" scheme="http://blog.imruxin.com/categories/ued/"/>
+      <category term="front-end" scheme="http://blog.imruxin.com/categories/front-end/"/>
     
     
       <category term="seo" scheme="http://blog.imruxin.com/tags/seo/"/>
@@ -776,23 +694,20 @@
   </entry>
   
   <entry>
-    <title>常用的必须多参数才可以看到效果以及可以多参数叠加的css</title>
-    <link href="http://blog.imruxin.com/develop/usual-multiple-valued-css.html"/>
-    <id>http://blog.imruxin.com/develop/usual-multiple-valued-css.html</id>
+    <title>常用的必须多参数以及可以多参数叠加的css属性</title>
+    <link href="http://blog.imruxin.com/front-end/usual-multiple-valued-css.html"/>
+    <id>http://blog.imruxin.com/front-end/usual-multiple-valued-css.html</id>
     <published>2014-10-14T12:03:10.000Z</published>
-    <updated>2016-01-09T06:31:30.000Z</updated>
+    <updated>2016-06-06T11:32:39.000Z</updated>
     
     <content type="html">&lt;p&gt;随着css3的出现，很多原本要借助js实现的效果都可以用css3来实现了。那么现在就来小看一下，有哪些css是必须要多参数（&amp;gt;=2个参数）才会有效果的，同时又有哪些css3属性又是可以多值叠加使用的。&lt;/p&gt;
 &lt;p&gt;首先来说一说，那些必须要多参数才可以有作用效果的css属性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;border系列，包括border-top/right/bottom/left&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;borde: 1px solid; // 至少需要两个参数，一个是大小和类型，至于颜色则会有默认的#000&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;box-shadow&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;box-shadow: 1px 1px #aaa; // 最少需要3个参数，但通常来说一般是四个的用的比较多吧？&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;border系列，包括border-top-right-bottom-left&quot;&gt;&lt;a href=&quot;#border系列，包括border-top-right-bottom-left&quot; class=&quot;headerlink&quot; title=&quot;border系列，包括border-top/right/bottom/left&quot;&gt;&lt;/a&gt;border系列，包括border-top/right/bottom/left&lt;/h3&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;borde: 1px solid; // 至少需要两个参数，一个是大小和类型，至于颜色则会有默认的#000&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;box-shadow&quot;&gt;&lt;a href=&quot;#box-shadow&quot; class=&quot;headerlink&quot; title=&quot;box-shadow&quot;&gt;&lt;/a&gt;box-shadow&lt;/h3&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;box-shadow: 1px 1px #aaa; // 最少需要3个参数，但通常来说一般是四个的用的比较多吧？&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;none：无阴影&lt;br&gt;第1个长度值用来设置对象的阴影水平偏移值。可以为负值&lt;br&gt;第2个长度值用来设置对象的阴影垂直偏移值。可以为负值&lt;br&gt;如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值&lt;br&gt;如果提供了第4个长度值则用来设置对象的阴影外延值。可以为负值&lt;br&gt;color：设置对象的阴影的颜色。&lt;br&gt;inset：设置对象的阴影类型为内阴影。该值为空时，则对象的阴影类型为外阴影&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;text-shadow&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个跟box-shadow也有点像。&lt;/p&gt;
+&lt;h3 id=&quot;text-shadow&quot;&gt;&lt;a href=&quot;#text-shadow&quot; class=&quot;headerlink&quot; title=&quot;text-shadow&quot;&gt;&lt;/a&gt;text-shadow&lt;/h3&gt;&lt;p&gt;这个跟box-shadow也有点像。&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;text-shadow: 1px 1px #ddd;// 最少需要3个参数&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;none：无阴影&lt;br&gt;第1个长度值用来设置对象的阴影水平偏移值。可以为负值&lt;br&gt;第2个长度值用来设置对象的阴影垂直偏移值。可以为负值&lt;br&gt;如果提供了第3个长度值则用来设置对象的阴影模糊值。不允许负值&lt;br&gt;color：设置对象的阴影的颜色。&lt;/p&gt;
@@ -809,7 +724,7 @@
     
     </summary>
     
-      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+      <category term="front-end" scheme="http://blog.imruxin.com/categories/front-end/"/>
     
     
       <category term="css3" scheme="http://blog.imruxin.com/tags/css3/"/>
@@ -818,43 +733,126 @@
   
   <entry>
     <title>有哪些常用的css规则是可以简写的</title>
-    <link href="http://blog.imruxin.com/develop/usual-css-short.html"/>
-    <id>http://blog.imruxin.com/develop/usual-css-short.html</id>
+    <link href="http://blog.imruxin.com/front-end/usual-css-short.html"/>
+    <id>http://blog.imruxin.com/front-end/usual-css-short.html</id>
     <published>2014-10-13T12:03:10.000Z</published>
-    <updated>2016-05-29T11:38:12.000Z</updated>
+    <updated>2016-06-06T11:32:24.000Z</updated>
     
     <content type="html">&lt;p&gt;在实际工作中，对于很多的css规则其实是可以简写的。那么就大部分常用的情况而言，有哪些css规则是可以简写的？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;首先进入我们视野的，就是字体相关的css简写了&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;比如：&lt;/p&gt;
+&lt;h3 id=&quot;首先进入我们视野的，就是字体相关的css简写了&quot;&gt;&lt;a href=&quot;#首先进入我们视野的，就是字体相关的css简写了&quot; class=&quot;headerlink&quot; title=&quot;首先进入我们视野的，就是字体相关的css简写了&quot;&gt;&lt;/a&gt;首先进入我们视野的，就是字体相关的css简写了&lt;/h3&gt;&lt;p&gt;比如：&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;font: 100%/1.5 Helvetica, Tahoma, Arial, &quot;Microsoft YaHei&quot;, \5FAE\8F6F\96C5\9ED1, SimSun, \5B8B\4F53, Heiti, \9ED1\4F53, sans-serif;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 100%表示的是字体大小，默认为16px，你也可以直接改成具体的数值，比如14px等。斜杆后面的1.5是行高，行高可以带有单位也可以不带有单位变成倍数。剩余的就是字体信息了。单词与单词之间有空格的则需要用引号包围，理论上单引号双引号都ok，但个人在实际应用中碰到过不一样的情况。字体的写法除了常规的英文名字还可以是汉字（可能存在兼容性问题）和ASIIC码。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;接下去是布局中的&lt;strong&gt;margin/padding&lt;/strong&gt;等这些了。这些值可以从1个到4个不等，4个值的对应顺序是上右下左。1个值则代表所有；2个值则，第一个代表上下，第二个代表左右；3个值则，第一个代表上，第二个代表左右，第三个代表下。&lt;/p&gt;
 &lt;p&gt;css可以简写并不一定要代表着一定要简写，比如常见的块元素居中对齐中的margin，很多人就喜欢&lt;code&gt;margin: 0 auto;&lt;/code&gt;，事实上或许改成&lt;code&gt;margin-left: auto;margin-right: auto&lt;/code&gt;会更好写，可以复制意外重置其他css。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;background的简写也是最常见的&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;比如：&lt;/p&gt;
+&lt;h3 id=&quot;background的简写也是最常见的&quot;&gt;&lt;a href=&quot;#background的简写也是最常见的&quot; class=&quot;headerlink&quot; title=&quot;background的简写也是最常见的&quot;&gt;&lt;/a&gt;background的简写也是最常见的&lt;/h3&gt;&lt;p&gt;比如：&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;background: url(images.jpg) #fff no-repeat center/cover;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 这个background等同于如下：&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;background-image: url(images.jpg);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;background-color: #fff;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;background-repeat: no-repeat;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;background-position: center center; // 可以继续简写为一个center&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;background-size: cover;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;关于这个的补充说明，background-size只能跟在background-position后面，“center/cover;”还可以形如“100px 50px/cover”等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;border-radius的简写&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;其实跟margin/padding是差不多的意思，不过border-radius四个参数中又分别可以有两个参数，两个参数以“/”分隔。每个参数允许设置1~4个参数值，第1个参数表示水平半径，第2个参数表示垂直半径，如第2个参数省略，则默认等于第1个参数。如果提供全部四个参数值，将按上左(top-left)、上右(top-right)、下右(bottom-right)、下左(bottom-left)的顺序作用于四个角。&lt;/p&gt;
+&lt;h3 id=&quot;border-radius的简写&quot;&gt;&lt;a href=&quot;#border-radius的简写&quot; class=&quot;headerlink&quot; title=&quot;border-radius的简写&quot;&gt;&lt;/a&gt;border-radius的简写&lt;/h3&gt;&lt;p&gt;其实跟margin/padding是差不多的意思，不过border-radius四个参数中又分别可以有两个参数，两个参数以“/”分隔。每个参数允许设置1~4个参数值，第1个参数表示水平半径，第2个参数表示垂直半径，如第2个参数省略，则默认等于第1个参数。如果提供全部四个参数值，将按上左(top-left)、上右(top-right)、下右(bottom-right)、下左(bottom-left)的顺序作用于四个角。&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;border-radius:10px/5px; // 2个参数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;border-radius:10px 20px 30px 40px/5px 10px 15px 20px; // 4个参数&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;CSS3过度transition的简写&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;transition: all .5s ease-in .1s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 等同于如下css&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-property:all;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-duration:.5s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-timing-function:ease-in;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-delay:.1s;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;CSS3动画animation的简写&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;animation: animations1 2s ease-out 1s infinite;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 等同于如下css&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-name: animations1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-duration: 2s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-timing-function: ease-out;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-delay: 1s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-iteration-count: infinite; // 无限循环&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 还可以多个动画叠加&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation: animations1 2.5s ease-out,animations2 1s ease-out 2.5s;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;CSS3过度transition的简写&quot;&gt;&lt;a href=&quot;#CSS3过度transition的简写&quot; class=&quot;headerlink&quot; title=&quot;CSS3过度transition的简写&quot;&gt;&lt;/a&gt;CSS3过度transition的简写&lt;/h3&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;transition: all .5s ease-in .1s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 等同于如下css&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-property:all;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-duration:.5s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-timing-function:ease-in;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;transition-delay:.1s;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;CSS3动画animation的简写&quot;&gt;&lt;a href=&quot;#CSS3动画animation的简写&quot; class=&quot;headerlink&quot; title=&quot;CSS3动画animation的简写&quot;&gt;&lt;/a&gt;CSS3动画animation的简写&lt;/h3&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;animation: animations1 2s ease-out 1s infinite;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 等同于如下css&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-name: animations1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-duration: 2s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-timing-function: ease-out;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-delay: 1s;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation-iteration-count: infinite; // 无限循环&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;// 还可以多个动画叠加&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;animation: animations1 2.5s ease-out,animations2 1s ease-out 2.5s;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;在实际工作中，对于很多的css规则其实是可以简写的。那么就大部分常用的情况而言，有哪些css规则是可以简写的？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;首先进入我们视野的，就是字体相关的css简写了&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;比如：&lt;/p&gt;
-&lt;figure class=&quot;hig
+&lt;h3 id=&quot;首先进入我们视野的，就是字体相关的css简写了&quot;&gt;&lt;a href=&quot;#首先进入我们视野的，就是字体相关的css简写了&quot; class=&quot;he
     
     </summary>
     
-      <category term="develop" scheme="http://blog.imruxin.com/categories/develop/"/>
+      <category term="front-end" scheme="http://blog.imruxin.com/categories/front-end/"/>
     
     
       <category term="css3" scheme="http://blog.imruxin.com/tags/css3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你拿什么礼物去祭奠你的第26个青春年华</title>
+    <link href="http://blog.imruxin.com/diary/meet-the-26th-birthday-and-do-sth-well.html"/>
+    <id>http://blog.imruxin.com/diary/meet-the-26th-birthday-and-do-sth-well.html</id>
+    <published>2014-09-22T13:00:00.000Z</published>
+    <updated>2016-06-05T05:51:36.000Z</updated>
+    
+    <content type="html">&lt;p&gt;今天好像没什么学习状态的感觉，下午@新浪厦门周年活动到公司给老总送蛋糕，突然间意识到自己离告别人生的第26个青春年华仅剩三个多月的日子了。&lt;/p&gt;
+&lt;p&gt;不可否认时间确实过得很快，悄无声息中你发现自己似乎就要迈入大龄老者的行列了，有时不免也会感叹一下。我总感觉自己一直也还算年轻，感觉什么都还没准备好而且也还没达到一些对应的时机，此刻也还不足以幸福的支撑得起一个属于自己的家庭，所以我宁愿让自己独自的“自由”一段时间，不愿意主动的为摆脱单身而放弃一些原则，虽然曾经有好几次在外界的压力下动摇过。&lt;/p&gt;
+&lt;p&gt;很不甘心的在相对自卑和低谷的阶段度过了一些人生的岁月，一些该有的美好经历变成了空白，其而代之的是那些痛苦忧郁和内心成长的蜕变。不过坦诚的说这也不完全算是坏事，有失必有得，从痛苦中自己更能了解一个人的人性以及社会中的种种。成长不可能一蹴而就，内心的状态也不可能顷刻间就可以改变，一切都源于点滴的累积。&lt;/p&gt;
+&lt;p&gt;很显然随之而来的生活，基本上将会被事业和情感所主导。对于事业和情感似乎我并不畏惧，事业正在逐步的按照自己的方向前进和累积，情感暂为空虽然有时候自己也非常渴望有人闯进自己或者进入别人的生活。&lt;/p&gt;
+&lt;p&gt;现代生活的压力在不断的改变着一些人（包括我自己）的思想行为，致使越来越多的人无法继续坚持着一份当初的美好以及纯洁的心态，有些是自身的问题当然也有一些是社会上很难抗拒的因素导致的。我不愿意去评论这些情况，因为我自己也很难说可以继续坚持到什么时候，特别又还是一个人在坚持的时候。&lt;/p&gt;
+&lt;p&gt;还剩不到四个月的时间，你拿什么礼物去告别你的第26个青春年华？&lt;/p&gt;
+&lt;p&gt;我想这不到四个月的时间，重心还是好好的把自己给整一整吧，给未来一个新的自己。去年的这个阶段，自己也整理了一些东西，码了点文字作为去年自己的成长礼物。虽然现在重新倒回去看，感觉有点怪异，十四万+的文字鸡汤味太浓了点。&lt;/p&gt;
+&lt;p&gt;现在我接下去的TODO-LIST又是什么呢？&lt;/p&gt;
+&lt;p&gt;正常情况下，对于工作上的部分，重点是继续争取把javascript给搞定下。说实话，要做到精通很难，所以我的期望值只是基础搞定，原理搞定，能自主的写些常见效果的js就足矣了。同时根据资料尽量的把jQuery源码给过一遍。技术不可能一蹴而就，特别是经验肯定是需要通过实战或者模拟实战来积累的。&lt;/p&gt;
+&lt;p&gt;技术在很大程度上完全可以决定一些东西，比如近几个月有两次被邀请过加入两个创业团队，有原始股。坦诚而言，这些现在还不适合我，客观理性的评估自己很重要，自身的硬实力也很重要。创业不是空有一腔热情就能成功的，知己知彼，有激情更要有理性，有积淀后很多都是水到渠成的事情。只要还在不断的学习，我就不会担心自己的未来，因为我相信学习只会让自己更有实力更有自信，此处不留爷，自有留爷处。&lt;/p&gt;
+&lt;p&gt;正常情况下，我应该还会小减肥一下，特别是减一下大腿。同时时不时的多锻炼，目前常见的运动器材也都已经备好了。身体是革命的本钱，在面子和健康之间选择，我会选择健康。没有一个良好的身体，那么一切都很可能化为虚幻化为痛苦化为凄凉。&lt;/p&gt;
+&lt;p&gt;基本上，今年应该会是“单身回家过年难”的现状，不愿意去欺骗一些人，特别是对自己好的人。对于过去，我不想去说太多什么，顺其自然吧，留与不留请自便。作为我，我还真不太擅长对原本不熟又缺乏感觉的女生主动，如果又是异地则主动性又更小了。我不懂这算不算是一种错，但也都过去了。&lt;/p&gt;
+&lt;p&gt;不过，明年开始我会选择主动的有意识的去寻找我的另一半，这个时间段也差不多是在自己的规划阶段。坦诚而言，在行动之前要改变的东西非常之多,虽然看了很多分析但是追女生的有些行为有些习惯自己依旧很不习惯。&lt;/p&gt;
+&lt;p&gt;在情感的世界里，似乎显得太过纯真，过去很容易的把女朋友和老婆画成等号，所以感觉成为老婆可能性不大或者理性的想一下感觉“阻碍”因素比较多的我就会自动的选择保持距离，更不想去骗女生，宁愿选择自己一个人也不想去度过一段两个人有限的时光。我不懂这样是对还是错，不过都已经过去了，现在是夹在传统与现代、保守与潮流之间。一直以来的态度就是：情感或者说是婚姻是两个“有独立思想的人”之间的事情，是平等尊重互助配合又相对独立的两个个体，你的属性不是谁的财产不是谁的附属物不是生育机器，但是都是彼此的专属。&lt;/p&gt;
+&lt;p&gt;感谢一些人的关心，你们的关心我心里清楚。关心我不是你们的义务，但是你们还是会关心我，我由衷的表示感谢。&lt;/p&gt;
+&lt;p&gt;截至目前，我都是只依靠自己，有钱的时候就吃好穿好，没钱的时候就降低要求，我觉得我的适应性还是很好的。&lt;/p&gt;
+&lt;p&gt;我希望自己可以成长的更成熟更全面，把时间留给对的在乎自己的和值得的人。待我有点什么的时候，我很热意与你们一起共享美好生活。&lt;/p&gt;
+&lt;p&gt;To 我的第26个青春岁月。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天好像没什么学习状态的感觉，下午@新浪厦门周年活动到公司给老总送蛋糕，突然间意识到自己离告别人生的第26个青春年华仅剩三个多月的日子了。&lt;/p&gt;
+&lt;p&gt;不可否认时间确实过得很快，悄无声息中你发现自己似乎就要迈入大龄老者的行列了，有时不免也会感叹一下。我总感觉自己一直也还算
+    
+    </summary>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+    
+      <category term="随记" scheme="http://blog.imruxin.com/tags/%E9%9A%8F%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>越来越自信的内心世界</title>
+    <link href="http://blog.imruxin.com/diary/the-more-and-more-confident-inner.html"/>
+    <id>http://blog.imruxin.com/diary/the-more-and-more-confident-inner.html</id>
+    <published>2014-09-14T13:00:00.000Z</published>
+    <updated>2016-01-11T07:50:53.000Z</updated>
+    
+    <content type="html">&lt;p&gt;时间总是在悄然间流逝，不知不觉中黄昏黑夜就降临了。只是近黄昏，夕阳无限好。&lt;/p&gt;
+&lt;p&gt;自中学阶段以来就喜欢天马行空的思考不知道算不算是一种病，还是本来就应该要是这样的。不过其实我现在很清楚，事物都是辩证的，有些思考过早的接触了且同时又没有得到自己可接受的答案时则很可能会变成一种人生阻碍，就像过去一样。&lt;/p&gt;
+&lt;p&gt;有些想法，这篇文章过后就暂且先沉了吧，特别是一些纯思想性的东西，待遇到高人时再继续探讨吧。现在这些东西没意义，该不断的被触碰和被教育的阶段显然是长存的。&lt;/p&gt;
+&lt;p&gt;社会上绝大部分人（特别是越一般的人）看的还是你的生理年龄而不是你的心理年龄，总是喜欢套用一些过去的经验，而且很多人都会带有着一种我出来早我工作时间比你长所以我肯定比你懂比你有经验比你厉害的俯视心态。&lt;/p&gt;
+&lt;p&gt;周末两天又去图书馆了，感觉良好。我觉得现在厦门最吸引我的就是可以徒步环岛路看海和翻阅借阅厦门图书馆里的各种书籍了，而非其他。我不懂若干时间后，这个城市里是否会出现让我留恋的女子，否则某种意义上城市对我而言都差不多。与深杭上（如果厦门无法呆下去了，可能会去这三者中的之一）相比，现阶段相似的条件下厦门的工资低，然后房价却高得吓人。坦诚的说，一般情况下在厦门靠我个人的力量很难买得起房子。&lt;/p&gt;
+&lt;p&gt;有些痛苦与场景只有亲身经历过了或者近距离的感同身受过，你才会品味到其中的一些酸甜苦辣，进而能更好的调整自己的心态从新开始。对于绝大部分的人，成长不可能一帆风顺，所以需要你敢于放低自己，把自己清零然后从底层开始继续自我充电自我学习。不抱怨，不埋怨，一切也都只是暂时的，装在脑子里的才是永恒的随时可以带走的。&lt;/p&gt;
+&lt;p&gt;通常情况下，一个人内心缺少什么，则在现实生活中就越会想要表现什么，或者也可以说越想用反方向的行为掩饰什么。就好比自卑，自卑的表现既可以是正常的自卑行为，但也可以是强烈的过激的伪自信行为（因为戳中了痛点，迫不及待的想要掩盖，不愿意面对别人发现自己的不足，所以行为自然就会变得激烈。但其实对于智者而言，要洞察这样的心理却是很容易的）。对于一个内心相对富足的人，不管是从心理上还是从行为上通常都是比较平和友善的。&lt;/p&gt;
+&lt;p&gt;从去年十月份开始，自从我发现了有厦门图书馆这个地方后，我确实会经常去图书馆。说实话，现阶段我确实不想在其他方面花费过多的时间，我需要的是让自己有所积累有所沉淀，不断的更新自己的一些视野和思维，包括情感、心理与应用心理、法制、逻辑思维、人性、阅历等等。&lt;/p&gt;
+&lt;p&gt;在大三下要结束的时候，看着自己还有一年就要离校了，特别是我又一不小心的去了图书馆，发现里面还有那么多对自己有用的书籍都没有去看，实在不甘心，想要继续免费拥有这座宝库，所以这在那时候也确实成为了我考研的原因之一。现如今既然有了厦门图书馆来替代福大图书馆，我有什么理由不好好利用呢。要说唯一的差别，那就是藏书量确实没有福大的数量多，不过厦图也足够我使用了，更重要的是有我想要的书，而且有不断的更新最新版的新书。&lt;/p&gt;
+&lt;p&gt;回顾职业的十字路口，选择以兴趣为导向，从电子走向互联网。没有同学清华浙大交大等前十所的名校光环，也不是官二代富二代更没有强大的关系网，所以自我认为还是靠自己从技术出发来得踏实和靠谱吧。&lt;/p&gt;
+&lt;p&gt;去年九月份从零开始，在经过了一段苦逼的折腾后，似乎正在不断的走向新的高度，而且越到后面速度将会越来越快。我非常期待着后面的变革，非常期待着自己接下来的深入学习。&lt;/p&gt;
+&lt;p&gt;看到行业里的技术在不断的一次次迭代更新越来越活越，有时候我就会有种莫名的兴奋感。进入了这个圈子以后，认识了越来越多的圈子里的人，对行业的薪资以及地域分布也都有了一定的了解。慢慢的会向全国圈子里的大牛靠近，接下去也会逐步的与圈子里的大牛开始互动。不断的自我学习、提升和思考，这样与大牛的互动才会显得比较有意义更长久。移动互联网、移动终端、Webapp、Native app、html5小游戏等等，还要折腾的东西确实还不少，而且这些东西都可以转移到一些公益平台上，有什么理由不去折腾呢。&lt;/p&gt;
+&lt;p&gt;毕业了，你总不能再继续向家里要钱吧。同时你总得要生存吧，要生活你就得要有经济来源吧。正常情况下，你以后也总得买房子，买车子，肩负起家庭的经济重担吧。所以问题就来了：你拿什么来保证你可以获得不错的经济收入？思来想去，靠的只能是自己本身，那么在这个年纪你有什么理由不去为自己积累点东西，不去让自己多去学点东西呢？&lt;/p&gt;
+&lt;p&gt;一个人的生命和时间以及经历的事物必然有限，那么为什么不去多阅读多看看别人的世界呢？只要是个正常的人，很多的行为和心理以及情感在很大程度上是具有相通的部分的，也是非常具有参考价值的。阅读可以使人间接的收获更多的人生阅历，可以让你看到一些人性的善恶美丑，可以了解世界的多元化以及社会的种种，可以让你见识千奇百怪的人事物以及和各种思维、差异性进行碰撞。更重要的是，你的这些间接阅历可以提升你明辨是非、思考问题和看人识人的技能。&lt;/p&gt;
+&lt;p&gt;自信不是你想自信就可以自信得起来的，至少我个人的自信会是建立在实力和认知上的。缺少了一定的实力，我也确实很难自信起来。但是，一旦有了一定的自信后，也不是你随随便便的三言两语或者几个小挫折小打击就可以让我溃败的。&lt;/p&gt;
+&lt;p&gt;我不盲目崇拜任何人，也反感盲目的崇拜，不管是个人还是教会，也不认为一个人是一无是处，我比较喜欢辩证的看待人事物。如果翻阅的书籍和文章多了，你肯定会时不时的看到一些观点相反的文章，而且都有相应的论据。单纯的看一篇文章的话，你一开始会觉得非常有道理，但是当你遇到另一种观点相反的文章后，你可能才会重新思考你曾经看到的那篇文章是否还是完全的正确了。&lt;/p&gt;
+&lt;p&gt;随着网络的普及和信息的传播，到时候各位应该都会看到越来越多的批判和反批判的文章的。当然，在现阶段，有些文章可能是有人想要我们看到的，而有些文章却不愿意让我们看到。文章其实也可以是辩证的，如果你愿意从另一个角度来重新分析一下的话，你或许会得出相反的结论。&lt;/p&gt;
+&lt;p&gt;学习这个东西，是一个非常庞大的系统性的工程，包括学习和自我学习。至少对我而言，所谓的学习决不只是单纯的技术学习，也不是简单的知识叠加，至少还包括思想、情感、人性、生存、逻辑思维等等等等的学习以及组合。现阶段我觉得我是一个码农，但是我觉得我又不是一个码农，而且我显然不能成为一个只会敲代码的机器。&lt;/p&gt;
+&lt;p&gt;如何学习？怎么样高效的学习？如何自我排除和检查学习中遇到的问题？&lt;/p&gt;
+&lt;p&gt;如何思考？怎么样高效的思考？如何独立的辩证的理性的多方位的思考以及修正思考？&lt;/p&gt;
+&lt;p&gt;这些内在的东西都需要时间的沉淀和实践的反复修正，知易行难也是一种自我磨练。我才刚开始几年，路还长着呢。&lt;/p&gt;
+&lt;p&gt;我喜欢生活，我热爱生活，如果可以我当然更喜欢回归生活本身。与所谓的坏人相比，我还是宁愿做一个好人。与同质化和大众化相比，其实我宁愿更富有个性化的人生。一个人从快乐自信到忧郁自卑再到重拾自信，人生只会更从容更淡定。就算你明知这个社会充满着血腥残酷和黑暗，但仍然无法阻止你为美好生活而奋斗感受爱感受自然风光。有些逝去了的年华和错过了的时机，以后都会以另一种形式重现的。&lt;/p&gt;
+&lt;p&gt;现阶段真实社会可悲的似乎竟然讲的不是道德和公平优先，而是相对动态的规则、政策、制度甚至是某些你看不到的东西优先。生存，从现实出发，不得不解锁所谓的高尚束缚，从大众的习以为常出发。&lt;/p&gt;
+&lt;p&gt;我只是一个凡夫俗子，有时候真的是，男人变坏很多情况其实也都是社会逼的，因为“好男人”不会使坏，斗不过坏男人。&lt;/p&gt;
+&lt;p&gt;先继续把工作上要求的技能搞定，然后再继续遇见和主动追寻自己喜欢的人，主动释放自己，然后爱的火花又会在哪里？喜欢我就会主动，否则我只会顺其自然，希望一切都还来得及吧。&lt;/p&gt;
+&lt;p&gt;加油！&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时间总是在悄然间流逝，不知不觉中黄昏黑夜就降临了。只是近黄昏，夕阳无限好。&lt;/p&gt;
+&lt;p&gt;自中学阶段以来就喜欢天马行空的思考不知道算不算是一种病，还是本来就应该要是这样的。不过其实我现在很清楚，事物都是辩证的，有些思考过早的接触了且同时又没有得到自己可接受的答案时则很可能会
+    
+    </summary>
+    
+      <category term="diary" scheme="http://blog.imruxin.com/categories/diary/"/>
+    
+    
+      <category term="随记" scheme="http://blog.imruxin.com/tags/%E9%9A%8F%E8%AE%B0/"/>
     
   </entry>
   
